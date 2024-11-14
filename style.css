@@ -1,0 +1,9746 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+
+.Navigation-bar {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.Navigation {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: white;
+}
+
+.ham {
+    list-style-type: none;
+    width: 10%;
+    height: 100%;
+    display: none;
+}
+
+.hamburger {
+    margin-top: 5px;
+    height: 10px;
+    width: 50px;
+    background-color: red;
+    border-radius: 20% / 90%;
+}
+
+
+.logo {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.logo-img {
+    width: 200px;
+    height: 60px;
+}
+
+.Search-bar {
+    width: 60%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.Search {
+    width: 90%;
+    height: 100%;
+    border: 1px solid black;
+    border-radius: 50px 0px 0px 50px;
+    padding-left: 4%;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1rem;
+
+}
+
+.Search-icon {
+    width: 60px;
+    height: 100%;
+    background-color: black;
+    border-radius: 0px 50px 50px 0px;
+    border: 1px solid black;
+}
+
+
+.Login-icon {
+    width: 10%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+.Login-icon>img {
+    cursor: pointer;
+}
+
+
+.Add-to-Cart {
+    width: 10%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-left: 2%;
+    box-sizing: border-box;
+}
+
+.Add-to-Cart>img {
+    width: 38px;
+    height: 38px;
+    position: sticky;
+    cursor: pointer;
+}
+
+@media only screen and (max-width:1366px) {
+    .Navigation-bar {
+        width: 100%;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .Navigation {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        background-color: white;
+
+    }
+
+    .logo {
+        width: 20%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .logo-img {
+        width: 160px;
+        height: 50px;
+    }
+
+    .Search-bar {
+        width: 60%;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .Search {
+        width: 90%;
+        height: 100%;
+        border: 1px solid black;
+        padding-left: 4%;
+        box-sizing: border-box;
+        font-family: "poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1rem;
+        border-radius: 50px 0px 0px 50px;
+    }
+
+    .Search-icon {
+        width: 45px;
+        height: 100%;
+        background-color: black;
+        border-radius: 0px 50px 50px 0px;
+    }
+
+
+    .Login-icon {
+        width: 10%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Login-icon>img {
+        cursor: pointer;
+    }
+
+
+    .Add-to-Cart {
+        width: 10%;
+        height: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        padding-left: 2%;
+        box-sizing: border-box;
+    }
+
+    .Add-to-Cart>img {
+        width: 38px;
+        height: 38px;
+        position: sticky;
+        cursor: pointer;
+    }
+}
+
+@media only screen and (max-width:840px) {
+    .Navigation-bar {
+        width: 100%;
+        height: 60px;
+        /* display: flex;
+        justify-content: center; */
+
+    }
+
+    .Navigation {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        background-color: white;
+
+    }
+
+    .logo {
+        width: 25%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logo-img {
+        width: 130px;
+        height: 40px;
+    }
+
+    .Search-bar {
+        width: 55%;
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .Search {
+        width: 90%;
+        height: 100%;
+        border: 1px solid black;
+        padding-left: 4%;
+        box-sizing: border-box;
+        font-family: "poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 0.8rem;
+
+    }
+
+    .Search-icon {
+        width: 35px;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+        border: 0px;
+    }
+
+    .searchicon {
+        width: 18px;
+    }
+
+
+
+    .Login-icon {
+        width: 10%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 0.7rem;
+    }
+
+    .loginiconimg {
+        width: 20px;
+    }
+
+    .Login-icon>img {
+        cursor: pointer;
+    }
+
+
+    .Add-to-Cart {
+        width: 10%;
+        height: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        padding-left: 2%;
+        box-sizing: border-box;
+    }
+
+    .Add-to-Cart>img {
+        width: 26px;
+        height: 26px;
+        position: sticky;
+        cursor: pointer;
+    }
+}
+
+@media only screen and (max-width:640px) {
+    .Navigation-bar {
+        width: 100%;
+        height: 40px;
+        /* display: flex;
+        justify-content: center; */
+
+    }
+
+    .Navigation {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        background-color: white;
+
+    }
+
+    .ham {
+        width: 15%;
+        list-style-type: none;
+        height: 100%;
+        display: block;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .hamburger {
+        margin-top: 3px;
+        height: 3px;
+        width: 20px;
+        background-color: black;
+        border-radius: 20% / 90%;
+    }
+
+
+    .logo {
+        width: 70%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logo-img {
+        width: 100px;
+        height: 30px;
+    }
+
+    .Search-bar {
+        width: 55%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        display: none;
+
+    }
+
+    .Search {
+        width: 180px;
+        height: 25px;
+        border: 1px solid black;
+        border-radius: 20px;
+        padding-left: 4%;
+        box-sizing: border-box;
+        font-family: "poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 0.5rem;
+
+    }
+
+    .Search-icon {
+        width: 32px;
+        height: auto;
+        background-color: rgba(255, 0, 0, 0);
+        border: 0px;
+        position: absolute;
+        top: 10px;
+        left: 100%;
+
+    }
+
+
+
+    .Login-icon {
+        width: 10%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        display: none;
+
+    }
+
+    .Login-icon>i {
+        cursor: pointer;
+    }
+
+
+    .Add-to-Cart {
+        width: 15%;
+        height: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        padding-left: 2%;
+        box-sizing: border-box;
+    }
+
+    .Add-to-Cart>img {
+        width: 23px;
+        height: 23px;
+        position: sticky;
+        cursor: pointer;
+    }
+}
+
+
+.Offers-details {
+    width: 100%;
+    height: 50px;
+    font-family: "poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+@media only screen and (max-width:1366px) {
+    .Offers-details {
+        width: 100%;
+        height: 40px;
+        font-family: "poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width:840px) {
+    .Offers-details {
+        width: 100%;
+        height: 30px;
+        /* background-color: pink; */
+        font-family: "poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        font-size: 0.7rem;
+    }
+}
+
+@media only screen and (max-width:640px) {
+    .Offers-details {
+        width: 100%;
+        height: 30px;
+        /* background-color: pink; */
+        font-family: "poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        font-size: 0.5rem;
+    }
+
+    .Offers-details>div~.offer-hide {
+        display: none;
+    }
+
+}
+
+
+.for-nav-hide {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0px;
+    z-index: 1;
+    display: none;
+}
+
+@media only screen and (max-width:640px) {
+    .for-nav-hide {
+        width: 100%;
+        height: 100vh;
+        position: absolute;
+        top: 0px;
+        z-index: 1;
+        backdrop-filter: blur(1px);
+    }
+}
+
+
+
+.Navigation-bar-mini {
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+
+}
+
+.Navigation-bar-mini-res {
+    width: 80%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+}
+
+.Anchore {
+    color: grey;
+}
+
+.Anchore:hover {
+    color: black;
+}
+
+.sidelogin {
+    display: none;
+}
+
+.sideclosebutton {
+    display: none;
+}
+
+.sidesearchbar {
+    display: none;
+}
+
+.Home {
+    width: auto;
+    font-family: "poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    overflow: hidden;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Home-Underline {
+    width: auto;
+    height: 2px;
+    background-color: black;
+    transform: translateX(-110px);
+    margin-top: -10%;
+}
+
+.Home-Anchore {
+    width: auto;
+    height: auto;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+
+}
+
+.Home-Anchore:hover .Home-Underline {
+    transform: translateX(0px);
+    transition: ease-in-out;
+    transition-duration: 0.5s;
+}
+
+.Plant {
+    position: relative;
+    font-family: "poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    width: auto;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.Plant-item {
+    width: auto;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+
+}
+
+.Plant-Underline {
+    width: auto;
+    height: 2px;
+    background-color: black;
+    transform: translateX(-50px);
+    margin-top: -5%;
+}
+
+.Plant-Anchore {
+    width: auto;
+    height: auto;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+
+.Plant-Anchore:hover .Plant-Underline {
+    transform: translateX(0px);
+    transition: ease-in-out;
+    transition-duration: 0.5s;
+}
+
+.Plant-item-bar {
+    display: none;
+    width: 280px;
+    height: auto;
+    position: absolute;
+    top: 100%;
+    left: -90px;
+    background-color: white;
+    padding-left: 50%;
+    padding-bottom: 25%;
+    box-sizing: border-box;
+    filter: drop-shadow(0px 1px 1px black);
+}
+
+.Plant-li {
+    list-style: none;
+    margin-top: 5%;
+}
+
+.Plant-li>a {
+    text-decoration: none;
+}
+
+.Plant:hover .Plant-item-bar {
+    display: block;
+}
+
+
+
+.Eco {
+    width: auto;
+    height: 50px;
+    font-family: "poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Eco-Underline {
+    width: auto;
+    height: 2px;
+    background-color: black;
+    transform: translateX(-180px);
+    margin-top: -1%;
+}
+
+.Eco-Anchore {
+    width: auto;
+    height: auto;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+
+.Eco-Anchore:hover .Eco-Underline {
+    transform: translateX(0px);
+    transition: ease-in-out;
+    transition-duration: 0.5s;
+}
+
+
+.Pots {
+    width: auto;
+    height: 50px;
+    position: relative;
+    font-family: "poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.Pots-item {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+
+}
+
+.Pots-Underline {
+    width: auto;
+    height: 2px;
+    background-color: black;
+    transform: translateX(-130px);
+    margin-top: -2%;
+}
+
+.Pots-Anchore {
+    width: auto;
+    height: auto;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.Pots-Anchore:hover .Pots-Underline {
+    transform: translateX(0px);
+    transition: ease-in-out;
+    transition-duration: 0.5s;
+}
+
+.Pots-item-bar {
+    display: none;
+    width: 200px;
+    height: auto;
+    position: absolute;
+    top: 100%;
+    left: -20%;
+    background-color: white;
+    padding-left: 20%;
+    padding-bottom: 8%;
+    box-sizing: border-box;
+    filter: drop-shadow(0px 1px 1px black);
+}
+
+.Pots-li {
+    list-style: none;
+    margin-top: 5%;
+}
+
+.Pots-li>a {
+    text-decoration: none;
+}
+
+.Pots:hover .Pots-item-bar {
+    display: block;
+}
+
+
+.Gifting {
+    width: auto;
+    height: 50px;
+    position: relative;
+    font-family: "poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+
+}
+
+.Gifting-item {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+
+}
+
+.Gifting-Underline {
+    width: auto;
+    height: 2px;
+    background-color: black;
+    transform: translateX(-60px);
+    margin-top: -2%;
+}
+
+.Gifting-Anchore {
+    width: auto;
+    height: auto;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+
+.Gifting-Anchore:hover .Gifting-Underline {
+    transform: translateX(0px);
+    transition: ease-in-out;
+    transition-duration: 0.5s;
+}
+
+.Gifting-item-bar {
+    display: none;
+    width: 250px;
+    height: auto;
+    position: absolute;
+    top: 100%;
+    left: -120%;
+    background-color: white;
+    padding-left: 40%;
+    padding-bottom: 15%;
+    box-sizing: border-box;
+    filter: drop-shadow(0px 1px 1px black);
+}
+
+.Gifting-li {
+    list-style: none;
+    margin-top: 5%;
+}
+
+.Gifting-li>a {
+    text-decoration: none;
+}
+
+.Gifting:hover .Gifting-item-bar {
+    display: block;
+}
+
+
+.Accessories {
+    width: auto;
+    height: 50px;
+    position: relative;
+    font-family: "poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+
+}
+
+.Accessories-item {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+
+}
+
+.Accessories-Underline {
+    width: auto;
+    height: 2px;
+    background-color: black;
+    transform: translateX(-100px);
+    margin-top: -2%;
+}
+
+.Accessories-Anchore {
+    width: auto;
+    height: auto;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+
+.Accessories-Anchore:hover .Accessories-Underline {
+    transform: translateX(0px);
+    transition: ease-in-out;
+    transition-duration: 0.5s;
+}
+
+
+.Accessories-item-bar {
+    display: none;
+    width: 260px;
+    height: auto;
+    position: absolute;
+    top: 100%;
+    left: -60%;
+    background-color: white;
+    padding-left: 25%;
+    padding-bottom: 15%;
+    box-sizing: border-box;
+    filter: drop-shadow(0px 1px 1px black);
+}
+
+.Accessories-li {
+    list-style: none;
+    margin-top: 5%;
+}
+
+.Accessories-li>a {
+    text-decoration: none;
+}
+
+.Accessories:hover .Accessories-item-bar {
+    display: block;
+}
+
+.Offers {
+    width: auto;
+    height: 50px;
+    font-family: "poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Offers-Underline {
+    width: auto;
+    height: 2px;
+    background-color: black;
+    transform: translateX(-50px);
+    margin-top: -6%;
+}
+
+.Offers-Anchore {
+    width: auto;
+    height: auto;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+
+.Offers-Anchore:hover .Offers-Underline {
+    transform: translateX(0px);
+    transition: ease-in-out;
+    transition-duration: 0.5s;
+}
+
+.Track {
+    width: auto;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    font-family: "poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.Track-Underline {
+    width: auto;
+    height: 2px;
+    background-color: black;
+    transform: translateX(-140px);
+    margin-top: -2%;
+}
+
+.Track-Anchore {
+    width: auto;
+    height: auto;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+
+.Track-Anchore:hover .Track-Underline {
+    transform: translateX(0px);
+    transition: ease-in-out;
+    transition-duration: 0.5s;
+}
+
+.Support {
+    width: auto;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    font-family: "poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.Support-Underline {
+    width: auto;
+    height: 2px;
+    background-color: black;
+    transform: translateX(-130px);
+    margin-top: -2%;
+}
+
+.Support-Anchore {
+    width: auto;
+    height: auto;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+
+.Support-Anchore:hover .Support-Underline {
+    transform: translateX(0px);
+    transition: ease-in-out;
+    transition-duration: 0.5s;
+}
+
+@media only screen and (max-width:1366px) {
+    .Navigation-bar-mini {
+        width: 100%;
+        height: 50px;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+    }
+
+    .Navigation-bar-mini-res {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width:840px) {
+    .Navigation-bar-mini {
+        width: 100%;
+        height: 40px;
+        background-color: white;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .Navigation-bar-mini-res {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .Anchore {
+        color: grey;
+    }
+
+    .Anchore:hover {
+        color: black;
+    }
+
+    .sidelogin {
+        display: none;
+    }
+
+    .sideclosebutton {
+        display: none;
+    }
+
+    .sidesearchbar {
+        display: none;
+    }
+
+
+    .Home {
+        width: auto;
+        font-family: "poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        overflow: hidden;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 0.7rem;
+    }
+
+    .Home-Underline {
+        width: auto;
+        height: 2px;
+        background-color: black;
+        transform: translateX(-110px);
+        margin-top: -10%;
+        display: none;
+    }
+
+    .Home-Anchore {
+        width: auto;
+        height: auto;
+        color: black;
+        display: flex;
+        flex-direction: column;
+        cursor: pointer;
+
+    }
+
+    .Home-Anchore:hover .Home-Underline {
+        transform: translateX(0px);
+        transition: ease-in-out;
+        transition-duration: 0.5s;
+    }
+
+    .Plant {
+        position: relative;
+        font-family: "poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        width: auto;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 0.7rem;
+    }
+
+    .Plant-item {
+        width: auto;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+
+    }
+
+    .Plant-Underline {
+        width: auto;
+        height: 2px;
+        background-color: black;
+        transform: translateX(-50px);
+        margin-top: -10%;
+        display: none;
+    }
+
+    .Plant-Anchore {
+        width: auto;
+        height: auto;
+        color: black;
+        display: flex;
+        flex-direction: column;
+        cursor: pointer;
+    }
+
+
+    .Plant-Anchore:hover .Plant-Underline {
+        transform: translateX(0px);
+        transition: ease-in-out;
+        transition-duration: 0.5s;
+    }
+
+    .Plant-item-bar {
+        display: none;
+        width: 200px;
+        height: auto;
+        position: absolute;
+        top: 100%;
+        left: -60px;
+        background-color: white;
+        padding-left: 50%;
+        padding-bottom: 25%;
+        box-sizing: border-box;
+        filter: drop-shadow(0px 1px 1px black);
+    }
+
+    .Plant-li {
+        list-style: none;
+        margin-top: 5%;
+    }
+
+    .Plant-li>a {
+        text-decoration: none;
+    }
+
+    .Plant:hover .Plant-item-bar {
+        display: block;
+    }
+
+
+
+    .Eco {
+        width: auto;
+        height: 40px;
+        font-family: "poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 0.7rem;
+    }
+
+    .Eco-Underline {
+        width: auto;
+        height: 2px;
+        background-color: black;
+        transform: translateX(-180px);
+        margin-top: -2%;
+        display: none;
+    }
+
+    .Eco-Anchore {
+        width: auto;
+        height: auto;
+        color: black;
+        display: flex;
+        flex-direction: column;
+        cursor: pointer;
+    }
+
+
+    .Eco-Anchore:hover .Eco-Underline {
+        transform: translateX(0px);
+        transition: ease-in-out;
+        transition-duration: 0.5s;
+    }
+
+
+    .Pots {
+        width: auto;
+        height: 40px;
+        position: relative;
+        font-family: "poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 0.7rem;
+    }
+
+    .Pots-item {
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+
+    }
+
+    .Pots-Underline {
+        width: auto;
+        height: 2px;
+        background-color: black;
+        transform: translateX(-130px);
+        margin-top: -2%;
+        display: none;
+    }
+
+    .Pots-Anchore {
+        width: auto;
+        height: auto;
+        color: black;
+        display: flex;
+        flex-direction: column;
+        cursor: pointer;
+    }
+
+    .Pots-Anchore:hover .Pots-Underline {
+        transform: translateX(0px);
+        transition: ease-in-out;
+        transition-duration: 0.5s;
+    }
+
+    .Pots-item-bar {
+        display: none;
+        width: 140px;
+        height: auto;
+        position: absolute;
+        top: 100%;
+        left: -30%;
+        background-color: white;
+        padding-left: 20%;
+        padding-bottom: 8%;
+        box-sizing: border-box;
+        filter: drop-shadow(0px 1px 1px black);
+    }
+
+    .Pots-li {
+        list-style: none;
+        margin-top: 5%;
+    }
+
+    .Pots-li>a {
+        text-decoration: none;
+    }
+
+    .Pots:hover .Pots-item-bar {
+        display: block;
+    }
+
+
+    .Gifting {
+        width: auto;
+        height: 40px;
+        position: relative;
+        font-family: "poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 0.7rem;
+    }
+
+    .Gifting-item {
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+
+    }
+
+    .Gifting-Underline {
+        width: auto;
+        height: 2px;
+        background-color: black;
+        transform: translateX(-60px);
+        margin-top: -2%;
+        display: none;
+    }
+
+    .Gifting-Anchore {
+        width: auto;
+        height: auto;
+        color: black;
+        display: flex;
+        flex-direction: column;
+        cursor: pointer;
+    }
+
+
+    .Gifting-Anchore:hover .Gifting-Underline {
+        transform: translateX(0px);
+        transition: ease-in-out;
+        transition-duration: 0.5s;
+    }
+
+    .Gifting-item-bar {
+        display: none;
+        width: 180px;
+        height: auto;
+        position: absolute;
+        top: 100%;
+        left: -140%;
+        background-color: white;
+        padding-left: 40%;
+        padding-bottom: 15%;
+        box-sizing: border-box;
+        filter: drop-shadow(0px 1px 1px black);
+    }
+
+    .Gifting-li {
+        list-style: none;
+        margin-top: 5%;
+    }
+
+    .Gifting-li>a {
+        text-decoration: none;
+    }
+
+    .Gifting:hover .Gifting-item-bar {
+        display: block;
+    }
+
+
+    .Accessories {
+        width: auto;
+        height: 40px;
+        position: relative;
+        font-family: "poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 0.7rem;
+    }
+
+    .Accessories-item {
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+
+    }
+
+    .Accessories-Underline {
+        width: auto;
+        height: 2px;
+        background-color: black;
+        transform: translateX(-100px);
+        margin-top: -2%;
+        display: none;
+    }
+
+    .Accessories-Anchore {
+        width: auto;
+        height: auto;
+        color: black;
+        display: flex;
+        flex-direction: column;
+        cursor: pointer;
+    }
+
+
+    .Accessories-Anchore:hover .Accessories-Underline {
+        transform: translateX(0px);
+        transition: ease-in-out;
+        transition-duration: 0.5s;
+    }
+
+
+    .Accessories-item-bar {
+        display: none;
+        width: 180px;
+        height: auto;
+        position: absolute;
+        top: 100%;
+        left: -80%;
+        background-color: white;
+        padding-left: 25%;
+        padding-bottom: 15%;
+        box-sizing: border-box;
+        filter: drop-shadow(0px 1px 1px black);
+    }
+
+    .Accessories-li {
+        list-style: none;
+        margin-top: 5%;
+    }
+
+    .Accessories-li>a {
+        text-decoration: none;
+    }
+
+    .Accessories:hover .Accessories-item-bar {
+        display: block;
+    }
+
+    .Offers {
+        width: auto;
+        height: 40px;
+        font-family: "poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 0.7rem;
+    }
+
+    .Offers-Underline {
+        width: auto;
+        height: 2px;
+        background-color: black;
+        transform: translateX(-50px);
+        margin-top: -6%;
+        display: none;
+    }
+
+    .Offers-Anchore {
+        width: auto;
+        height: auto;
+        color: black;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Offers-Anchore:hover .Offers-Underline {
+        transform: translateX(0px);
+        transition: ease-in-out;
+        transition-duration: 0.5s;
+    }
+
+    .Track {
+        width: auto;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        font-family: "poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 0.7rem;
+    }
+
+    .Track-Underline {
+        width: auto;
+        height: 2px;
+        background-color: black;
+        transform: translateX(-140px);
+        margin-top: -2%;
+        display: none;
+    }
+
+    .Track-Anchore {
+        width: auto;
+        height: auto;
+        color: black;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Track-Anchore:hover .Track-Underline {
+        transform: translateX(0px);
+        transition: ease-in-out;
+        transition-duration: 0.5s;
+    }
+
+    .Support {
+        width: auto;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        font-family: "poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 0.7rem;
+    }
+
+    .Support-Underline {
+        width: auto;
+        height: 2px;
+        background-color: black;
+        transform: translateX(-130px);
+        margin-top: -2%;
+        display: none;
+    }
+
+    .Support-Anchore {
+        width: auto;
+        height: auto;
+        color: black;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Support-Anchore:hover {
+        color: black;
+    }
+
+    .Support-Anchore:hover .Support-Underline {
+        transform: translateX(0px);
+        transition: ease-in-out;
+        transition-duration: 0.5s;
+    }
+}
+
+
+
+@media only screen and (max-width:640px) {
+    .Navigation-bar-mini {
+        width: 70%;
+        height: 100vh;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        padding-left: 0%;
+        box-sizing: border-box;
+        display: none;
+        position: fixed;
+        top: 0px;
+        z-index: 1;
+    }
+
+    .Navigation-bar-mini-res {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-direction: column;
+        padding-left: 10%;
+        box-sizing: border-box;
+    }
+
+
+    .Anchore {
+        color: grey;
+    }
+
+    .Anchore:hover {
+        color: black;
+    }
+
+    .sideclosebutton {
+        display: block;
+        margin-left: 88%;
+    }
+
+    .sidelogin {
+        display: block;
+        width: auto;
+        height: auto;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin-bottom: 4%;
+    }
+
+    .sidelogin>img {
+        width: 18px;
+    }
+
+    .sidelogtext {
+        width: 70px;
+        font-size: 0.7rem;
+        margin-left: 8%;
+        font-family: "poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+    }
+
+    .sidesearchbar {
+        width: 100%;
+        height: auto;
+        margin-top: 5%;
+        /* position: relative; */
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+
+    .sidesearchbar-icon {
+        width: 25px;
+        height: 26px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+        border-radius: 0px 20px 20px 0px;
+    }
+
+    .sidesearchbar-icon>img {
+        width: 15px;
+        height: auto;
+    }
+
+    .sidesearchinput {
+        width: 75%;
+        height: 26px;
+        border: 0px;
+        /* background-color: rgba(128, 128, 128, 0.185); */
+        border: 1px solid black;
+        border-radius: 20px 0px 0px 20px;
+        font-size: 0.7rem;
+        font-family: "poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        padding-left: 5%;
+        box-sizing: border-box;
+    }
+
+
+    .Home {
+        width: auto;
+        font-family: "poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        overflow: hidden;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 0.8rem;
+    }
+
+    .Home-Underline {
+        width: auto;
+        height: 2px;
+        background-color: black;
+        transform: translateX(-110px);
+        margin-top: -10%;
+        display: none;
+    }
+
+    .Home-Anchore {
+        width: auto;
+        height: auto;
+        color: black;
+        display: flex;
+        flex-direction: column;
+        cursor: pointer;
+
+    }
+
+    .Home-Anchore:hover .Home-Underline {
+        transform: translateX(0px);
+        transition: ease-in-out;
+        transition-duration: 0.5s;
+    }
+
+    .Plant {
+        position: relative;
+        font-family: "poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        width: auto;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 0.8rem;
+        z-index: 4;
+    }
+
+    .Plant-item {
+        width: auto;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+
+    }
+
+    .Plant-Underline {
+        width: auto;
+        height: 2px;
+        background-color: black;
+        transform: translateX(-50px);
+        margin-top: -10%;
+        display: none;
+    }
+
+    .Plant-Anchore {
+        width: auto;
+        height: auto;
+        color: black;
+        display: flex;
+        flex-direction: column;
+        cursor: pointer;
+    }
+
+
+    .Plant-Anchore:hover .Plant-Underline {
+        transform: translateX(0px);
+        transition: ease-in-out;
+        transition-duration: 0.5s;
+    }
+
+    .Plant-item-bar {
+        display: none;
+        width: 220px;
+        height: auto;
+        position: absolute;
+        top: 100%;
+        left: -20px;
+        background-color: white;
+        padding-left: 50%;
+        padding-bottom: 25%;
+        box-sizing: border-box;
+        filter: drop-shadow(0px 1px 1px black);
+    }
+
+    .Plant-li {
+        list-style: none;
+        margin-top: 5%;
+    }
+
+    .Plant-li>a {
+        text-decoration: none;
+    }
+
+    .Plant:hover .Plant-item-bar {
+        display: block;
+    }
+
+
+
+    .Eco {
+        width: auto;
+        height: 50px;
+        font-family: "poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 0.8rem;
+    }
+
+    .Eco-Underline {
+        width: auto;
+        height: 2px;
+        background-color: black;
+        transform: translateX(-180px);
+        margin-top: -2%;
+        display: none;
+    }
+
+    .Eco-Anchore {
+        width: auto;
+        height: auto;
+        color: black;
+        display: flex;
+        flex-direction: column;
+        cursor: pointer;
+    }
+
+
+    .Eco-Anchore:hover .Eco-Underline {
+        transform: translateX(0px);
+        transition: ease-in-out;
+        transition-duration: 0.5s;
+    }
+
+
+    .Pots {
+        width: auto;
+        height: 50px;
+        position: relative;
+        font-family: "poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 0.8rem;
+        z-index: 3;
+    }
+
+    .Pots-item {
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+
+    }
+
+    .Pots-Underline {
+        width: auto;
+        height: 2px;
+        background-color: black;
+        transform: translateX(-130px);
+        margin-top: -2%;
+        display: none;
+    }
+
+    .Pots-Anchore {
+        width: auto;
+        height: auto;
+        color: black;
+        display: flex;
+        flex-direction: column;
+        cursor: pointer;
+    }
+
+    .Pots-Anchore:hover .Pots-Underline {
+        transform: translateX(0px);
+        transition: ease-in-out;
+        transition-duration: 0.5s;
+    }
+
+    .Pots-item-bar {
+        display: none;
+        width: 180px;
+        height: auto;
+        position: absolute;
+        top: 100%;
+        left: -20%;
+        background-color: white;
+        padding-left: 20%;
+        padding-bottom: 8%;
+        box-sizing: border-box;
+        filter: drop-shadow(0px 1px 1px black);
+    }
+
+    .Pots-li {
+        list-style: none;
+        margin-top: 5%;
+    }
+
+    .Pots-li>a {
+        text-decoration: none;
+    }
+
+    .Pots:hover .Pots-item-bar {
+        display: block;
+    }
+
+
+    .Gifting {
+        width: auto;
+        height: 50px;
+        position: relative;
+        font-family: "poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 0.8rem;
+        z-index: 2;
+    }
+
+    .Gifting-item {
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+
+    }
+
+    .Gifting-Underline {
+        width: auto;
+        height: 2px;
+        background-color: black;
+        transform: translateX(-60px);
+        margin-top: -2%;
+        display: none;
+    }
+
+    .Gifting-Anchore {
+        width: auto;
+        height: auto;
+        color: black;
+        display: flex;
+        flex-direction: column;
+        cursor: pointer;
+    }
+
+
+    .Gifting-Anchore:hover .Gifting-Underline {
+        transform: translateX(0px);
+        transition: ease-in-out;
+        transition-duration: 0.5s;
+    }
+
+    .Gifting-item-bar {
+        display: none;
+        width: 210px;
+        height: auto;
+        position: absolute;
+        top: 100%;
+        left: -40%;
+        background-color: white;
+        padding-left: 40%;
+        padding-bottom: 15%;
+        box-sizing: border-box;
+        filter: drop-shadow(0px 1px 1px black);
+    }
+
+    .Gifting-li {
+        list-style: none;
+        margin-top: 5%;
+    }
+
+    .Gifting-li>a {
+        text-decoration: none;
+    }
+
+    .Gifting:hover .Gifting-item-bar {
+        display: block;
+    }
+
+
+    .Accessories {
+        width: auto;
+        height: 50px;
+        position: relative;
+        font-family: "poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 0.8rem;
+        z-index: 1;
+    }
+
+    .Accessories-item {
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+
+    }
+
+    .Accessories-Underline {
+        width: auto;
+        height: 2px;
+        background-color: black;
+        transform: translateX(-100px);
+        margin-top: -2%;
+        display: none;
+    }
+
+    .Accessories-Anchore {
+        width: auto;
+        height: auto;
+        color: black;
+        display: flex;
+        flex-direction: column;
+        cursor: pointer;
+    }
+
+
+    .Accessories-Anchore:hover .Accessories-Underline {
+        transform: translateX(0px);
+        transition: ease-in-out;
+        transition-duration: 0.5s;
+    }
+
+
+    .Accessories-item-bar {
+        display: none;
+        width: 200px;
+        height: auto;
+        position: absolute;
+        top: 100%;
+        left: -25%;
+        background-color: white;
+        padding-left: 25%;
+        padding-bottom: 15%;
+        box-sizing: border-box;
+        filter: drop-shadow(0px 1px 1px black);
+    }
+
+    .Accessories-li {
+        list-style: none;
+        margin-top: 5%;
+    }
+
+    .Accessories-li>a {
+        text-decoration: none;
+    }
+
+    .Accessories:hover .Accessories-item-bar {
+        display: block;
+    }
+
+    .Offers {
+        width: auto;
+        height: 50px;
+        font-family: "poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 0.8rem;
+    }
+
+    .Offers-Underline {
+        width: auto;
+        height: 2px;
+        background-color: black;
+        transform: translateX(-50px);
+        margin-top: -6%;
+        display: none;
+    }
+
+    .Offers-Anchore {
+        width: auto;
+        height: auto;
+        color: black;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Offers-Anchore:hover .Offers-Underline {
+        transform: translateX(0px);
+        transition: ease-in-out;
+        transition-duration: 0.5s;
+    }
+
+    .Track {
+        width: auto;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        font-family: "poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 0.8rem;
+    }
+
+    .Track-Underline {
+        width: auto;
+        height: 2px;
+        background-color: black;
+        transform: translateX(-140px);
+        margin-top: -2%;
+        display: none;
+    }
+
+    .Track-Anchore {
+        width: auto;
+        height: auto;
+        color: black;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Track-Anchore:hover .Track-Underline {
+        transform: translateX(0px);
+        transition: ease-in-out;
+        transition-duration: 0.5s;
+    }
+
+    .Support {
+        width: auto;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        font-family: "poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 0.8rem;
+    }
+
+    .Support-Underline {
+        width: auto;
+        height: 2px;
+        background-color: black;
+        transform: translateX(-130px);
+        margin-top: -2%;
+        display: none;
+    }
+
+    .Support-Anchore {
+        width: auto;
+        height: auto;
+        color: black;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Support-Anchore:hover {
+        color: black;
+    }
+
+    .Support-Anchore:hover .Support-Underline {
+        transform: translateX(0px);
+        transition: ease-in-out;
+        transition-duration: 0.5s;
+    }
+}
+
+/* Slider */
+
+.crousel {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.slider {
+    width: 400%;
+    display: flex;
+    justify-content: space-evenly;
+    animation: slider 25s ease-in-out 3s infinite;
+}
+
+
+
+.sliderImg {
+    width: 100%;
+}
+
+.sliderImg img {
+    width: 100%;
+}
+
+@keyframes slider {
+    0% {
+        transform: translateX(0%);
+    }
+
+    10% {
+        transform: translateX(0%);
+    }
+
+    25% {
+        transform: translateX(-25%);
+    }
+
+    40% {
+        transform: translateX(-25%);
+    }
+
+    50% {
+        transform: translateX(-50%);
+    }
+
+    60% {
+        transform: translateX(-50%);
+    }
+
+    75% {
+        transform: translateX(-75%);
+    }
+
+    90% {
+        transform: translateX(-75%);
+    }
+
+    100% {
+        transform: translateX(0%);
+    }
+
+    /* 100%{transform: translateX(-100%);} */
+}
+
+/* @media only screen and (max-width:840px) {
+    .crousel {
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+        margin-top: -0%;
+    }
+} */
+@media only screen and (max-width:640px) {
+    .crousel {
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+        margin-top: -2%;
+    }
+}
+
+
+.to-top {
+    background-color: black;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 2rem;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 5%;
+    right: 5%;
+    z-index: 1;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.4s;
+}
+
+.to-top.active {
+    bottom: 5%;
+    pointer-events: auto;
+    opacity: 1;
+}
+
+@media only screen and (max-width:1366px) {
+    .to-top {
+        background-color: black;
+        width: 50px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        font-size: 1.5rem;
+        border-radius: 50%;
+        position: fixed;
+        bottom: 5%;
+        right: 5%;
+        z-index: 1;
+        opacity: 0;
+        pointer-events: none;
+        transition: all 0.4s;
+    }
+
+    .to-top.active {
+        bottom: 5%;
+        pointer-events: auto;
+        opacity: 1;
+    }
+}
+
+@media only screen and (max-width:840px) {
+    .to-top {
+        background-color: black;
+        width: 40px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        font-size: 1.2rem;
+        border-radius: 50%;
+        position: fixed;
+        bottom: 5%;
+        right: 5%;
+        z-index: 1;
+        opacity: 0;
+        pointer-events: none;
+        transition: all 0.4s;
+    }
+
+    .to-top.active {
+        bottom: 5%;
+        pointer-events: auto;
+        opacity: 1;
+    }
+}
+
+@media only screen and (max-width:640px) {
+    .to-top {
+        background-color: black;
+        width: 30px;
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        font-size: 0.9rem;
+        border-radius: 50%;
+        position: fixed;
+        bottom: 5%;
+        right: 5%;
+        z-index: 1;
+        opacity: 0;
+        pointer-events: none;
+        transition: all 0.4s;
+    }
+
+    .to-top.active {
+        bottom: 5%;
+        pointer-events: auto;
+        opacity: 1;
+    }
+}
+
+.Plants-by-Categories {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-family: "poppins", sans-serif;
+    font-weight: 600;
+    font-style: bold;
+    font-size: 2rem;
+    margin-top: 4%;
+}
+
+
+.All-Categories {
+    width: 100%;
+    height: auto;
+    /* background-color: whitesmoke;  */
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+.All-Categories-Res {
+    width: 80%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.BestSeller {
+    width: 15%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: white; */
+    cursor: pointer;
+    /* color: grey; */
+}
+
+.Best-Seller-Img {
+    width: 180px;
+    height: 100%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+}
+
+
+.BestSeller:hover {
+    scale: 1.1;
+    color: black;
+    transition: ease-in-out 0.4s;
+}
+
+.Best-Seller-Text {
+    /* background-color: aqua; */
+    text-align: center;
+    font-family: "poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    margin-top: 8%;
+}
+
+@media only screen and (max-width:1366px) {
+    .All-Categories-Res {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width:840px) {
+    .Plants-by-Categories {
+        width: 100%;
+        height: auto;
+        text-align: center;
+        font-family: "poppins", sans-serif;
+        font-weight: 600;
+        font-style: bold;
+        font-size: 1.8rem;
+        margin-top: 4%;
+    }
+
+
+    .All-Categories {
+        width: 100%;
+        height: auto;
+        /* background-color: whitesmoke;  */
+        display: flex;
+        justify-content: center;
+        margin-top: 2%;
+    }
+
+    .All-Categories-Res {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .BestSeller {
+        width: 15%;
+        height: 100%;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        align-items: center;
+        /* background-color: white; */
+        cursor: pointer;
+        /* color: grey; */
+    }
+
+    .Best-Seller-Img {
+        width: 100px;
+        height: 100px;
+        /* background-color: red; */
+        display: flex;
+        justify-content: center;
+    }
+
+
+    .BestSeller:hover {
+        scale: 1.1;
+        color: black;
+        transition: ease-in-out 0.4s;
+    }
+
+    .Best-Seller-Text {
+        /* background-color: aqua; */
+        text-align: center;
+        font-family: "poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        margin-top: 8%;
+        font-size: 0.8rem;
+    }
+
+}
+
+
+
+@media only screen and (max-width:640px) {
+    .Plants-by-Categories {
+        width: 100%;
+        height: auto;
+        text-align: center;
+        font-family: "poppins", sans-serif;
+        font-weight: 500;
+        font-style: bold;
+        font-size: 1rem;
+        margin-top: 4%;
+    }
+
+
+    .All-Categories {
+        width: 100%;
+        height: auto;
+        /* background-color: whitesmoke;  */
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 2%;
+    }
+
+    .BestSeller {
+        width: 15%;
+        height: 100%;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        /* background-color: white; */
+        cursor: pointer;
+        /* color: grey; */
+    }
+
+    .Best-Seller-Img {
+        width: 100%;
+        height: auto;
+        /* background-color: red; */
+        display: flex;
+        justify-content: center;
+    }
+
+
+    .BestSeller:hover {
+        scale: 1.1;
+        color: black;
+        transition: ease-in-out 0.4s;
+    }
+
+    .Best-Seller-Text {
+        /* background-color: aqua; */
+        text-align: center;
+        font-family: "poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        margin-top: 8%;
+        font-size: 0.5rem;
+    }
+
+}
+
+
+
+/* Best Seller Section */
+
+.Best-Seller-Heading {
+    width: 100%;
+    height: auto;
+    font-size: 1.8rem;
+    /* background-color: red; */
+    font-family: "poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-left: 10%;
+    box-sizing: border-box;
+    margin-top: 4%;
+}
+
+.Best-Seller-MainBox {
+    width: 100%;
+    height: auto;
+    margin-top: 2%;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: center;
+
+}
+
+.Best-Seller-MainBox-Res {
+    width: 80%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 9rem;
+    overflow: hidden;
+    /* background-color: red; */
+}
+
+.forphonewidth {
+    width: auto;
+    display: flex;
+    justify-content: center;
+    gap: 7.9rem;
+
+}
+
+.forphonewidth1 {
+    width: auto;
+    display: flex;
+    justify-content: center;
+    gap: 7.9rem;
+}
+
+.Best-Seller-Box {
+    width: 200px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.Box-Img {
+    width: 200px;
+    height: 200px;
+    /* background-color: pink; */
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.Box-Image {
+    width: 100%;
+    height: 100%;
+}
+
+.Box-Image:hover {
+    scale: 1.1;
+    transition: ease-in-out 0.4s;
+
+}
+
+.Box-Text {
+    width: 200px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    background-color: beige;
+}
+
+.All-Best-Seller-View-Product {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-top: 2%;
+    font-size: 1rem;
+    font-family: "poppins", sans-serif;
+    font-weight: 600;
+    font-style: bold;
+}
+
+.All-Best-Seller-View-Product:hover {
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    cursor: pointer;
+}
+
+@media only screen and (max-width:1860px) {
+    .Best-Seller-Heading {
+        width: 100%;
+        height: auto;
+        font-size: 1.8rem;
+        /* background-color: red; */
+        font-family: "poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        padding-left: 14%;
+        box-sizing: border-box;
+        margin-top: 4%;
+    }
+
+    .Best-Seller-MainBox {
+        width: 100%;
+        height: auto;
+        margin-top: 2%;
+        /* background-color: yellow; */
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .Best-Seller-MainBox-Res {
+        width: 80%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5rem;
+        overflow: hidden;
+        /* background-color: red; */
+    }
+
+    .forphonewidth {
+        width: auto;
+        display: flex;
+        justify-content: center;
+        gap: 5.9rem;
+
+    }
+
+    .forphonewidth1 {
+        width: auto;
+        display: flex;
+        justify-content: center;
+        gap: 5.9rem;
+    }
+}
+
+@media only screen and (max-width:1366px) {
+    .Best-Seller-Heading {
+        width: 100%;
+        height: auto;
+        font-size: 1.8rem;
+        /* background-color: red; */
+        font-family: "poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        padding-left: 4%;
+        box-sizing: border-box;
+        margin-top: 4%;
+    }
+
+    .Best-Seller-MainBox {
+        width: 100%;
+        height: auto;
+        margin-top: 2%;
+        /* background-color: yellow; */
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .Best-Seller-MainBox-Res {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 4rem;
+        overflow: hidden;
+        /* background-color: red; */
+    }
+
+    .forphonewidth {
+        width: auto;
+        display: flex;
+        justify-content: center;
+        gap: 3.9rem;
+
+    }
+
+    .forphonewidth1 {
+        width: auto;
+        display: flex;
+        justify-content: center;
+        gap: 3.9rem;
+    }
+
+    .Best-Seller-Box {
+        width: 200px;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+
+}
+
+@media only screen and (max-width:840px) {
+    .Best-Seller-Heading {
+        width: 100%;
+        height: auto;
+        font-size: 1.5rem;
+        /* background-color: red; */
+        font-family: "poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        padding-left: 5%;
+        box-sizing: border-box;
+        margin-top: 4%;
+    }
+
+    .Best-Seller-MainBox {
+        width: 100%;
+        height: auto;
+        margin-top: 2%;
+        /* background-color: yellow; */
+        display: flex;
+        justify-content: center;
+    }
+
+    .Best-Seller-MainBox-Res {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1.3rem;
+        overflow: hidden;
+        /* background-color: red; */
+    }
+
+    .forphonewidth {
+        width: auto;
+        display: flex;
+        justify-content: center;
+        gap: 1.3rem;
+
+    }
+
+    .forphonewidth1 {
+        width: auto;
+        display: flex;
+        justify-content: center;
+        gap: 1.3rem;
+    }
+
+    .Best-Seller-Box {
+        width: 130px;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .Box-Img {
+        width: 130px;
+        height: 130px;
+        /* background-color: pink; */
+        overflow: hidden;
+        cursor: pointer;
+    }
+
+    .Box-Image {
+        width: 100%;
+        height: 100%;
+    }
+
+    .Box-Image:hover {
+        scale: 1.1;
+        transition: ease-in-out 0.4s;
+
+    }
+
+    .Box-Text {
+        width: 130px;
+        height: 76px;
+        display: flex;
+        flex-direction: column;
+        background-color: beige;
+    }
+
+    .All-Best-Seller-View-Product {
+        width: 100%;
+        height: auto;
+        text-align: center;
+        margin-top: 2%;
+        font-size: 0.7rem;
+        font-family: "poppins", sans-serif;
+        font-weight: 600;
+        font-style: bold;
+    }
+
+    .All-Best-Seller-View-Product:hover {
+        text-decoration: underline;
+        text-underline-offset: 5px;
+        cursor: pointer;
+    }
+}
+
+
+
+@media only screen and (max-width:640px) {
+    .Best-Seller-Heading {
+        width: 100%;
+        height: auto;
+        font-size: 1rem;
+        /* background-color: red; */
+        font-family: "poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        padding-left: 7.5%;
+        box-sizing: border-box;
+        margin-top: 4%;
+    }
+
+    .Best-Seller-MainBox {
+        width: 100%;
+        height: auto;
+        margin-top: 2%;
+        /* background-color: yellow; */
+        display: flex;
+        justify-content: flex-start;
+        /* flex-direction: column; */
+        overflow: hidden;
+
+    }
+
+    .Best-Seller-MainBox-Res {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 0rem;
+        overflow: hidden;
+        /* background-color: red; */
+    }
+
+    .forphonewidth {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 1.2rem;
+        padding-left: 3%;
+        box-sizing: border-box;
+    }
+
+    .forphonewidth1 {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 1.2rem;
+        padding-right: 3%;
+        box-sizing: border-box;
+    }
+
+    .Best-Seller-Box~.hidee {
+        display: none;
+    }
+
+    .Best-Seller-Box {
+        width: 150px;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .Box-Img {
+        width: 100%;
+        height: auto;
+        /* background-color: pink; */
+        /* overflow: hidden; */
+        cursor: pointer;
+    }
+
+    .Box-Image {
+        width: 100%;
+        height: 100%;
+    }
+
+    .Box-Image:hover {
+        scale: 1.1;
+        transition: ease-in-out 0.4s;
+
+    }
+
+    .Box-Text {
+        width: 100%;
+        height: 80px;
+        display: flex;
+        flex-direction: column;
+        background-color: beige;
+    }
+
+    .All-Best-Seller-View-Product {
+        width: 100%;
+        height: auto;
+        text-align: center;
+        margin-top: 2%;
+        font-size: 0.6rem;
+        font-family: "poppins", sans-serif;
+        font-weight: 500;
+        font-style: bold;
+    }
+
+    .All-Best-Seller-View-Product:hover {
+        text-decoration: underline;
+        text-underline-offset: 5px;
+        cursor: pointer;
+    }
+}
+
+
+/* all Product Rate and Details CSS */
+
+.Plant-Name {
+    width: 100%;
+    height: auto;
+    padding-left: 5%;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 0.9rem;
+}
+
+.Plant-Rating {
+    width: 100%;
+    height: auto;
+    padding-left: 5%;
+    box-sizing: border-box;
+    font-size: 0.9rem;
+}
+
+.Plant-Rate {
+    width: 100%;
+    height: auto;
+    padding-left: 5%;
+    box-sizing: border-box;
+    font-size: 0.9rem;
+}
+
+.plant-Cart {
+    width: 100%;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+}
+.viewproduct{
+    width: 120px;
+    height: auto;
+    border-radius: 50px;
+    border: 1px solid black;
+    background-color: black;
+    background-color: none;
+    font-size: 0.9rem;
+    position: relative;
+    z-index: 1;
+}
+.viewproduct:hover{
+    color: white;
+}
+.viewproduct::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    border-radius: 50px;
+    z-index: -1;
+    transform-origin: left;
+    transition: transform 0.5s ease;
+    transform: scaleX(1);
+}
+.viewproduct:hover::before{
+    transform-origin: right;
+    transition: transform 0.5s ease;
+    transform: scaleX(0);
+}
+
+/* .plant-Cart>button {
+    width: 120px;
+    height: auto;
+    border-radius: 50px;
+    border: 1px solid black;
+    background-color: none;
+    font-size: 0.9rem;
+}
+
+.plant-Cart>button:hover {
+    transform: scale(1.1);
+} */
+
+
+
+
+@media only screen and (max-width:840px) {
+    .Plant-Name {
+        width: 100%;
+        height: auto;
+        padding-left: 5%;
+        box-sizing: border-box;
+        font-family: "poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 0.7rem;
+    }
+
+    .Plant-Rating {
+        width: 100%;
+        height: auto;
+        padding-left: 5%;
+        box-sizing: border-box;
+        font-size: 0.7rem;
+    }
+
+    .Plant-Rate {
+        width: 100%;
+        height: auto;
+        padding-left: 5%;
+        box-sizing: border-box;
+        font-size: 0.7rem;
+    }
+
+    .plant-Cart {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    .plant-Cart>button {
+        width: 100px;
+        height: auto;
+        border-radius: 50px;
+        border: 1px solid black;
+        /* background-color: rgba(255, 255, 255, 0); */
+        background-color: white;
+        font-size: 0.7rem;
+    }
+
+    .plant-Cart>button:hover {
+        transform: scale(1.1);
+    }
+
+}
+
+
+
+@media only screen and (max-width:640px) {
+    .Plant-Name {
+        width: 100%;
+        height: auto;
+        padding-left: 5%;
+        box-sizing: border-box;
+        font-family: "poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 0.7rem;
+    }
+
+    .Plant-Rating {
+        width: 100%;
+        height: auto;
+        padding-left: 5%;
+        box-sizing: border-box;
+        font-size: 0.7rem;
+    }
+
+    .Plant-Rate {
+        width: 100%;
+        height: auto;
+        padding-left: 5%;
+        box-sizing: border-box;
+        font-size: 0.7rem;
+    }
+
+    .plant-Cart {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    .plant-Cart>button {
+        width: 70%;
+        height: 120%;
+        border-radius: 50px;
+        border: 1px solid black;
+        /* background-color: rgba(255, 255, 255, 0); */
+        background-color: white;
+        font-size: 0.7rem;
+    }
+
+    .plant-Cart>button:hover {
+        transform: scale(1.1);
+    }
+
+}
+
+/* Newly Launched Section */
+
+.Newly-Launched-Heading {
+    width: 100%;
+    height: auto;
+    font-size: 1.8rem;
+    /* background-color: red; */
+    font-family: "poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-left: 10%;
+    box-sizing: border-box;
+    margin-top: 4%;
+}
+
+.Newly-Launched-MainBox {
+    width: 100%;
+    height: auto;
+    margin-top: 2%;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: center;
+}
+
+.Newly-Launched-MainBox-Res {
+    width: 80%;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 9rem;
+    overflow: hidden;
+    /* background-color: red; */
+}
+
+.forphonewidth2 {
+    width: auto;
+    display: flex;
+    justify-content: center;
+    gap: 7.9rem;
+
+}
+
+
+.forphonewidth3 {
+    width: auto;
+    display: flex;
+    justify-content: center;
+    gap: 7.9rem;
+}
+
+.Newly-Launched-Box {
+    width: 200px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.Newly-Launched-Box-Img {
+    width: 200px;
+    height: 200px;
+    /* background-color: pink; */
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.Newly-Launched-Box-Image {
+    width: 100%;
+    height: 100%;
+}
+
+.Newly-Launched-Box-Image:hover {
+    scale: 1.1;
+    transition: ease-in-out 0.4s;
+
+}
+
+.Newly-Launched-Box-Text {
+    width: 200px;
+    height: 96px;
+    display: flex;
+    flex-direction: column;
+    background-color: beige;
+}
+
+.All-Newly-Launched-View-Product {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-top: 2%;
+    font-size: 1rem;
+    font-family: "poppins", sans-serif;
+    font-weight: 600;
+    font-style: bold;
+}
+
+.All-Newly-Launched-View-Product:hover {
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    cursor: pointer;
+}
+
+@media only screen and (max-width:1860px) {
+    .Newly-Launched-Heading {
+        width: 100%;
+        height: auto;
+        font-size: 1.8rem;
+        /* background-color: red; */
+        font-family: "poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        padding-left: 14%;
+        box-sizing: border-box;
+        margin-top: 4%;
+    }
+
+    .Newly-Launched-MainBox {
+        width: 100%;
+        height: auto;
+        margin-top: 2%;
+        /* background-color: yellow; */
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .Newly-Launched-MainBox-Res {
+        width: 80%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5rem;
+        overflow: hidden;
+        /* background-color: red; */
+    }
+
+    .forphonewidth2 {
+        width: auto;
+        display: flex;
+        justify-content: center;
+        gap: 5.9rem;
+
+    }
+
+    .forphonewidth3 {
+        width: auto;
+        display: flex;
+        justify-content: center;
+        gap: 5.9rem;
+    }
+}
+
+@media only screen and (max-width:1366px) {
+    .Newly-Launched-Heading {
+        width: 100%;
+        height: auto;
+        font-size: 1.8rem;
+        /* background-color: red; */
+        font-family: "poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        padding-left: 4%;
+        box-sizing: border-box;
+        margin-top: 4%;
+    }
+
+    .Newly-Launched-MainBox {
+        width: 100%;
+        height: auto;
+        margin-top: 2%;
+        /* background-color: yellow; */
+        display: flex;
+        justify-content: center;
+    }
+
+    .Newly-Launched-MainBox-Res {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 4rem;
+        overflow: hidden;
+        /* background-color: red; */
+    }
+
+    .forphonewidth2 {
+        width: auto;
+        display: flex;
+        justify-content: center;
+        gap: 3.9rem;
+
+    }
+
+
+    .forphonewidth3 {
+        width: auto;
+        display: flex;
+        justify-content: center;
+        gap: 3.9rem;
+    }
+}
+
+@media only screen and (max-width:840px) {
+    .Newly-Launched-Heading {
+        width: 100%;
+        height: auto;
+        font-size: 1.5rem;
+        /* background-color: red; */
+        font-family: "poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        padding-left: 5%;
+        box-sizing: border-box;
+        margin-top: 4%;
+    }
+
+    .Newly-Launched-MainBox {
+        width: 100%;
+        height: auto;
+        margin-top: 2%;
+        /* background-color: yellow; */
+        display: flex;
+        justify-content: center;
+    }
+
+    .Newly-Launched-MainBox-Res {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1.3rem;
+        overflow: hidden;
+        /* background-color: red; */
+    }
+
+    .forphonewidth2 {
+        width: auto;
+        display: flex;
+        justify-content: center;
+        gap: 1.3rem;
+
+    }
+
+    .forphonewidth3 {
+        width: auto;
+        display: flex;
+        justify-content: center;
+        gap: 1.3rem;
+    }
+
+    .Newly-Launched-Box {
+        width: 130px;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .Newly-Launched-Box-Img {
+        width: 130px;
+        height: 130px;
+        /* background-color: pink; */
+        overflow: hidden;
+        cursor: pointer;
+    }
+
+    .Newly-Launched-Box-Image {
+        width: 100%;
+        height: 100%;
+    }
+
+    .Newly-Launched-Box-Image:hover {
+        scale: 1.1;
+        transition: ease-in-out 0.4s;
+
+    }
+
+    .Newly-Launched-Box-Text {
+        width: 130px;
+        height: 76px;
+        display: flex;
+        flex-direction: column;
+        background-color: beige;
+    }
+
+    .All-Newly-Launched-View-Product {
+        width: 100%;
+        height: auto;
+        text-align: center;
+        margin-top: 2%;
+        font-size: 0.7rem;
+        font-family: "poppins", sans-serif;
+        font-weight: 600;
+        font-style: bold;
+    }
+
+    .All-Newly-Launched-View-Product:hover {
+        text-decoration: underline;
+        text-underline-offset: 5px;
+        cursor: pointer;
+    }
+}
+
+
+
+@media only screen and (max-width:640px) {
+    .Newly-Launched-Heading {
+        width: 100%;
+        height: auto;
+        font-size: 1rem;
+        /* background-color: red; */
+        font-family: "poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        padding-left: 7.5%;
+        box-sizing: border-box;
+        margin-top: 4%;
+    }
+
+    .Newly-Launched-MainBox {
+        width: 100%;
+        height: auto;
+        margin-top: 2%;
+        /* background-color: yellow; */
+        display: flex;
+        justify-content: flex-start;
+        /* flex-direction: column; */
+        overflow: hidden;
+
+    }
+
+    .Newly-Launched-MainBox-Res {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 0rem;
+        overflow: hidden;
+        /* background-color: red; */
+    }
+
+    .forphonewidth2 {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 1.2rem;
+        padding-left: 3%;
+        box-sizing: border-box;
+
+    }
+
+    .forphonewidth3 {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 1.2rem;
+        padding-right: 3%;
+        box-sizing: border-box;
+    }
+
+
+    .Newly-Launched-Box~.hidee {
+        display: none;
+    }
+
+
+
+    .Newly-Launched-Box {
+        width: 150px;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .Newly-Launched-Box-Img {
+        width: 100%;
+        height: auto;
+        /* background-color: pink; */
+        /* overflow: hidden; */
+        cursor: pointer;
+    }
+
+    .Newly-Launched-Box-Image {
+        width: 100%;
+        height: 100%;
+    }
+
+    .Newly-Launched-Box-Image:hover {
+        scale: 1.1;
+        transition: ease-in-out 0.4s;
+
+    }
+
+    .Newly-Launched-Box-Text {
+        width: 100%;
+        height: 80px;
+        display: flex;
+        flex-direction: column;
+        background-color: beige;
+    }
+
+    .All-Newly-Launched-View-Product {
+        width: 100%;
+        height: auto;
+        text-align: center;
+        margin-top: 2%;
+        font-size: 0.6rem;
+        font-family: "poppins", sans-serif;
+        font-weight: 500;
+        font-style: bold;
+    }
+
+    .All-Newly-Launched-View-Product:hover {
+        text-decoration: underline;
+        text-underline-offset: 5px;
+        cursor: pointer;
+    }
+}
+
+/* Vastu Plants Section */
+
+.Vastu-Plants-Heading {
+    width: 100%;
+    height: auto;
+    font-size: 1.8rem;
+    /* background-color: red; */
+    font-family: "poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-left: 10%;
+    box-sizing: border-box;
+    margin-top: 4%;
+}
+
+.Vastu-Plants-MainBox {
+    width: 100%;
+    height: auto;
+    margin-top: 2%;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: center;
+}
+
+.Vastu-Plants-MainBox-Res {
+    width: 80%;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 9rem;
+    overflow: hidden;
+    /* background-color: red; */
+}
+
+.forphonewidth4 {
+    width: auto;
+    display: flex;
+    justify-content: center;
+    gap: 7.9rem;
+
+}
+
+.forphonewidth5 {
+    width: auto;
+    display: flex;
+    justify-content: center;
+    gap: 7.9rem;
+}
+
+.Vastu-Plants-Box {
+    width: 200px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.Vastu-Plants-Box-Img {
+    width: 200px;
+    height: 200px;
+    /* background-color: pink; */
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.Vastu-Plants-Box-Image {
+    width: 100%;
+    height: 100%;
+}
+
+.Vastu-Plants-Box-Image:hover {
+    scale: 1.1;
+    transition: ease-in-out 0.4s;
+
+}
+
+.Vastu-Plants-Box-Text {
+    width: 200px;
+    height: 96px;
+    display: flex;
+    flex-direction: column;
+    background-color: beige;
+}
+
+.All-Vastu-Plants-View-Product {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-top: 2%;
+    font-size: 1rem;
+    font-family: "poppins", sans-serif;
+    font-weight: 600;
+    font-style: bold;
+}
+
+.All-Vastu-Plants-View-Product:hover {
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    cursor: pointer;
+}
+
+@media only screen and (max-width:1860px) {
+    .Vastu-Plants-Heading {
+        width: 100%;
+        height: auto;
+        font-size: 1.8rem;
+        /* background-color: red; */
+        font-family: "poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        padding-left: 14%;
+        box-sizing: border-box;
+        margin-top: 4%;
+    }
+
+    .Vastu-Plants-MainBox {
+        width: 100%;
+        height: auto;
+        margin-top: 2%;
+        /* background-color: yellow; */
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .Vastu-Plants-MainBox-Res {
+        width: 80%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5rem;
+        overflow: hidden;
+        /* background-color: red; */
+    }
+
+    .forphonewidth4 {
+        width: auto;
+        display: flex;
+        justify-content: center;
+        gap: 5.9rem;
+
+    }
+
+    .forphonewidth5 {
+        width: auto;
+        display: flex;
+        justify-content: center;
+        gap: 5.9rem;
+    }
+}
+
+@media only screen and (max-width:1366px) {
+    .Vastu-Plants-Heading {
+        width: 100%;
+        height: auto;
+        font-size: 1.8rem;
+        /* background-color: red; */
+        font-family: "poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        padding-left: 4%;
+        box-sizing: border-box;
+        margin-top: 4%;
+    }
+
+    .Vastu-Plants-MainBox {
+        width: 100%;
+        height: auto;
+        margin-top: 2%;
+        /* background-color: yellow; */
+        display: flex;
+        justify-content: center;
+    }
+
+    .Vastu-Plants-MainBox-Res {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 4rem;
+        overflow: hidden;
+        /* background-color: red; */
+    }
+
+    .forphonewidth4 {
+        width: auto;
+        display: flex;
+        justify-content: center;
+        gap: 3.9rem;
+
+    }
+
+    .forphonewidth5 {
+        width: auto;
+        display: flex;
+        justify-content: center;
+        gap: 3.9rem;
+    }
+
+}
+
+@media only screen and (max-width:840px) {
+    .Vastu-Plants-Heading {
+        width: 100%;
+        height: auto;
+        font-size: 1.5rem;
+        /* background-color: red; */
+        font-family: "poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        padding-left: 5%;
+        box-sizing: border-box;
+        margin-top: 4%;
+    }
+
+    .Vastu-Plants-MainBox {
+        width: 100%;
+        height: auto;
+        margin-top: 2%;
+        /* background-color: yellow; */
+        display: flex;
+        justify-content: center;
+    }
+
+    .Vastu-Plants-MainBox-Res {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1.3rem;
+        overflow: hidden;
+        /* background-color: red; */
+    }
+
+    .forphonewidth4 {
+        width: auto;
+        display: flex;
+        justify-content: center;
+        gap: 1.3rem;
+
+    }
+
+    .forphonewidth5 {
+        width: auto;
+        display: flex;
+        justify-content: center;
+        gap: 1.3rem;
+    }
+
+    .Vastu-Plants-Box {
+        width: 130px;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .Vastu-Plants-Box-Img {
+        width: 130px;
+        height: 130px;
+        /* background-color: pink; */
+        overflow: hidden;
+        cursor: pointer;
+    }
+
+    .Vastu-Plants-Box-Image {
+        width: 100%;
+        height: 100%;
+    }
+
+    .Vastu-Plants-Box-Image:hover {
+        scale: 1.1;
+        transition: ease-in-out 0.4s;
+
+    }
+
+    .Vastu-Plants-Box-Text {
+        width: 130px;
+        height: 76px;
+        display: flex;
+        flex-direction: column;
+        background-color: beige;
+    }
+
+    .All-Vastu-Plants-View-Product {
+        width: 100%;
+        height: auto;
+        text-align: center;
+        margin-top: 2%;
+        font-size: 0.7rem;
+        font-family: "poppins", sans-serif;
+        font-weight: 600;
+        font-style: bold;
+    }
+
+    .All-Vastu-Plants-View-Product:hover {
+        text-decoration: underline;
+        text-underline-offset: 5px;
+        cursor: pointer;
+    }
+}
+
+
+
+@media only screen and (max-width:640px) {
+    .Vastu-Plants-Heading {
+        width: 100%;
+        height: auto;
+        font-size: 1rem;
+        /* background-color: red; */
+        font-family: "poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        padding-left: 7.5%;
+        box-sizing: border-box;
+        margin-top: 4%;
+    }
+
+    .Vastu-Plants-MainBox {
+        width: 100%;
+        height: auto;
+        margin-top: 2%;
+        /* background-color: yellow; */
+        display: flex;
+        justify-content: flex-start;
+        /* flex-direction: column; */
+        overflow: hidden;
+
+    }
+
+    .Vastu-Plants-MainBox-Res {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 0rem;
+        overflow: hidden;
+        /* background-color: red; */
+    }
+
+    .forphonewidth4 {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 1.2rem;
+        padding-left: 3%;
+        box-sizing: border-box;
+
+    }
+
+    .forphonewidth5 {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 1.2rem;
+        padding-right: 3%;
+        box-sizing: border-box;
+    }
+
+    .Vastu-Plants-Box~.hidee {
+        display: none;
+    }
+
+    .Vastu-Plants-Box {
+        width: 150px;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .Vastu-Plants-Box-Img {
+        width: 100%;
+        height: auto;
+        /* background-color: pink; */
+        /* overflow: hidden; */
+        cursor: pointer;
+    }
+
+    .Vastu-Plants-Box-Image {
+        width: 100%;
+        height: 100%;
+    }
+
+    .Vastu-Plants-Box-Image:hover {
+        scale: 1.1;
+        transition: ease-in-out 0.4s;
+
+    }
+
+    .Vastu-Plants-Box-Text {
+        width: 100%;
+        height: 80px;
+        display: flex;
+        flex-direction: column;
+        background-color: beige;
+    }
+
+    .All-Vastu-Plants-View-Product {
+        width: 100%;
+        height: auto;
+        text-align: center;
+        margin-top: 2%;
+        font-size: 0.6rem;
+        font-family: "poppins", sans-serif;
+        font-weight: 500;
+        font-style: bold;
+    }
+
+    .All-Vastu-Plants-View-Product:hover {
+        text-decoration: underline;
+        text-underline-offset: 5px;
+        cursor: pointer;
+    }
+}
+
+/* Flowering Plants Section */
+
+.Flowering-Plants-Heading {
+    width: 100%;
+    height: auto;
+    font-size: 1.8rem;
+    /* background-color: red; */
+    font-family: "poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-left: 10%;
+    box-sizing: border-box;
+    margin-top: 4%;
+}
+
+.Flowering-Plants-MainBox {
+    width: 100%;
+    height: auto;
+    margin-top: 2%;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: center;
+}
+
+.Flowering-Plants-MainBox-Res {
+    width: 80%;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 9rem;
+    overflow: hidden;
+    /* background-color: red; */
+}
+
+.forphonewidth6 {
+    width: auto;
+    display: flex;
+    justify-content: center;
+    gap: 7.9rem;
+
+}
+
+.forphonewidth7 {
+    width: auto;
+    display: flex;
+    justify-content: center;
+    gap: 7.9rem;
+}
+
+.Flowering-Plants-Box {
+    width: 200px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.Flowering-Plants-Box-Img {
+    width: 200px;
+    height: 200px;
+    /* background-color: pink; */
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.Flowering-Plants-Box-Image {
+    width: 100%;
+    height: 100%;
+}
+
+.Flowering-Plants-Box-Image:hover {
+    scale: 1.1;
+    transition: ease-in-out 0.4s;
+
+}
+
+.Flowering-Plants-Box-Text {
+    width: 200px;
+    height: 96px;
+    display: flex;
+    flex-direction: column;
+    background-color: beige;
+}
+
+.All-Flowering-Plants-View-Product {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-top: 2%;
+    font-size: 1rem;
+    font-family: "poppins", sans-serif;
+    font-weight: 600;
+    font-style: bold;
+}
+
+.All-Flowering-Plants-View-Product:hover {
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    cursor: pointer;
+}
+
+@media only screen and (max-width:1860px) {
+    .Flowering-Plants-Heading {
+        width: 100%;
+        height: auto;
+        font-size: 1.8rem;
+        /* background-color: red; */
+        font-family: "poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        padding-left: 14%;
+        box-sizing: border-box;
+        margin-top: 4%;
+    }
+
+    .Flowering-Plants-MainBox {
+        width: 100%;
+        height: auto;
+        margin-top: 2%;
+        /* background-color: yellow; */
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .Flowering-Plants-MainBox-Res {
+        width: 80%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5rem;
+        overflow: hidden;
+        /* background-color: red; */
+    }
+
+    .forphonewidth6 {
+        width: auto;
+        display: flex;
+        justify-content: center;
+        gap: 5.9rem;
+
+    }
+
+    .forphonewidth7 {
+        width: auto;
+        display: flex;
+        justify-content: center;
+        gap: 5.9rem;
+    }
+}
+
+@media only screen and (max-width:1366px) {
+    .Flowering-Plants-Heading {
+        width: 100%;
+        height: auto;
+        font-size: 1.8rem;
+        /* background-color: red; */
+        font-family: "poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        padding-left: 4%;
+        box-sizing: border-box;
+        margin-top: 4%;
+    }
+
+    .Flowering-Plants-MainBox {
+        width: 100%;
+        height: auto;
+        margin-top: 2%;
+        /* background-color: yellow; */
+        display: flex;
+        justify-content: center;
+    }
+
+    .Flowering-Plants-MainBox-Res {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 4rem;
+        overflow: hidden;
+        /* background-color: red; */
+    }
+
+    .forphonewidth6 {
+        width: auto;
+        display: flex;
+        justify-content: center;
+        gap: 3.9rem;
+
+    }
+
+    .forphonewidth7 {
+        width: auto;
+        display: flex;
+        justify-content: center;
+        gap: 3.9rem;
+    }
+}
+
+@media only screen and (max-width:840px) {
+    .Flowering-Plants-Heading {
+        width: 100%;
+        height: auto;
+        font-size: 1.5rem;
+        /* background-color: red; */
+        font-family: "poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        padding-left: 5%;
+        box-sizing: border-box;
+        margin-top: 4%;
+    }
+
+    .Flowering-Plants-MainBox {
+        width: 100%;
+        height: auto;
+        margin-top: 2%;
+        /* background-color: yellow; */
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .Flowering-Plants-MainBox-Res {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1.3rem;
+        overflow: hidden;
+        /* background-color: red; */
+    }
+
+    .forphonewidth6 {
+        width: auto;
+        display: flex;
+        justify-content: center;
+        gap: 1.3rem;
+
+    }
+
+    .forphonewidth7 {
+        width: auto;
+        display: flex;
+        justify-content: center;
+        gap: 1.3rem;
+    }
+
+    .Flowering-Plants-Box {
+        width: 130px;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .Flowering-Plants-Box-Img {
+        width: 130px;
+        height: 130px;
+        /* background-color: pink; */
+        overflow: hidden;
+        cursor: pointer;
+    }
+
+    .Flowering-Plants-Box-Image {
+        width: 100%;
+        height: 100%;
+    }
+
+    .Flowering-Plants-Box-Image:hover {
+        scale: 1.1;
+        transition: ease-in-out 0.4s;
+
+    }
+
+    .Flowering-Plants-Box-Text {
+        width: 130px;
+        height: 76px;
+        display: flex;
+        flex-direction: column;
+        background-color: beige;
+    }
+
+    .All-Flowering-Plants-View-Product {
+        width: 100%;
+        height: auto;
+        text-align: center;
+        margin-top: 2%;
+        font-size: 0.7rem;
+        font-family: "poppins", sans-serif;
+        font-weight: 600;
+        font-style: bold;
+    }
+
+    .All-Flowering-Plants-View-Product:hover {
+        text-decoration: underline;
+        text-underline-offset: 5px;
+        cursor: pointer;
+    }
+}
+
+
+
+@media only screen and (max-width:640px) {
+    .Flowering-Plants-Heading {
+        width: 100%;
+        height: auto;
+        font-size: 1rem;
+        /* background-color: red; */
+        font-family: "poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        padding-left: 7.5%;
+        box-sizing: border-box;
+        margin-top: 4%;
+    }
+
+    .Flowering-Plants-MainBox {
+        width: 100%;
+        height: auto;
+        margin-top: 2%;
+        /* background-color: yellow; */
+        display: flex;
+        justify-content: flex-start;
+        /* flex-direction: column; */
+        overflow: hidden;
+
+    }
+
+    .Flowering-Plants-MainBox-Res {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 0rem;
+        overflow: hidden;
+        /* background-color: red; */
+    }
+
+    .forphonewidth6 {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 1.2rem;
+        padding-left: 3%;
+        box-sizing: border-box;
+
+    }
+
+    .forphonewidth7 {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 1.2rem;
+        padding-left: 3%;
+        box-sizing: border-box;
+    }
+
+    .Flowering-Plants-Box {
+        width: 150px;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .Flowering-Plants-Box~.hidee {
+        display: none;
+    }
+
+    .Flowering-Plants-Box-Img {
+        width: 100%;
+        height: auto;
+        /* background-color: pink; */
+        /* overflow: hidden; */
+        cursor: pointer;
+    }
+
+    .Flowering-Plants-Box-Image {
+        width: 100%;
+        height: 100%;
+    }
+
+    .Flowering-Plants-Box-Image:hover {
+        scale: 1.1;
+        transition: ease-in-out 0.4s;
+
+    }
+
+    .Flowering-Plants-Box-Text {
+        width: 100%;
+        height: 80px;
+        display: flex;
+        flex-direction: column;
+        background-color: beige;
+    }
+
+    .All-Flowering-Plants-View-Product {
+        width: 100%;
+        height: auto;
+        text-align: center;
+        margin-top: 2%;
+        font-size: 0.6rem;
+        font-family: "poppins", sans-serif;
+        font-weight: 500;
+        font-style: bold;
+    }
+
+    .All-Flowering-Plants-View-Product:hover {
+        text-decoration: underline;
+        text-underline-offset: 5px;
+        cursor: pointer;
+    }
+}
+
+
+/* Video text */
+
+
+
+.video-row {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    /* background-color: aquamarine; */
+    margin-top: 4%;
+}
+
+.video-reo-res {
+    width: 80%;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.plant-video-text {
+    width: 45%;
+    height: 100%;
+    /* background-color: beige; */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.plant-care-heading {
+    width: 100%;
+    height: auto;
+    font-family: "poppins", sans-serif;
+    font-weight: 600;
+    font-style: bold;
+    font-size: 2.5rem;
+    margin-top: 20%;
+}
+
+.plant-care-details {
+    width: 80%;
+    height: auto;
+    font-size: 1.1rem;
+    margin-top: 2%;
+}
+
+.plant-video {
+    width: 55%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    /* background-color: red; */
+}
+
+.video-link {
+    width: 80%;
+    height: auto;
+}
+
+@media only screen and (max-width:1366px) {
+    .video-reo-res {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .plant-video {
+        width: 51%;
+        height: 100%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        /* background-color: red; */
+    }
+
+    .video-link {
+        width: 80%;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width:840px) {
+    .video-row {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        /* flex-direction: column; */
+        /* background-color: aquamarine; */
+        margin-top: 5%;
+    }
+
+    .video-reo-res {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+    }
+
+    .plant-video-text {
+        width: 100%;
+        height: 100%;
+        /* background-color: beige; */
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .plant-care-heading {
+        width: 100%;
+        height: auto;
+        font-family: "poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 2.5rem;
+        margin-top: 0%;
+    }
+
+    .plant-care-details {
+        width: 80%;
+        height: auto;
+        font-size: 1.1rem;
+        margin-top: 2%;
+    }
+
+    .plant-video {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* background-color: red; */
+        margin-top: 5%;
+    }
+
+    .video-link {
+        width: 640px;
+        height: 350px;
+    }
+
+}
+
+
+
+
+@media only screen and (max-width:640px) {
+    .video-row {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        /* background-color: aquamarine; */
+        margin-top: 5%;
+    }
+
+    .plant-video-text {
+        width: 100%;
+        height: 100%;
+        /* background-color: beige; */
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .plant-care-heading {
+        width: 100%;
+        height: auto;
+        font-family: "poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1.2rem;
+        margin-top: 0%;
+    }
+
+    .plant-care-details {
+        width: 90%;
+        height: auto;
+        font-size: 0.7rem;
+        margin-top: 2%;
+    }
+
+    .plant-video {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* background-color: red; */
+        margin-top: 5%;
+    }
+
+    .video-link {
+        width: 80%;
+        height: auto;
+    }
+
+}
+
+
+
+
+.Service-Box {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    /* background-color: yellow; */
+    margin-top: 5%;
+
+}
+
+.Service-Box-Res {
+    width: 80%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Home-Service {
+    width: 30%;
+    height: auto;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+
+}
+
+.Home-Service-Image {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    /* background-color: beige; */
+}
+
+.Home-Service-Image>img {
+    width: 100px;
+    height: auto;
+}
+
+.Home-Service-Image-Text {
+    width: 100%;
+    height: auto;
+    /* background-color: red; */
+}
+
+.Home-Service-Image-Text-1 {
+    width: 100%;
+    height: auto;
+    /* background-color: aqua; */
+    text-align: center;
+    font-family: "poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.2rem;
+    margin-top: 4%;
+}
+
+.Home-Service-Image-Text-2 {
+    width: 100%;
+    height: auto;
+    /* background-color: aqua; */
+    text-align: center;
+    font-family: "poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1rem;
+}
+
+
+.All-India-Delivery {
+    width: 30%;
+    height: auto;
+    /* background-color: aqua; */
+}
+
+.All-India-Delivery-Image {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    /* background-color: beige; */
+}
+
+.All-India-Delivery-Image>img {
+    width: 130px;
+    height: auto;
+}
+
+.All-India-Delivery-Image-Text {
+    width: 100%;
+    height: auto;
+    /* background-color: red; */
+}
+
+.All-India-Delivery-Image-Text-1 {
+    width: 100%;
+    height: auto;
+    /* background-color: aqua; */
+    text-align: center;
+    font-family: "poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.2rem;
+    margin-top: 4%;
+}
+
+.All-India-Delivery-Image-Text-2 {
+    width: 100%;
+    height: auto;
+    /* background-color: aqua; */
+    text-align: center;
+    font-family: "poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1rem;
+}
+
+
+
+.Customer-Support {
+    width: 30%;
+    height: auto;
+    /* background-color: aqua; */
+}
+
+.Customer-Support-Image {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    /* background-color: beige; */
+}
+
+.Customer-Support-Image>img {
+    width: 70px;
+    height: auto;
+}
+
+.Customer-Support-Image-Text {
+    width: 100%;
+    height: auto;
+    /* background-color: red; */
+}
+
+.Customer-Support-Image-Text-1 {
+    width: 100%;
+    height: auto;
+    /* background-color: aqua; */
+    text-align: center;
+    font-family: "poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.2rem;
+    margin-top: 4%;
+}
+
+.Customer-Support-Image-Text-2 {
+    width: 100%;
+    height: auto;
+    /* background-color: aqua; */
+    text-align: center;
+    font-family: "poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1rem;
+}
+
+
+.Why-Shopping {
+    width: 100%;
+    height: auto;
+    font-family: "poppins", sans-serif;
+    font-weight: 600;
+    font-style: bold;
+    font-size: 1.9rem;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    display: flex;
+    justify-content: center;
+}
+
+@media only screen and (max-width:1366px) {
+    .Service-Box-Res {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: space-evenly;
+    }
+}
+
+@media only screen and (max-width:840px) {
+    .Service-Box {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        /* background-color: yellow; */
+        margin-top: 6%;
+
+    }
+
+    .Service-Box-Res {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .Home-Service {
+        width: 30%;
+        height: auto;
+        /* background-color: aqua; */
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .Home-Service-Image {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        /* background-color: beige; */
+    }
+
+    .Home-Service-Image>img {
+        width: 80px;
+        height: auto;
+    }
+
+    .Home-Service-Image-Text {
+        width: 100%;
+        height: auto;
+        /* background-color: red; */
+    }
+
+    .Home-Service-Image-Text-1 {
+        width: 100%;
+        height: auto;
+        /* background-color: aqua; */
+        text-align: center;
+        font-family: "poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 1.1rem;
+        margin-top: 4%;
+    }
+
+    .Home-Service-Image-Text-2 {
+        width: 100%;
+        height: auto;
+        /* background-color: aqua; */
+        text-align: center;
+        font-family: "poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 0.8rem;
+    }
+
+
+    .All-India-Delivery {
+        width: 30%;
+        height: auto;
+        /* background-color: aqua; */
+    }
+
+    .All-India-Delivery-Image {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        /* background-color: beige; */
+    }
+
+    .All-India-Delivery-Image>img {
+        width: 100px;
+        height: auto;
+    }
+
+    .All-India-Delivery-Image-Text {
+        width: 100%;
+        height: auto;
+        /* background-color: red; */
+    }
+
+    .All-India-Delivery-Image-Text-1 {
+        width: 100%;
+        height: auto;
+        /* background-color: aqua; */
+        text-align: center;
+        font-family: "poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 1.1rem;
+        margin-top: 4%;
+    }
+
+    .All-India-Delivery-Image-Text-2 {
+        width: 100%;
+        height: auto;
+        /* background-color: aqua; */
+        text-align: center;
+        font-family: "poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 0.8rem;
+    }
+
+
+
+    .Customer-Support {
+        width: 30%;
+        height: auto;
+        /* background-color: aqua; */
+    }
+
+    .Customer-Support-Image {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        /* background-color: beige; */
+    }
+
+    .Customer-Support-Image>img {
+        width: 55px;
+        height: auto;
+    }
+
+    .Customer-Support-Image-Text {
+        width: 100%;
+        height: auto;
+        /* background-color: red; */
+    }
+
+    .Customer-Support-Image-Text-1 {
+        width: 100%;
+        height: auto;
+        /* background-color: aqua; */
+        text-align: center;
+        font-family: "poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 1.1rem;
+        margin-top: 4%;
+    }
+
+    .Customer-Support-Image-Text-2 {
+        width: 100%;
+        height: auto;
+        /* background-color: aqua; */
+        text-align: center;
+        font-family: "poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 0.8rem;
+    }
+
+
+    .Why-Shopping {
+        width: 100%;
+        height: auto;
+        font-family: "poppins", sans-serif;
+        font-weight: 600;
+        font-style: bold;
+        font-size: 1.4rem;
+        margin-top: 5%;
+        margin-bottom: 2%;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+
+
+
+@media only screen and (max-width:640px) {
+    .Service-Box {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        /* background-color: yellow; */
+        margin-top: 6%;
+
+    }
+
+    .Service-Box-Res {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+
+    .Home-Service {
+        width: 100%;
+        height: auto;
+        /* background-color: aqua; */
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .Home-Service-Image {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        /* background-color: beige; */
+    }
+
+    .Home-Service-Image>img {
+        width: 60px;
+        height: auto;
+    }
+
+    .Home-Service-Image-Text {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        /* background-color: red; */
+    }
+
+    .Home-Service-Image-Text-1 {
+        width: 150px;
+        height: auto;
+        /* background-color: aqua; */
+        text-align: center;
+        font-family: "poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 0.7rem;
+        margin-top: 4%;
+    }
+
+    .Home-Service-Image-Text-2 {
+        width: 100%;
+        height: auto;
+        /* background-color: aqua; */
+        text-align: center;
+        font-family: "poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 0.5rem;
+    }
+
+
+    .All-India-Delivery {
+        width: 100%;
+        height: auto;
+        /* background-color: aqua; */
+        margin-top: 5%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .All-India-Delivery-Image {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        /* background-color: beige; */
+    }
+
+    .All-India-Delivery-Image>img {
+        width: 70px;
+        height: auto;
+    }
+
+    .All-India-Delivery-Image-Text {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        /* background-color: red; */
+    }
+
+    .All-India-Delivery-Image-Text-1 {
+        width: 150px;
+        height: auto;
+        /* background-color: aqua; */
+        text-align: center;
+        font-family: "poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 0.7rem;
+        margin-top: 4%;
+    }
+
+    .All-India-Delivery-Image-Text-2 {
+        width: 100%;
+        height: auto;
+        /* background-color: aqua; */
+        text-align: center;
+        font-family: "poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 0.5rem;
+    }
+
+
+
+    .Customer-Support {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        margin-top: 5%;
+        /* background-color: aqua; */
+    }
+
+    .Customer-Support-Image {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        /* background-color: beige; */
+    }
+
+    .Customer-Support-Image>img {
+        width: 40px;
+        height: auto;
+    }
+
+    .Customer-Support-Image-Text {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        /* background-color: red; */
+    }
+
+    .Customer-Support-Image-Text-1 {
+        width: 100%;
+        height: auto;
+        /* background-color: aqua; */
+        text-align: center;
+        font-family: "poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 0.7rem;
+        margin-top: 4%;
+    }
+
+    .Customer-Support-Image-Text-2 {
+        width: 100%;
+        height: auto;
+        /* background-color: aqua; */
+        text-align: center;
+        font-family: "poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 0.5rem;
+    }
+
+
+    .Why-Shopping {
+        width: 100%;
+        height: auto;
+        font-family: "poppins", sans-serif;
+        font-weight: 500;
+        font-style: bold;
+        font-size: 0.9rem;
+        margin-top: 5%;
+        margin-bottom: 2%;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .Variety {
+        font-size: 0.7rem;
+    }
+
+    .accordion-body {
+        font-size: 0.7rem;
+    }
+}
+
+.accordion {
+    padding: 0% 10% 0% 10%;
+    box-sizing: border-box;
+}
+
+@media only screen and (max-width:1366px) {
+    .accordion {
+        padding: 0% 0% 0% 0%;
+        box-sizing: border-box;
+    }
+}
+
+@media only screen and (max-width:840px) {
+    .accordion {
+        padding: 0% 0% 0% 0%;
+        box-sizing: border-box;
+    }
+}
+
+@media only screen and (max-width:640px) {
+    .accordion {
+        padding: 0% 0% 0% 0%;
+        box-sizing: border-box;
+    }
+}
+
+
+/* FOOTER */
+
+
+.Footer {
+    width: 100%;
+    height: 500px;
+    background-color: whitesmoke;
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+}
+
+.Footer-Res {
+    width: 80%;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.Footer-Box {
+    width: 100%;
+    height: 70%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    padding-top: 2%;
+    box-sizing: border-box;
+}
+
+.About-Us {
+    width: 20%;
+    height: 300px;
+    /* background-color: red; */
+
+}
+
+.About-Us-h {
+    width: 100%;
+    height: 70px;
+    color: black;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 20%;
+    box-sizing: border-box;
+    align-items: center;
+    font-size: 1.2rem;
+    font-family: "poppins", sans-serif;
+    font-weight: 600;
+    font-style: bold;
+
+}
+
+.About-Us-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-left: 20%;
+    box-sizing: border-box;
+}
+
+.About-Us-text>a {
+    text-decoration: none;
+    color: grey;
+    font-family: "poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 3%;
+}
+
+.About-Us-text>a:hover {
+    color: black;
+}
+
+
+.Services {
+    width: 20%;
+    height: 300px;
+    /* background-color: yellow; */
+}
+
+.Services-h {
+    width: 100%;
+    height: 70px;
+    color: black;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 20%;
+    box-sizing: border-box;
+    align-items: center;
+    font-size: 1.2rem;
+    font-family: "poppins", sans-serif;
+    font-weight: 600;
+    font-style: bold;
+
+}
+
+.Services-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-left: 20%;
+    box-sizing: border-box;
+}
+
+.Services-text>a {
+    text-decoration: none;
+    color: grey;
+    font-family: "poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 3%;
+}
+
+.Services-text>a:hover {
+    color: black;
+}
+
+.How-Can-Help {
+    width: 20%;
+    height: 300px;
+    /* background-color: red; */
+}
+
+.How-Can-Help-h {
+    width: 100%;
+    height: 70px;
+    color: black;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 20%;
+    box-sizing: border-box;
+    font-size: 1.2rem;
+    font-family: "poppins", sans-serif;
+    font-weight: 600;
+    font-style: bold;
+
+}
+
+.How-Can-Help-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-left: 20%;
+    box-sizing: border-box;
+}
+
+.How-Can-Help-text>a {
+    text-decoration: none;
+    color: grey;
+    font-family: "poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 3%;
+}
+
+.How-Can-Help-text>a:hover {
+    color: black;
+}
+
+.Last-address {
+    width: 40%;
+    height: 400px;
+    /* background-color:yellow; */
+}
+
+.Footer-image {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    /* background-color: white; */
+    padding-left: 10%;
+    box-sizing: border-box;
+}
+
+.Footer-image>img {
+    width: 250px;
+    height: auto;
+}
+
+.Footer-address {
+    width: 80%;
+    height: auto;
+    padding-left: 10%;
+    box-sizing: border-box;
+    /* background-color: beige; */
+    line-height: 170%;
+    margin-top: 4%;
+    color: black;
+}
+
+.Footer-address:hover {
+    color: black;
+}
+
+.fa-solid {
+    color: black;
+}
+
+.fa-solid:hover {
+    color: grey;
+}
+
+.qaz {
+    color: black;
+}
+
+.qaz:hover {
+    color: grey;
+}
+
+.Email-Phone-Com {
+    width: 100%;
+    height: auto;
+    padding-left: 10%;
+    box-sizing: border-box;
+    gap: 0.3rem;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-top: 1%;
+}
+
+.Email-Section {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+    /* background-color: white; */
+    cursor: pointer;
+}
+
+.Phone-Section {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+    /* background-color: white; */
+    cursor: pointer;
+}
+
+.Com-Section {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+    /* background-color: white; */
+    cursor: pointer;
+}
+
+.Social-Media-Icons {
+    width: 100%;
+    height: 15%;
+    /* background-color: beige; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.icons {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background-color: black;
+    position: relative;
+    overflow: hidden;
+}
+
+.icons:before {
+    background-color: white;
+    content: "";
+    position: absolute;
+    width: 120%;
+    height: 120%;
+    left: -110%;
+    top: 80%;
+    transform: rotate(45deg);
+}
+
+.hate {
+    color: white;
+}
+
+.icons:hover .hate {
+    color: black;
+    scale: 1.2;
+}
+
+.icons:hover:before {
+    animation: slide 0.7s forwards;
+
+}
+
+@keyframes slide {
+    50% {
+        left: 10%;
+        top: -40%;
+    }
+
+    100% {
+        left: -15%;
+        top: -15%;
+    }
+}
+
+
+.Footer-end {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Copyright {
+    width: 50%;
+    height: auto;
+    padding-left: 5%;
+    box-sizing: border-box;
+    color: black;
+    font-size: 1.1rem;
+    font-family: "poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.Payment-icons {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* background-color: grey; */
+}
+
+.Payment-icons-Cards {
+    width: 50px;
+    height: auto;
+    cursor: pointer;
+}
+
+.Payment-icons-Upi {
+    width: 80px;
+    height: auto;
+    cursor: pointer;
+}
+
+.Payment-icons-Gpay {
+    width: 70px;
+    height: auto;
+    cursor: pointer;
+}
+
+.Payment-icons-Paytm {
+    width: 70px;
+    height: auto;
+    cursor: pointer;
+}
+
+.Payment-icons-Phonepe {
+    width: 80px;
+    height: auto;
+    cursor: pointer;
+}
+
+.Payment-icons-Wallet {
+    width: 40px;
+    height: auto;
+    cursor: pointer;
+}
+
+.Payment-icons-Cash {
+    width: 40px;
+    height: auto;
+    cursor: pointer;
+}
+
+@media only screen and (max-width:1366px) {
+    .Footer-Res {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+    }
+}
+
+
+@media only screen and (max-width:840px) {
+    .Footer {
+        width: 100%;
+        height: auto;
+        background-color: whitesmoke;
+        margin-top: 5%;
+    }
+
+    .Footer-Res {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+    }
+
+    .Footer-Box {
+        width: 100%;
+        height: 70%;
+        /* background-color: aqua; */
+        display: flex;
+        justify-content: center;
+        padding-top: 2%;
+        box-sizing: border-box;
+    }
+
+
+
+    .About-Us {
+        width: 20%;
+        height: 300px;
+        /* background-color: red; */
+
+    }
+
+    .About-Us-h {
+        width: 100%;
+        height: 70px;
+        color: black;
+        display: flex;
+        justify-content: flex-start;
+        padding-left: 20%;
+        box-sizing: border-box;
+        align-items: center;
+        font-size: 1rem;
+        font-family: "poppins", sans-serif;
+        font-weight: 600;
+        font-style: bold;
+
+    }
+
+    .About-Us-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        padding-left: 20%;
+        box-sizing: border-box;
+    }
+
+    .About-Us-text>a {
+        text-decoration: none;
+        color: grey;
+        font-family: "poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        margin-top: 3%;
+    }
+
+    .About-Us-text>a:hover {
+        color: black;
+    }
+
+
+    .Services {
+        width: 20%;
+        height: 300px;
+        /* background-color: yellow; */
+    }
+
+    .Services-h {
+        width: 100%;
+        height: 70px;
+        color: black;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        padding-left: 20%;
+        box-sizing: border-box;
+        align-items: center;
+        font-size: 1rem;
+        font-family: "poppins", sans-serif;
+        font-weight: 600;
+        font-style: bold;
+
+    }
+
+    .Services-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        padding-left: 20%;
+        box-sizing: border-box;
+    }
+
+    .Services-text>a {
+        text-decoration: none;
+        color: grey;
+        font-family: "poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        margin-top: 3%;
+    }
+
+    .Services-text>a:hover {
+        color: black;
+    }
+
+    .How-Can-Help {
+        width: 20%;
+        height: 300px;
+    }
+
+    .How-Can-Help-h {
+        width: 100%;
+        height: 70px;
+        color: black;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        padding-left: 0%;
+        box-sizing: border-box;
+        font-size: 1rem;
+        font-family: "poppins", sans-serif;
+        font-weight: 600;
+        font-style: bold;
+    }
+
+    .How-Can-Help-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        padding-left: 20%;
+        box-sizing: border-box;
+    }
+
+    .How-Can-Help-text>a {
+        text-decoration: none;
+        color: grey;
+        font-family: "poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        margin-top: 3%;
+    }
+
+    .How-Can-Help-text>a:hover {
+        color: black;
+    }
+
+    .Last-address {
+        width: 40%;
+        height: 400px;
+        /* background-color:yellow; */
+    }
+
+    .Footer-image {
+        width: 100%;
+        height: 100px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        /* background-color: white; */
+        padding-left: 10%;
+        box-sizing: border-box;
+    }
+
+    .Footer-image>img {
+        width: 200px;
+        height: auto;
+    }
+
+    .Footer-address {
+        width: 80%;
+        height: auto;
+        padding-left: 10%;
+        box-sizing: border-box;
+        /* background-color: beige; */
+        line-height: 170%;
+        margin-top: 4%;
+        color: black;
+    }
+
+    .Footer-address:hover {
+        color: black;
+    }
+
+    .fa-solid {
+        color: black;
+    }
+
+    .fa-solid:hover {
+        color: grey;
+    }
+
+    .qaz {
+        color: black;
+    }
+
+    .qaz:hover {
+        color: grey;
+    }
+
+    .Email-Phone-Com {
+        width: 100%;
+        height: auto;
+        padding-left: 10%;
+        box-sizing: border-box;
+        gap: 0.3rem;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        margin-top: 0%;
+    }
+
+    .Email-Section {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 1rem;
+        /* background-color: white; */
+        cursor: pointer;
+    }
+
+    .Phone-Section {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 1rem;
+        /* background-color: white; */
+        cursor: pointer;
+    }
+
+    .Com-Section {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 1rem;
+        /* background-color: white; */
+        cursor: pointer;
+    }
+
+    .Social-Media-Icons {
+        width: 100%;
+        height: 15%;
+        /* background-color: beige; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .icons {
+        width: 3rem;
+        height: 3rem;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        background-color: black;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .icons:before {
+        background-color: white;
+        content: "";
+        position: absolute;
+        width: 120%;
+        height: 120%;
+        left: -110%;
+        top: 80%;
+        transform: rotate(45deg);
+    }
+
+    .hate {
+        color: white;
+    }
+
+    .icons:hover .hate {
+        color: black;
+        scale: 1.2;
+    }
+
+    .icons:hover:before {
+        animation: slide 0.7s forwards;
+
+    }
+
+    @keyframes slide {
+        50% {
+            left: 10%;
+            top: -40%;
+        }
+
+        100% {
+            left: -15%;
+            top: -15%;
+        }
+    }
+
+
+    .Footer-end {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Copyright {
+        width: 50%;
+        height: auto;
+        padding-left: 5%;
+        box-sizing: border-box;
+        color: black;
+        font-size: 0.9rem;
+        font-family: "poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    .Payment-icons {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        /* background-color: grey; */
+    }
+
+    .Payment-icons-Cards {
+        width: 30px;
+        height: auto;
+        cursor: pointer;
+    }
+
+    .Payment-icons-Upi {
+        width: 60px;
+        height: auto;
+        cursor: pointer;
+    }
+
+    .Payment-icons-Gpay {
+        width: 50px;
+        height: auto;
+        cursor: pointer;
+    }
+
+    .Payment-icons-Paytm {
+        width: 50px;
+        height: auto;
+        cursor: pointer;
+    }
+
+    .Payment-icons-Phonepe {
+        width: 60px;
+        height: auto;
+        cursor: pointer;
+    }
+
+    .Payment-icons-Wallet {
+        width: 25px;
+        height: auto;
+        cursor: pointer;
+    }
+
+    .Payment-icons-Cash {
+        width: 25px;
+        height: auto;
+        cursor: pointer;
+    }
+}
+
+
+
+
+
+@media only screen and (max-width:640px) {
+    .Footer {
+        width: 100%;
+        height: auto;
+        background-color: whitesmoke;
+        margin-top: 5%;
+    }
+
+    .Footer-Res {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+    }
+
+    .Footer-Box {
+        width: 100%;
+        height: auto;
+        /* background-color: aqua; */
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding-top: 2%;
+        box-sizing: border-box;
+    }
+
+
+    .About-Us {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        /* background-color: red; */
+
+    }
+
+    .About-Us-h {
+        width: 100%;
+        height: auto;
+        color: black;
+        display: flex;
+        justify-content: center;
+        padding-left: 0%;
+        box-sizing: border-box;
+        font-size: 0.9rem;
+        font-family: "poppins", sans-serif;
+        font-weight: 500;
+        font-style: bold;
+    }
+
+    .About-Us-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        padding-left: 0%;
+        box-sizing: border-box;
+        text-align: center;
+        font-size: 0.7rem;
+    }
+
+    .About-Us-text>a {
+        text-decoration: none;
+        color: black;
+        font-family: "poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        margin-top: 3%;
+    }
+
+    .About-Us-text>a:hover {
+        color: black;
+        display: none;
+    }
+
+
+    .Services {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        /* background-color: yellow; */
+        margin-top: 5%;
+    }
+
+    .Services-h {
+        width: 100%;
+        height: auto;
+        color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 0%;
+        box-sizing: border-box;
+        align-items: center;
+        font-size: 0.9rem;
+        font-family: "poppins", sans-serif;
+        font-weight: 500;
+        font-style: bold;
+
+    }
+
+    .Services-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 0%;
+        box-sizing: border-box;
+        font-size: 0.7rem;
+        text-align: center;
+    }
+
+    .Services-text>a {
+        text-decoration: none;
+        color: black;
+        font-family: "poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        margin-top: 3%;
+    }
+
+    .Services-text>a:hover {
+        color: black;
+        display: none;
+    }
+
+    .How-Can-Help {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        /* background-color: yellow; */
+        margin-top: 5%;
+    }
+
+    .How-Can-Help-h {
+        width: 100%;
+        height: auto;
+        color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 0%;
+        box-sizing: border-box;
+        font-size: 0.9rem;
+        font-family: "poppins", sans-serif;
+        font-weight: 500;
+        font-style: bold;
+    }
+
+    .How-Can-Help-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 0%;
+        box-sizing: border-box;
+        text-align: center;
+        font-size: 0.7rem;
+    }
+
+    .How-Can-Help-text>a {
+        text-decoration: none;
+        color: black;
+        font-family: "poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        margin-top: 3%;
+    }
+
+    .How-Can-Help-text>a:hover {
+        color: black;
+        display: none;
+    }
+
+    .Last-address {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        /* background-color:yellow; */
+    }
+
+    .Footer-image {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        padding-left: 5%;
+        box-sizing: border-box;
+    }
+
+    .Footer-image>img {
+        width: 120px;
+        height: 40px;
+    }
+
+    .Footer-address {
+        width: 95%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        padding-left: 5%;
+        box-sizing: border-box;
+        /* background-color: beige; */
+        line-height: 170%;
+        margin-top: 4%;
+        color: black;
+        font-size: 0.7rem;
+    }
+
+    .Footer-address:hover {
+        color: black;
+    }
+
+    .fa-solid {
+        color: black;
+    }
+
+    .fa-solid:hover {
+        color: grey;
+    }
+
+    .qaz {
+        color: black;
+    }
+
+    .qaz:hover {
+        color: grey;
+    }
+
+    .Email-Phone-Com {
+        width: 100%;
+        height: auto;
+        padding-left: 5%;
+        box-sizing: border-box;
+        gap: 0.3rem;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        margin-top: 0%;
+        font-size: 0.7rem;
+    }
+
+    .Email-Section {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 1rem;
+        /* background-color: white; */
+        cursor: pointer;
+    }
+
+    .Phone-Section {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 1rem;
+        /* background-color: white; */
+        cursor: pointer;
+    }
+
+    .Com-Section {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 1rem;
+        /* background-color: white; */
+        cursor: pointer;
+    }
+
+    .Social-Media-Icons {
+        width: 100%;
+        height: 15%;
+        /* background-color: beige; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        margin-top: 2%;
+    }
+
+    .icons {
+        width: 1.8rem;
+        height: 1.8rem;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        background-color: black;
+        position: relative;
+        overflow: hidden;
+        font-size: 0.7rem;
+    }
+
+    .icons:before {
+        background-color: white;
+        content: "";
+        position: absolute;
+        width: 120%;
+        height: 120%;
+        left: -110%;
+        top: 80%;
+        transform: rotate(45deg);
+    }
+
+    .hate {
+        color: white;
+
+    }
+
+    .icons:hover .hate {
+        color: black;
+        scale: 1.2;
+    }
+
+    .icons:hover:before {
+        animation: slide 0.7s forwards;
+
+    }
+
+    @keyframes slide {
+        50% {
+            left: 10%;
+            top: -40%;
+        }
+
+        100% {
+            left: -15%;
+            top: -15%;
+        }
+    }
+
+
+    .Footer-end {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Copyright {
+        width: 100%;
+        height: auto;
+        padding-left: 5%;
+        box-sizing: border-box;
+        color: black;
+        font-size: 0.8rem;
+        font-family: "poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        text-align: center;
+    }
+
+    .Payment-icons {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        /* background-color: grey; */
+        display: none;
+    }
+
+    .Payment-icons-Cards {
+        width: 30px;
+        height: auto;
+        cursor: pointer;
+    }
+
+    .Payment-icons-Upi {
+        width: 60px;
+        height: auto;
+        cursor: pointer;
+    }
+
+    .Payment-icons-Gpay {
+        width: 50px;
+        height: auto;
+        cursor: pointer;
+    }
+
+    .Payment-icons-Paytm {
+        width: 50px;
+        height: auto;
+        cursor: pointer;
+    }
+
+    .Payment-icons-Phonepe {
+        width: 60px;
+        height: auto;
+        cursor: pointer;
+    }
+
+    .Payment-icons-Wallet {
+        width: 25px;
+        height: auto;
+        cursor: pointer;
+    }
+
+    .Payment-icons-Cash {
+        width: 25px;
+        height: auto;
+        cursor: pointer;
+    }
+}
+
+
+
+/* LOG IN FORM */
+
+.Laddu {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    backdrop-filter: blur(10px);
+    display: none;
+    z-index: 1;
+}
+
+.CONTAINER {
+    width: 800px;
+    height: 400px;
+    /* position: absolute;
+    top: 130px;
+    left: 250px; */
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    backdrop-filter: blur(50px);
+    /* display: none; */
+
+}
+
+.FORM-CONTAINER {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    /* background-color: beige; */
+}
+
+.sudhir {
+    width: 100%;
+    height: 90px;
+    /* background-color: white; */
+    font-family: "poppins", sans-serif;
+    font-weight: 600;
+    font-style: bold;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.SOCIAL-CONTAINER {
+    width: 100%;
+    height: 40px;
+    /* background-color: green; */
+    display: flex;
+    justify-content: center;
+    /* margin-top: 10%; */
+}
+
+.SOCIAL-IMG-ICON {
+    width: 50px;
+    height: 100%;
+    /* background-color: whitesmoke; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.SOCIAL-IMG-ICON:hover {
+    scale: 1.2;
+}
+
+
+.spam {
+    text-align: center;
+    font-family: "poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.INPUT-AREA {
+    width: 100%;
+    height: auto;
+    /* background-color: blueviolet; */
+    padding-left: 20%;
+    box-sizing: border-box;
+    margin-top: 0%;
+}
+
+.vr {
+    width: 250px;
+    height: 30px;
+    background-color: whitesmoke;
+    margin-top: 10px;
+    padding-left: 2%;
+    border: 0px;
+}
+
+.signup {
+    width: 120px;
+    height: 30px;
+    margin-top: 20px;
+    margin-left: 60px;
+    background-color: black;
+    border: 0px;
+    border-radius: 50px;
+    color: white;
+    cursor: pointer;
+}
+
+.signup:hover {
+    scale: 1.1;
+}
+
+.FORM-CONTAINER1 {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    /* background-color: rgb(241, 241, 175); */
+}
+
+.sudhir1 {
+    width: 100%;
+    height: 90px;
+    /* background-color: pink; */
+    font-family: "poppins", sans-serif;
+    font-weight: 600;
+    font-style: bold;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.SOCIAL-CONTAINER1 {
+    width: 100%;
+    height: 40px;
+    /* background-color: green; */
+    display: flex;
+    justify-content: center;
+    /* margin-top: 10%; */
+}
+
+.SOCIAL-IMG-ICON-1 {
+    width: 50px;
+    height: 100%;
+    /* background-color: whitesmoke; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.SOCIAL-IMG-ICON-1:hover {
+    scale: 1.2;
+}
+
+.spam1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.INPUT-AREA-1 {
+    width: 100%;
+    height: auto;
+    /* background-color: blueviolet; */
+    padding-left: 20%;
+    box-sizing: border-box;
+    margin-top: 0%;
+}
+
+.br {
+    width: 250px;
+    height: 30px;
+    background-color: whitesmoke;
+    margin-top: 5px;
+    /* margin-left: 30px; */
+    padding-left: 2%;
+    border: 0px;
+}
+
+.forget {
+    margin-top: 15px;
+    margin-left: 50px;
+}
+
+.forget>a {
+    color: black;
+    text-decoration: none;
+}
+
+.forget>a:hover {
+    color: black;
+    text-decoration: underline;
+
+}
+
+.signin {
+    width: 120px;
+    height: 30px;
+    margin-left: 60px;
+    background-color: black;
+    border: 0px;
+    border-radius: 50px;
+    color: white;
+    cursor: pointer;
+}
+
+.signin:hover {
+    scale: 1.1;
+}
+
+
+/* WELCOME BACK */
+
+.FORM-CONTAINER3 {
+    position: absolute;
+    top: 0px;
+    left: 400px;
+    width: 50%;
+    height: 100%;
+    background-image: url(Plant\ Images/Form\ Background.jpg);
+    /* background-position: center; */
+    /* background-size: contain; */
+    background-repeat: no-repeat;
+    /* background-color: #a0e5ea; */
+    /* display: none; */
+
+}
+
+.abc {
+    width: 100%;
+    height: 180px;
+    /* background-color: white; */
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 2.2rem;
+    font-family: "poppins", sans-serif;
+    font-weight: 600;
+    font-style: Bold;
+}
+
+.spam3 {
+    width: 80%;
+    /* background-color: blue; */
+    margin-left: 10%;
+    text-align: center;
+    font-family: "poppins", sans-serif;
+    font-weight: 600;
+    font-style: bold;
+}
+
+.sign {
+    width: 80px;
+    height: 30px;
+    margin-left: 150px;
+    border: 0px;
+    border-radius: 50px;
+    cursor: pointer;
+    background-color: white;
+}
+
+.sign:hover {
+    background-color: black;
+    color: white;
+}
+
+/* HELLO FRIEND */
+
+.FORM-CONTAINER2 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 50%;
+    height: 100%;
+    /* background-color: #a0e5ea; */
+    background-image: url(Plant\ Images/Form\ Background.jpg);
+    background-repeat: no-repeat;
+    display: none;
+}
+
+.def {
+    width: 100%;
+    height: 180px;
+    /* background-color: white; */
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 2.2rem;
+    font-family: "poppins", sans-serif;
+    font-weight: 600;
+    font-style: bold;
+}
+
+.spam4 {
+    width: 80%;
+    /* background-color: blue; */
+    margin-left: 10%;
+    text-align: center;
+    font-family: "poppins", sans-serif;
+    font-weight: 600;
+    font-style: bold;
+}
+
+.sign1 {
+    width: 80px;
+    height: 30px;
+    margin-left: 150px;
+    border: 0px;
+    border-radius: 50px;
+    cursor: pointer;
+    background-color: white;
+}
+
+.sign1:hover {
+    background-color: black;
+    color: white;
+}
+
+.close {
+    position: absolute;
+    top: 5px;
+    left: 770px;
+    width: 20px;
+    height: 20px;
+    border: 0px;
+    background-color: rgba(255, 0, 0, 0);
+    cursor: pointer;
+
+}
+
+.clos {
+    width: 100%;
+    height: auto;
+}
+
+.love {
+    color: black;
+}
+
+
+@media only screen and (max-width:840px) {
+    .Laddu {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        backdrop-filter: blur(10px);
+        display: none;
+    }
+
+    .CONTAINER {
+        width: 700px;
+        height: 400px;
+        margin-top: 0%;
+        display: flex;
+        justify-content: center;
+        background-color: white;
+        backdrop-filter: blur(50px);
+        /* display: none; */
+
+    }
+
+    .FORM-CONTAINER {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        /* background-color: beige; */
+    }
+
+    .sudhir {
+        width: 100%;
+        height: 90px;
+        /* background-color: white; */
+        font-family: "poppins", sans-serif;
+        font-weight: 600;
+        font-style: bold;
+        font-size: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+    }
+
+    .SOCIAL-CONTAINER {
+        width: 100%;
+        height: 40px;
+        /* background-color: green; */
+        display: flex;
+        justify-content: center;
+        /* margin-top: 10%; */
+    }
+
+    .SOCIAL-IMG-ICON {
+        width: 50px;
+        height: 100%;
+        /* background-color: whitesmoke; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+    }
+
+    .SOCIAL-IMG-ICON:hover {
+        scale: 1.2;
+    }
+
+
+    .spam {
+        text-align: center;
+        font-family: "poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+
+    }
+
+    .INPUT-AREA {
+        width: 100%;
+        height: auto;
+        /* background-color: blueviolet; */
+        padding-left: 20%;
+        box-sizing: border-box;
+        margin-top: 0%;
+    }
+
+    .vr {
+        width: 250px;
+        height: 30px;
+        background-color: whitesmoke;
+        margin-top: 10px;
+        padding-left: 2%;
+        border: 0px;
+    }
+
+    .signup {
+        width: 120px;
+        height: 30px;
+        margin-top: 20px;
+        margin-left: 60px;
+        background-color: black;
+        border: 0px;
+        border-radius: 50px;
+        color: white;
+        cursor: pointer;
+    }
+
+    .signup:hover {
+        scale: 1.1;
+    }
+
+    .FORM-CONTAINER1 {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        /* background-color: rgb(241, 241, 175); */
+    }
+
+    .sudhir1 {
+        width: 100%;
+        height: 90px;
+        /* background-color: pink; */
+        font-family: "poppins", sans-serif;
+        font-weight: 600;
+        font-style: bold;
+        font-size: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+    }
+
+    .SOCIAL-CONTAINER1 {
+        width: 100%;
+        height: 40px;
+        /* background-color: green; */
+        display: flex;
+        justify-content: center;
+        /* margin-top: 10%; */
+    }
+
+    .SOCIAL-IMG-ICON-1 {
+        width: 50px;
+        height: 100%;
+        /* background-color: whitesmoke; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+    }
+
+    .SOCIAL-IMG-ICON-1:hover {
+        scale: 1.2;
+    }
+
+    .spam1 {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: "poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    .INPUT-AREA-1 {
+        width: 100%;
+        height: auto;
+        /* background-color: blueviolet; */
+        padding-left: 20%;
+        box-sizing: border-box;
+        margin-top: -0%;
+    }
+
+    .br {
+        width: 250px;
+        height: 30px;
+        background-color: whitesmoke;
+        margin-top: 5px;
+        /* margin-left: 30px; */
+        padding-left: 2%;
+        border: 0px;
+    }
+
+    .forget {
+        margin-top: 15px;
+        margin-left: 50px;
+    }
+
+    .forget>a {
+        color: black;
+        text-decoration: none;
+    }
+
+    .forget>a:hover {
+        color: black;
+        text-decoration: underline;
+
+    }
+
+    .signin {
+        width: 120px;
+        height: 30px;
+        margin-left: 60px;
+        background-color: black;
+        border: 0px;
+        border-radius: 50px;
+        color: white;
+        cursor: pointer;
+    }
+
+    .signin:hover {
+        scale: 1.1;
+    }
+
+
+    /* WELCOME BACK */
+
+    .FORM-CONTAINER3 {
+        position: absolute;
+        top: 0px;
+        left: 350px;
+        width: 50%;
+        height: 100%;
+        background-image: url(Plant\ Images/Form\ Background.jpg);
+        background-repeat: no-repeat;
+    }
+
+    .abc {
+        width: 100%;
+        height: 180px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        font-size: 2.2rem;
+        font-family: "poppins", sans-serif;
+        font-weight: 600;
+        font-style: Bold;
+    }
+
+    .spam3 {
+        width: 80%;
+        /* background-color: blue; */
+        margin-left: 10%;
+        text-align: center;
+        font-family: "poppins", sans-serif;
+        font-weight: 600;
+        font-style: bold;
+    }
+
+    .sign {
+        width: 80px;
+        height: 30px;
+        margin-left: 150px;
+        border: 0px;
+        border-radius: 50px;
+        cursor: pointer;
+        background-color: white;
+    }
+
+    .sign:hover {
+        background-color: black;
+        color: white;
+    }
+
+    /* HELLO FRIEND */
+
+    .FORM-CONTAINER2 {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 50%;
+        height: 100%;
+        /* background-color: #a0e5ea; */
+        background-image: url(Plant\ Images/Form\ Background.jpg);
+        background-repeat: no-repeat;
+        display: none;
+    }
+
+    .def {
+        width: 100%;
+        height: 180px;
+        /* background-color: white; */
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        font-size: 2.2rem;
+        font-family: "poppins", sans-serif;
+        font-weight: 600;
+        font-style: bold;
+    }
+
+    .spam4 {
+        width: 80%;
+        /* background-color: blue; */
+        margin-left: 10%;
+        text-align: center;
+        font-family: "poppins", sans-serif;
+        font-weight: 600;
+        font-style: bold;
+    }
+
+    .sign1 {
+        width: 80px;
+        height: 30px;
+        margin-left: 150px;
+        border: 0px;
+        border-radius: 50px;
+        cursor: pointer;
+        background-color: white;
+    }
+
+    .sign1:hover {
+        background-color: black;
+        color: white;
+    }
+
+    .close {
+        position: absolute;
+        top: 5px;
+        left: 670px;
+        width: 20px;
+        height: 20px;
+        border: 0px;
+        background-color: rgba(255, 0, 0, 0);
+        cursor: pointer;
+
+    }
+
+    .clos {
+        width: 100%;
+        height: auto;
+    }
+
+    .love {
+        color: black;
+    }
+}
+
+.formforphone {
+    display: none;
+}
+
+@media only screen and (max-width:840px) {
+    .formforphone {
+        display: none;
+    }
+}
+
+@media only screen and (max-width:640px) {
+    .formforphone {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        top: 0%;
+        backdrop-filter: blur(10px);
+        justify-content: center;
+        align-items: center;
+        display: none;
+    }
+
+    .phoneclose {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: flex-end;
+        padding-right: 2%;
+        margin-bottom: -3.5%;
+        box-sizing: border-box;
+        border: 0px;
+        background-color: rgba(255, 0, 0, 0);
+        z-index: 1;
+    }
+
+    .phoneclos {
+        width: 27px;
+        height: 27px;
+        background-color: whitesmoke;
+        border-radius: 50px;
+    }
+
+    .FOR-FORM-CONTAINER {
+        width: 90%;
+        height: auto;
+        /* background-color: white; */
+        background-image: url(Plant\ Images/Form\ Background.jpg);
+        background-position: center;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .Phone-sudhir {
+        width: 100%;
+        height: auto;
+        font-size: 1.7rem;
+        display: flex;
+        justify-content: center;
+        font-family: "poppins", sans-serif;
+        font-weight: 600;
+        font-style: bold;
+        margin-top: 5%;
+    }
+
+    .Phone-SOCIAL-CONTAINER {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    .phoneicons {
+        width: 50%;
+        height: auto;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .Phone-spam {
+        text-align: center;
+        margin-top: 4%;
+    }
+
+    .Phone-INPUT-AREA {
+        width: 100%;
+        height: auto;
+        /* background-color: red; */
+        text-align: center;
+        margin-top: 0%;
+    }
+
+    .vr {
+        width: 250px;
+        height: 30px;
+        background-color: whitesmoke;
+        margin-top: 3%;
+        padding-left: 2%;
+        box-sizing: border-box;
+        border: 0px;
+    }
+
+    .Phone-signup {
+        width: 30%;
+        height: 30px;
+        border-radius: 50px;
+        text-align: center;
+        background-color: black;
+        color: white;
+    }
+
+    .phone-rotate {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    .phone-rotate>button {
+        background-color: rgba(255, 0, 0, 0);
+        border: 0px;
+        cursor: pointer;
+        margin-left: 2%;
+        font-family: "poppins", sans-serif;
+        font-weight: 600;
+        font-style: bold;
+    }
+
+    .FOR-FORM-CONTAINER1 {
+        width: 90%;
+        height: auto;
+        /* background-color: white; */
+        background-image: url(Plant\ Images/Form\ Background.jpg);
+        background-position: center;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        display: none;
+    }
+
+    .Phone-sudhir1 {
+        width: 100%;
+        height: auto;
+        font-size: 1.7rem;
+        display: flex;
+        justify-content: center;
+        font-family: "poppins", sans-serif;
+        font-weight: 600;
+        font-style: bold;
+        margin-top: 5%;
+    }
+
+    .Phone-SOCIAL-CONTAINER1 {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    .phoneicons {
+        width: 50%;
+        height: auto;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .Phone-spam1 {
+        text-align: center;
+        margin-top: 4%;
+    }
+
+    .br {
+        margin-top: 3%;
+    }
+
+    .Phone-forget {
+        margin-top: 0%;
+    }
+
+    .Phone-INPUT-AREA-1 {
+        width: 100%;
+        height: auto;
+        /* background-color: red; */
+        text-align: center;
+        margin-top: -2%;
+    }
+
+    .Phone-signin {
+        width: 30%;
+        height: 30px;
+        border-radius: 50px;
+        text-align: center;
+        background-color: black;
+        color: white;
+    }
+
+    .phone-rotate1 {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    .phone-rotate1>button {
+        background-color: rgba(255, 0, 0, 0);
+        border: 0px;
+        cursor: pointer;
+        margin-left: 2%;
+        font-family: "poppins", sans-serif;
+        font-weight: 600;
+        font-style: bold;
+    }
+}
+
+
+/* Cart */
+
+.cartcontainer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    display: none;
+    z-index: 1;
+    backdrop-filter: blur(5px);
+    background-color: rgba(0, 0, 0, 0.363);
+}
+
+.Cart {
+    width: 30%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+.emptycart {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Cart-Close {
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    cursor: pointer;
+    margin-top: 2%;
+}
+
+.Cart-Main {
+    width: 100%;
+    height: auto;
+    /* margin-top: 35%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Cart-Main-First {
+    font-size: 0.9rem;
+    font-family: "poppins", sans-serif;
+    font-weight: 400;
+    font-style: Normal;
+}
+
+.Cart-Main-Second {
+    width: 280px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: whitesmoke;
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "poppins", sans-serif;
+    font-weight: 500;
+    font-style: Normal;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+.Cart-Main-Second:hover {
+    filter: opacity(80%);
+    transform: scale(1.05);
+}
+
+.Cart-Icon {
+    width: 30px;
+    height: 30px;
+
+}
+
+.cartfill {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    display: none;
+
+}
+.cartfillcart{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    font-family: "poppins", sans-serif;
+    font-weight: 500;
+    font-style: Normal;
+    font-size: 1.4rem;
+    padding-left: 5%;
+    box-sizing: border-box;
+}
+
+.cartfill-main {
+    width: 90%;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    /* box-shadow: 1px 1px 1px black;1 */
+    border: 1px solid grey;
+    border-radius: 10px;
+    margin-top: 10%;
+}
+
+.cartfill-image {
+    width: 30%;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cartfill-image>img {
+    width: 90%;
+    height: 90%;
+    border-radius: 10px;
+}
+
+.cartfill-text {
+    width: 70%;
+    height: auto;
+    margin-left: 5%;
+}
+
+.cartfill-quantity {
+    width: auto;
+    height: auto;
+}
+
+.cartfill-name {
+    width: auto;
+    height: auto;
+    font-size: 0.9em;
+}
+
+.cartfill-price {
+    width: auto;
+    height: auto;
+    font-size: 0.9em;
+}
+
+.cartfill-quantity>input {
+    width: 25px;
+    height: 20px;
+}
+
+
+.cartfill-checkout {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100%;
+}
+
+.cartfill-checkout>button {
+    width: 90%;
+    height: 100%;
+    border-radius: 50px;
+    border: 1px;
+    font-family: "poppins", sans-serif;
+    font-weight: 500;
+    font-style: Bold;
+    font-size: 1rem;
+    background-color: black;
+    color: white;
+}
+
+@media only screen and (max-width:840px){
+
+    .cartcontainer{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: flex-end;
+        position: fixed;
+        top: 0px;
+        right: 0px;
+        display: none;
+        z-index: 1;
+        backdrop-filter: blur(5px);
+        background-color: rgba(0, 0, 0, 0.363);
+    }
+    
+    .Cart {
+        width: 50%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+    }
+    
+    
+    .cartfill {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        display: none;
+        position: relative;
+    }
+    .cartfillcart{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: flex-start;
+        font-family: "poppins", sans-serif;
+        font-weight: 500;
+        font-style: Normal;
+        font-size: 1.4rem;
+        padding-left: 5%;
+        box-sizing: border-box;
+    }
+    
+    .cartfill-main {
+        width: 90%;
+        height: 120px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        /* box-shadow: 1px 1px 1px black;1 */
+        border: 1px solid grey;
+        border-radius: 10px;
+        margin-top: 10%;
+    }
+    
+    .cartfill-image {
+        width: 30%;
+        height: 120px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .cartfill-image>img {
+        width: 90%;
+        height: 90%;
+        border-radius: 10px;
+    }
+    
+    .cartfill-text {
+        width: 70%;
+        height: auto;
+        margin-left: 5%;
+    }
+    
+    .cartfill-quantity {
+        width: auto;
+        height: auto;
+    }
+    
+    .cartfill-name {
+        width: auto;
+        height: auto;
+        font-size: 0.9em;
+    }
+    
+    .cartfill-price {
+        width: auto;
+        height: auto;
+        font-size: 0.9em;
+    }
+    
+    .cartfill-quantity>input {
+        width: 25px;
+        height: 20px;
+    }
+    
+    
+    .cartfill-checkout {
+        width: 100%;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0%;
+        position: absolute;
+        bottom: 10%;
+    }
+    
+    .cartfill-checkout>button {
+        width: 90%;
+        height: 100%;
+        border-radius: 50px;
+        border: 1px;
+        font-family: "poppins", sans-serif;
+        font-weight: 500;
+        font-style: Bold;
+        font-size: 1rem;
+        background-color: black;
+        color: white;
+    }
+}
+
+@media only screen and (max-width:640px){
+
+    .cartcontainer{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: flex-end;
+        position: fixed;
+        top: 0px;
+        right: 0px;
+        display: none;
+        z-index: 1;
+        backdrop-filter: blur(5px);
+        background-color: rgba(0, 0, 0, 0.363);
+    }
+    
+    .Cart {
+        width:70%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+    }
+    
+    .Cart-Main-Second {
+        width: 200px;
+        height: 40px;
+        border-radius: 50px;
+        background-color: whitesmoke;
+        margin-top: 10%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: "poppins", sans-serif;
+        font-weight: 500;
+        font-style: Normal;
+        font-size: 0.9rem;
+        cursor: pointer;
+    }
+    .cartfill {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        display: none;
+        position: relative;
+    }
+    .cartfillcart{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: flex-start;
+        font-family: "poppins", sans-serif;
+        font-weight: 500;
+        font-style: Normal;
+        font-size: 1.4rem;
+        padding-left: 5%;
+        box-sizing: border-box;
+    }
+    
+    .cartfill-main {
+        width: 90%;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        /* box-shadow: 1px 1px 1px black;1 */
+        border: 1px solid grey;
+        border-radius: 10px;
+        margin-top: 10%;
+    }
+    
+    .cartfill-image {
+        width: 35%;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .cartfill-image>img {
+        width: 90%;
+        height: 90%;
+        border-radius: 10px;
+    }
+    
+    .cartfill-text {
+        width: 65%;
+        height: 100%;
+        margin-left: 2%;
+    }
+    
+    .cartfill-quantity {
+        width: auto;
+        height: auto;
+    }
+    
+    .cartfill-name {
+        width: auto;
+        height: auto;
+        font-size: 0.9em;
+    }
+    
+    .cartfill-price {
+        width: auto;
+        height: auto;
+        font-size: 0.9em;
+    }
+    
+    .cartfill-quantity>input {
+        width: 25px;
+        height: 20px;
+    }
+    
+    
+    .cartfill-checkout {
+        width: 100%;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0%;
+        position: absolute;
+        bottom: 10%;
+    }
+    
+    .cartfill-checkout>button {
+        width: 90%;
+        height: 100%;
+        border-radius: 50px;
+        border: 1px;
+        font-family: "poppins", sans-serif;
+        font-weight: 500;
+        font-style: Bold;
+        font-size: 1rem;
+        background-color: black;
+        color: white;
+    }
+}
+
+
+
+/* sdvhsfjasgdasgdfg */
+
+#plantFinalView {
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    display: none;
+    backdrop-filter: blur(10px);
+    z-index: 1;
+}
+
+.Plant-Final-Res {
+    width: 70%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px 0.5px 1px black;
+    background-color: white;
+}
+
+.View-Close {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.View-Close>img {
+    width: 50px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.Plant-Final-Box-1 {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+#finalImage {
+    width: 450px;
+    height: auto;
+}
+
+.Plant-Final-Box-2 {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: beige;
+}
+
+.Plant-Final-Box-Name {
+    width: 100%;
+    height: auto;
+    font-family: "poppins", sans-serif;
+    font-weight: 500;
+    font-style: bold;
+    font-size: 2.5rem;
+    padding-left: 4%;
+    box-sizing: border-box;
+    margin-top: 0%;
+
+}
+
+.Plant-Final-Box-Rating {
+    width: 100%;
+    height: auto;
+    font-size: 1.6rem;
+    padding-left: 4%;
+    box-sizing: border-box;
+    /* margin-top: 2%; */
+
+}
+
+.Plant-Final-Box-Rate {
+    width: 100%;
+    height: auto;
+    font-size: 1.6rem;
+    padding-left: 4%;
+    box-sizing: border-box;
+    margin-top: 2%;
+}
+
+.Plant-Final-Box-Quantity {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    font-family: "poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.6rem;
+    padding-left: 4%;
+    box-sizing: border-box;
+    margin-top: 2%;
+}
+
+.Plant-Final-Box-Quantity>input {
+    width: 35px;
+    height: 35px;
+    margin-left: 3%;
+}
+
+.Plant-Final-Box-Soil {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 3%;
+    padding-left: 4%;
+    box-sizing: border-box;
+}
+
+.Plant-With-Soil {
+    width: auto;
+    height: auto;
+    font-size: 1.5rem;
+    font-family: "poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    gap: 0.5rem;
+}
+
+.Plant-WithOut-Soil {
+    width: auto;
+    height: auto;
+    margin-left: 2%;
+    font-size: 1.5rem;
+    font-family: "poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    gap: 0.5rem;
+}
+
+.Plant-Final-Box-Buy {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.Buy-Button {
+    width: 300px;
+    height: 50px;
+    background-color: black;
+    border-radius: 50px;
+    font-size: 1.6rem;
+    border: 1px solid black;
+    position: relative;
+    z-index: 1;
+}
+.Buy-Button:hover{
+    color: white;
+}
+.Buy-Button::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    border-radius: 50px;
+    z-index: -1;
+    transform-origin: left;
+    transition: transform 0.5s ease;
+    transform: scaleX(1);
+}
+.Buy-Button:hover::before{
+    transform-origin: right;
+    transition: transform 0.5s ease;
+    transform: scaleX(0);
+}
+
+.viewproduct:hover{
+    color: white;
+}
+.viewproduct::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    border-radius: 50px;
+    z-index: -1;
+    transform-origin: left;
+    transition: transform 0.5s ease;
+    transform: scaleX(1);
+}
+.viewproduct:hover::before{
+    transform-origin: right;
+    transition: transform 0.5s ease;
+    transform: scaleX(0);
+}
+
+
+.Plant-Final-Box-Cart {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-top: 4%;
+}
+
+.Cart-Button {
+    width: 300px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    border: 0px;
+    border-radius: 50px;
+    font-size: 1.6rem;
+}
+
+.Cart-Button:hover {
+    filter: opacity(70%);
+}
+
+.Plant-Final-Box-Pincode {
+    width: 100%;
+    height: auto;
+    margin-top: 6%;
+    padding-left: 5%;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5rem;
+}
+
+.Final-Box-Input {
+    width: 180px;
+    height: auto;
+    padding-left: 0.5%;
+    box-sizing: border-box;
+}
+
+.Availbility {
+    width: 100%;
+    height: auto;
+    font-family: "poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-left: 5%;
+    box-sizing: border-box;
+    margin-top: 1%;
+    font-size: 1.5rem;
+}
+
+@media only screen and (max-width:1366px) {
+    #plantFinalView {
+        width: 100%;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        display: none;
+        backdrop-filter: blur(10px);
+    }
+
+    .Plant-Final-Res {
+        width: 70%;
+        height: 70%;
+        display: flex;
+        justify-content: center;
+        box-shadow: 0px 0.5px 1px black;
+        background-color: white;
+    }
+
+    .View-Close {
+        width: 100%;
+        height: 25px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    .View-Close>img {
+        width: 20px;
+        height: auto;
+        cursor: pointer;
+    }
+
+    .Plant-Final-Box-1 {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-sizing: border-box;
+        background-color: white;
+    }
+
+    #finalImage {
+        width: 300px;
+        height: auto;
+    }
+
+    .Plant-Final-Box-2 {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        background-color: beige;
+    }
+
+    .Plant-Final-Box-Name {
+        width: 100%;
+        height: auto;
+        font-family: "poppins", sans-serif;
+        font-weight: 500;
+        font-style: bold;
+        font-size: 1.2rem;
+        padding-left: 4%;
+        box-sizing: border-box;
+        margin-top: 2%;
+
+    }
+
+    .Plant-Final-Box-Rating {
+        width: 100%;
+        height: auto;
+        font-size: 0.9rem;
+        padding-left: 4%;
+        box-sizing: border-box;
+        /* margin-top: 2%; */
+
+    }
+
+    .Plant-Final-Box-Rate {
+        width: 100%;
+        height: auto;
+        font-size: 0.9rem;
+        padding-left: 4%;
+        box-sizing: border-box;
+        margin-top: 2%;
+    }
+
+    .Plant-Final-Box-Quantity {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        font-family: "poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 0.9rem;
+        padding-left: 4%;
+        box-sizing: border-box;
+        margin-top: 2%;
+    }
+
+    .Plant-Final-Box-Quantity>input {
+        width: 30px;
+        height: 20px;
+        margin-left: 3%;
+    }
+
+    .Plant-Final-Box-Soil {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: flex-start;
+        margin-top: 3%;
+        padding-left: 4%;
+        box-sizing: border-box;
+    }
+
+    .Plant-With-Soil {
+        width: auto;
+        height: auto;
+        font-size: 0.9rem;
+        font-family: "poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+
+    }
+
+    .Plant-WithOut-Soil {
+        width: auto;
+        height: auto;
+        margin-left: 2%;
+        font-size: 0.9rem;
+        font-family: "poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+
+    }
+
+    .Plant-Final-Box-Buy {
+        width: 100%;
+        height: auto;
+        text-align: center;
+        margin-top: 5%;
+    }
+
+    .Buy-Button {
+        width: 220px;
+        height: 35px;
+        background-color: black;
+        border-radius: 50px;
+        font-size: 1rem;
+    }
+
+
+    .Plant-Final-Box-Cart {
+        width: 100%;
+        height: auto;
+        text-align: center;
+        margin-top: 4%;
+    }
+
+    .Cart-Button {
+        width: 220px;
+        height: 35px;
+        background-color: black;
+        color: white;
+        border: 0px;
+        border-radius: 50px;
+        font-size: 1rem;
+        overflow: hidden;
+    }
+
+    .Cart-Button:hover {
+        filter: opacity(70%);
+    }
+
+    .Plant-Final-Box-Pincode {
+        width: 100%;
+        height: auto;
+        margin-top: 6%;
+        padding-left: 5%;
+        box-sizing: border-box;
+        font-family: "poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 0.9rem;
+    }
+
+    .Final-Box-Input {
+        width: 120px;
+        height: auto;
+        padding-left: 0.5%;
+        box-sizing: border-box;
+    }
+
+    .Availbility {
+        width: 100%;
+        height: auto;
+        font-family: "poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        padding-left: 5%;
+        box-sizing: border-box;
+        margin-top: 1%;
+        font-size: 0.9rem;
+    }
+}
+
+@media only screen and (max-width:840px) {
+    #plantFinalView {
+        width: 100%;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        display: none;
+        backdrop-filter: blur(10px);
+    }
+
+    .Plant-Final-Res {
+        width: 100%;
+        height: 40%;
+        display: flex;
+        justify-content: center;
+        box-shadow: 0px 0.5px 1px black;
+        background-color: white;
+    }
+
+    .View-Close {
+        width: 100%;
+        height: 25px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    .View-Close>img {
+        width: 20px;
+        height: auto;
+        cursor: pointer;
+    }
+
+    .Plant-Final-Box-1 {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-sizing: border-box;
+        background-color: white;
+    }
+
+    #finalImage {
+        width: 300px;
+        height: auto;
+    }
+
+    .Plant-Final-Box-2 {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        background-color: beige;
+    }
+
+    .Plant-Final-Box-Name {
+        width: 100%;
+        height: auto;
+        font-family: "poppins", sans-serif;
+        font-weight: 500;
+        font-style: bold;
+        font-size: 1.2rem;
+        padding-left: 4%;
+        box-sizing: border-box;
+        margin-top: 2%;
+
+    }
+
+    .Plant-Final-Box-Rating {
+        width: 100%;
+        height: auto;
+        font-size: 0.9rem;
+        padding-left: 4%;
+        box-sizing: border-box;
+        /* margin-top: 2%; */
+
+    }
+
+    .Plant-Final-Box-Rate {
+        width: 100%;
+        height: auto;
+        font-size: 0.9rem;
+        padding-left: 4%;
+        box-sizing: border-box;
+        margin-top: 2%;
+    }
+
+    .Plant-Final-Box-Quantity {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        font-family: "poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 0.9rem;
+        padding-left: 4%;
+        box-sizing: border-box;
+        margin-top: 2%;
+    }
+
+    .Plant-Final-Box-Quantity>input {
+        width: 30px;
+        height: 20px;
+        margin-left: 3%;
+    }
+
+    .Plant-Final-Box-Soil {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: flex-start;
+        margin-top: 3%;
+        padding-left: 4%;
+        box-sizing: border-box;
+    }
+
+    .Plant-With-Soil {
+        width: auto;
+        height: auto;
+        font-size: 0.9rem;
+        font-family: "poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+
+    }
+
+    .Plant-WithOut-Soil {
+        width: auto;
+        height: auto;
+        margin-left: 2%;
+        font-size: 0.9rem;
+        font-family: "poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+
+    }
+
+    .Plant-Final-Box-Buy {
+        width: 100%;
+        height: auto;
+        text-align: center;
+        margin-top: 5%;
+    }
+
+    .Buy-Button {
+        width: 220px;
+        height: 35px;
+        background-color: rgba(255, 0, 0, 0);
+        border-radius: 50px;
+        font-size: 1rem;
+    }
+
+    .Buy-Button:hover {
+        transform: scale(1.02);
+        background-color: whitesmoke;
+        border: 0px;
+    }
+
+    .Plant-Final-Box-Cart {
+        width: 100%;
+        height: auto;
+        text-align: center;
+        margin-top: 4%;
+    }
+
+    .Cart-Button {
+        width: 220px;
+        height: 35px;
+        background-color: black;
+        color: white;
+        border: 0px;
+        border-radius: 50px;
+        font-size: 1rem;
+    }
+
+    .Cart-Button:hover {
+        filter: opacity(70%);
+    }
+
+    .Plant-Final-Box-Pincode {
+        width: 100%;
+        height: auto;
+        margin-top: 6%;
+        padding-left: 5%;
+        box-sizing: border-box;
+        font-family: "poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 0.9rem;
+    }
+
+    .Final-Box-Input {
+        width: 120px;
+        height: auto;
+        padding-left: 0.5%;
+        box-sizing: border-box;
+    }
+
+    .Availbility {
+        width: 100%;
+        height: auto;
+        font-family: "poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        padding-left: 5%;
+        box-sizing: border-box;
+        margin-top: 1%;
+        font-size: 0.9rem;
+    }
+}
+
+
+
+@media only screen and (max-width:640px) {
+    #plantFinalView {
+        width: 100%;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        display: none;
+        backdrop-filter: blur(10px);
+
+    }
+
+    .Plant-Final-Res {
+        width: 90%;
+        height: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        box-shadow: 0px 0.5px 1px black;
+        background-color: white;
+        position: relative;
+    }
+
+    .Plant-Final-Box-1 {
+        width: 100%;
+        height: 50%;
+        padding: 0% 0% 0% 0%;
+        box-sizing: border-box;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #finalImage {
+        width: 80%;
+        height: auto;
+    }
+
+    .View-Close {
+        width: 35px;
+        height: 35px;
+        background-color: white;
+        border-radius: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: -3%;
+        left: 95%;
+    }
+
+    .View-Close>img {
+        width: 20px;
+        height: auto;
+        cursor: pointer;
+    }
+
+    .Plant-Final-Box-2 {
+        width: 100%;
+        height: 50%;
+        display: flex;
+        flex-direction: column;
+        padding-left: 5.5%;
+        box-sizing: border-box;
+        margin-top: 0%;
+    }
+
+    .Plant-Final-Box-Name {
+        width: 100%;
+        height: auto;
+        font-family: "poppins", sans-serif;
+        font-weight: 500;
+        font-style: bold;
+        font-size: 1.1rem;
+        padding-left: 4%;
+        box-sizing: border-box;
+        margin-top: 2%;
+
+    }
+
+    .Plant-Final-Box-Rating {
+        width: 100%;
+        height: auto;
+        font-size: 0.8rem;
+        padding-left: 4%;
+        box-sizing: border-box;
+        /* margin-top: 2%; */
+
+    }
+
+    .Plant-Final-Box-Rate {
+        width: 100%;
+        height: auto;
+        font-size: 0.8rem;
+        padding-left: 4%;
+        box-sizing: border-box;
+        margin-top: 0%;
+    }
+
+    .Plant-Final-Box-Quantity {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        font-family: "poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 0.8rem;
+        padding-left: 4%;
+        box-sizing: border-box;
+        margin-top: 1%;
+    }
+
+    .Plant-Final-Box-Quantity>input {
+        width: 20px;
+        height: 20px;
+        margin-left: 3%;
+    }
+
+    .Plant-Final-Box-Soil {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: flex-start;
+        margin-top: 3%;
+        padding-left: 4%;
+        box-sizing: border-box;
+    }
+
+    .Plant-With-Soil {
+        width: auto;
+        height: auto;
+        font-size: 0.8rem;
+        font-family: "poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 0.2rem;
+    }
+
+    .Plant-WithOut-Soil {
+        width: auto;
+        height: auto;
+        margin-left: 2%;
+        font-size: 0.8rem;
+        font-family: "poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 0.2rem;
+    }
+
+    .Plant-Final-Box-Buy {
+        width: 100%;
+        height: auto;
+        text-align: center;
+        margin-top: 2%;
+    }
+
+    .Buy-Button {
+        width: 180px;
+        height: 30px;
+        background-color: rgba(255, 0, 0, 0);
+        border-radius: 50px;
+        font-size: 0.9rem;
+    }
+
+    .Buy-Button:hover {
+        transform: scale(1.02);
+        background-color: whitesmoke;
+        border: 0px;
+    }
+
+    .Plant-Final-Box-Cart {
+        width: 100%;
+        height: auto;
+        text-align: center;
+        margin-top: 4%;
+    }
+
+    .Cart-Button {
+        width: 180px;
+        height: 30px;
+        background-color: black;
+        color: white;
+        border: 0px;
+        border-radius: 50px;
+        font-size: 0.9rem;
+    }
+
+    .Cart-Button:hover {
+        filter: opacity(70%);
+    }
+
+    .Plant-Final-Box-Pincode {
+        width: 100%;
+        height: auto;
+        margin-top: 6%;
+        padding-left: 5%;
+        box-sizing: border-box;
+        font-family: "poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 0.8rem;
+    }
+
+    .Final-Box-Input {
+        width: 120px;
+        height: auto;
+        padding-left: 0.5%;
+        box-sizing: border-box;
+    }
+
+    .Availbility {
+        width: 100%;
+        height: auto;
+        font-family: "poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        padding-left: 5%;
+        box-sizing: border-box;
+        margin-top: 1%;
+        font-size: 0.8rem;
+    }
+}
+
+
+
+
+
+
+.checkoutfinalcontainer {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0px;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(5px);
+    background-color: rgba(0, 0, 0, 0.37);
+    display: none;
+}
+
+.checkoutmain {
+    width: 30%;
+    height: 70%;
+    background-color: whitesmoke;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-image:linear-gradient(rgba(223, 220, 220, 0.707),rgba(10, 10, 10, 0.854)) , url(Plant\ Images/backimg.jpg);
+}
+
+.checkouthead {
+    width: 100%;
+    height: 10%;
+    background-color: white;
+    filter: opacity(90%);
+    color: black;
+    border-radius: 6px 6px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.headmain {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 0%;
+    font-family: "poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    position: relative;
+}
+
+.headsub1 {
+    width: auto;
+    height: auto;
+    cursor: pointer;
+}
+
+.headsub2 {
+    width: auto;
+    height: auto;
+    cursor: pointer;
+}
+
+.headsub3 {
+    width: auto;
+    height: auto;
+    cursor: pointer;
+}
+
+.headclose {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 10%;
+    position: absolute;
+    right: -10px;
+    top: -10px;
+}
+
+.headclose>img {
+    width: 20px;
+    height: 20px;
+}
+
+.checkoutbox1 {
+    width: 100%;
+    height: 90%;
+    border-radius: 0px 0px 6px 6px;
+    display: flex;
+    flex-direction: column;
+}
+
+.conditioncheck {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.conditioncheckbox {
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: rgb(228, 227, 227);
+    font-family: "poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.checkoutbody {
+    width: 100%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: "poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.mobilenumber {
+    width: auto;
+    height: auto;
+
+    font-size: 1.1rem;
+}
+
+.mobileinput {
+    width: 250px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0px solid black;
+    margin-top: 3%;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.mobileinput>input {
+    border: 0px;
+    background-color: rgba(255, 0, 0, 0);
+    font-size: 1.1rem;
+    width: 180px;
+    padding-left: 2%;
+    box-sizing: border-box;
+}
+
+.checkoutfooter {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+}
+
+.checkoutfooter>button {
+    width: 80%;
+    height: 100%;
+    font-size: 1.1rem;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    font-family: "poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    border: 0px;
+}
+
+
+.checkoutbox2 {
+    width: 100%;
+    height: 90%;
+    border-radius: 0px 0px 6px 6px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    display: none;
+}
+
+.checkoutaddress {
+    width: 90%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    font-family: "poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.deliveryhead {
+    width: 100%;
+    height: auto;
+    font-family: "poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.4rem;
+    margin-top: 10%;
+}
+
+.deliveryname {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    margin-top: 4%;
+}
+
+.deliveryname>input {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    border: 0px;
+    padding-left: 2%;
+    box-sizing: border-box;
+}
+
+.deliveryemail {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    margin-top: 4%;
+}
+
+.deliveryemail>input {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    border: 0px;
+    padding-left: 2%;
+    box-sizing: border-box;
+}
+
+.deliveryaddress {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    margin-top: 4%;
+}
+
+.deliveryaddress>input {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    border: 0px;
+    padding-left: 2%;
+    box-sizing: border-box;
+}
+
+.deliverybox {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4%;
+}
+
+.deliverybox1 {
+    width: 30%;
+    height: 100%;
+    border-radius: 5px;
+    padding-left: 2%;
+    box-sizing: border-box;
+    border: 0px;
+}
+
+.deliverybox2 {
+    width: 30%;
+    height: 100%;
+    border-radius: 5px;
+    padding-left: 2%;
+    box-sizing: border-box;
+    border: 0px;
+}
+
+.deliverybox3 {
+    width: 30%;
+    height: 100%;
+    border-radius: 5px;
+    padding-left: 2%;
+    box-sizing: border-box;
+    border: 0px;
+}
+.deliverycheck{
+    width: 100%;
+    height: auto;
+    margin-top: 4%;
+    color: rgb(228, 227, 227);
+}
+
+
+
+.checkoutfooter1 {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+}
+
+.checkoutfooter1>button {
+    width: 80%;
+    height: 100%;
+    font-size: 1.1rem;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    font-family: "poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    border: 0px;
+}
+
+
+
+.checkoutbox3 {
+    width: 100%;
+    height: 90%;
+    border-radius: 0px 0px 6px 6px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    display: none;
+}
+.paymentbox{
+    width: 90%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    font-family: "poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.paymenthead{
+    width: 100%;
+    height: auto;
+    font-family: "poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.4rem;
+    margin-top: 5%;
+    margin-bottom: 1%;
+}
+.paymenttype{
+    margin-top: 1%;
+    font-size: 1rem;
+}
+.paymentname{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 8%;
+    
+}
+.paymentname>input{
+    width: 100%;
+    height: 100%;
+    border: 0px;
+    border-radius: 5px;
+    padding-left: 2%;
+    box-sizing: border-box;
+}
+
+.paymentcard{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 4%;
+}
+.paymentcard>input{
+    width: 100%;
+    height: 100%;
+    border: 0px;
+    border-radius: 5px;
+    padding-left: 2%;
+    box-sizing: border-box;
+
+}
+
+.paymentexpirycvv{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 4%;
+}
+
+.paymentexpiry{
+    width: 20%;
+    height: 100%;
+    border: 0px;
+    border-radius: 5px;
+    padding-left: 2%;
+    box-sizing: border-box;
+
+}
+
+.paymentcvv{
+    width: 20%;
+    height: 100%;
+    border: 0px;
+    border-radius: 5px;
+    padding-left: 2%;
+    box-sizing: border-box;
+    margin-left: 5%;
+}
+
+.checkoutfooter2 {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+}
+
+.checkoutfooter2>button {
+    width: 80%;
+    height: 100%;
+    font-size: 1.1rem;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    font-family: "poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    border: 0px;
+}
+
+.checkoutbox4 {
+    width: 100%;
+    height: 100%;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: none;
+    background-color: white;
+}
+
+@media only screen and (max-width:840px){
+    .checkoutfinalcontainer {
+        width: 100%;
+        height: 100vh;
+        position: fixed;
+        top: 0px;
+        z-index: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        backdrop-filter: blur(5px);
+        background-color: rgba(0, 0, 0, 0.37);
+        display: none;
+    }
+    
+    .checkoutmain {
+        width: 70%;
+        height: 70%;
+        background-color: whitesmoke;
+        border-radius: 6px;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        background-image:linear-gradient(rgba(223, 220, 220, 0.707),rgba(10, 10, 10, 0.854)) ,   url(Plant\ Images/backimg.jpg);
+    }
+    
+    .checkouthead {
+        width: 100%;
+        height: 10%;
+        background-color: white;
+        filter: opacity(90%);
+        color: black;
+        border-radius: 6px 6px 0px 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .headmain {
+        width: 70%;
+        height: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-left: 0%;
+        font-family: "poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        position: relative;
+    }
+    
+    
+}
+
+
+@media only screen and (max-width:640px){
+    .checkoutfinalcontainer {
+        width: 100%;
+        height: 100vh;
+        position: fixed;
+        top: 0px;
+        z-index: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        backdrop-filter: blur(5px);
+        background-color: rgba(0, 0, 0, 0.37);
+        display: none;
+    }
+    
+    .checkoutmain {
+        width: 90%;
+        height: 80%;
+        background-color: whitesmoke;
+        border-radius: 6px;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        background-image:linear-gradient(rgba(223, 220, 220, 0.707),rgba(10, 10, 10, 0.854)) ,  url(Plant\ Images/backimg.jpg)  ;
+    }
+    
+    .checkouthead {
+        width: 100%;
+        height: 10%;
+        background-color: white;
+        filter: opacity(90%);
+        color: black;
+        border-radius: 6px 6px 0px 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .headmain {
+        width: 90%;
+        height: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-left: 0%;
+        font-family: "poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        position: relative;
+    }
+    
+    
+    .checkoutbox1 {
+        width: 100%;
+        height: 90%;
+        border-radius: 0px 0px 6px 6px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .conditioncheck {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .conditioncheckbox {
+        width: 80%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        color: rgb(228, 227, 227);
+        font-family: "poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 0.9rem;
+    }
+    
+    .checkoutbody {
+        width: 100%;
+        height: 60%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        font-family: "poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+    
+    .mobilenumber {
+        width: auto;
+        height: auto;
+    
+        font-size: 1rem;
+    }
+    
+    .mobileinput {
+        width: 250px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 0px solid black;
+        margin-top: 3%;
+        border-radius: 5px;
+        background-color: white;
+    }
+    
+    .mobileinput>input {
+        border: 0px;
+        background-color: rgba(255, 0, 0, 0);
+        font-size: 1.1rem;
+        width: 180px;
+        padding-left: 2%;
+        box-sizing: border-box;
+    }
+    
+    .checkoutfooter {
+        width: 100%;
+        height: 45px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5%;
+    }
+    
+    .checkoutfooter>button {
+        width: 80%;
+        height: 100%;
+        font-size: 1.1rem;
+        border-radius: 10px;
+        background-color: black;
+        color: white;
+        font-family: "poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        border: 0px;
+    }
+    
+    
+    .checkoutbox2 {
+        width: 100%;
+        height: 90%;
+        border-radius: 0px 0px 6px 6px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        display: none;
+    }
+    
+    .checkoutaddress {
+        width: 90%;
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+        font-family: "poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+    
+    .deliveryhead {
+        width: 100%;
+        height: auto;
+        font-family: "poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 1.4rem;
+        margin-top: 10%;
+    }
+    
+    .deliveryname {
+        width: 100%;
+        height: 35px;
+        display: flex;
+        justify-content: center;
+        margin-top: 4%;
+    }
+    
+    .deliveryname>input {
+        width: 100%;
+        height: 100%;
+        border-radius: 5px;
+        border: 0px;
+        padding-left: 2%;
+        box-sizing: border-box;
+    }
+    
+    .deliveryemail {
+        width: 100%;
+        height: 35px;
+        display: flex;
+        justify-content: center;
+        margin-top: 4%;
+    }
+    
+    .deliveryemail>input {
+        width: 100%;
+        height: 100%;
+        border-radius: 5px;
+        border: 0px;
+        padding-left: 2%;
+        box-sizing: border-box;
+    }
+    
+    .deliveryaddress {
+        width: 100%;
+        height: 35px;
+        display: flex;
+        justify-content: center;
+        margin-top: 4%;
+    }
+    
+    .deliveryaddress>input {
+        width: 100%;
+        height: 100%;
+        border-radius: 5px;
+        border: 0px;
+        padding-left: 2%;
+        box-sizing: border-box;
+    }
+    
+    .deliverybox {
+        width: 100%;
+        height: 35px;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 4%;
+    }
+    
+    .deliverybox1 {
+        width: 30%;
+        height: 100%;
+        border-radius: 5px;
+        padding-left: 2%;
+        box-sizing: border-box;
+        border: 0px;
+    }
+    
+    .deliverybox2 {
+        width: 30%;
+        height: 100%;
+        border-radius: 5px;
+        padding-left: 2%;
+        box-sizing: border-box;
+        border: 0px;
+    }
+    
+    .deliverybox3 {
+        width: 30%;
+        height: 100%;
+        border-radius: 5px;
+        padding-left: 2%;
+        box-sizing: border-box;
+        border: 0px;
+    }
+    .deliverycheck{
+        width: 100%;
+        height: auto;
+        margin-top: 4%;
+        color: rgb(228, 227, 227);
+    }
+    
+    
+    
+    .checkoutfooter1 {
+        width: 100%;
+        height: 45px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 2%;
+    }
+    
+    .checkoutfooter1>button {
+        width: 80%;
+        height: 100%;
+        font-size: 1.1rem;
+        border-radius: 10px;
+        background-color: black;
+        color: white;
+        font-family: "poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        border: 0px;
+    }
+    
+    
+    
+    .checkoutbox3 {
+        width: 100%;
+        height: 90%;
+        border-radius: 0px 0px 6px 6px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        display: none;
+    }
+    .paymentbox{
+        width: 90%;
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+        font-family: "poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+    
+    .paymenthead{
+        width: 100%;
+        height: auto;
+        font-family: "poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 1.4rem;
+        margin-top: 5%;
+        margin-bottom: 1%;
+    }
+    .paymenttype{
+        margin-top: 1%;
+        font-size: 1rem;
+    }
+    .paymentname{
+        width: 100%;
+        height: 35px;
+        display: flex;
+        justify-content: flex-start;
+        margin-top: 8%;
+        
+    }
+    .paymentname>input{
+        width: 100%;
+        height: 100%;
+        border: 0px;
+        border-radius: 5px;
+        padding-left: 2%;
+        box-sizing: border-box;
+    }
+    
+    .paymentcard{
+        width: 100%;
+        height: 35px;
+        display: flex;
+        justify-content: flex-start;
+        margin-top: 4%;
+    }
+    .paymentcard>input{
+        width: 100%;
+        height: 100%;
+        border: 0px;
+        border-radius: 5px;
+        padding-left: 2%;
+        box-sizing: border-box;
+    
+    }
+    
+    .paymentexpirycvv{
+        width: 100%;
+        height: 35px;
+        display: flex;
+        justify-content: flex-start;
+        margin-top: 4%;
+    }
+    
+    .paymentexpiry{
+        width: 20%;
+        height: 100%;
+        border: 0px;
+        border-radius: 5px;
+        padding-left: 2%;
+        box-sizing: border-box;
+    
+    }
+    
+    .paymentcvv{
+        width: 20%;
+        height: 100%;
+        border: 0px;
+        border-radius: 5px;
+        padding-left: 2%;
+        box-sizing: border-box;
+        margin-left: 5%;
+    }
+    
+    .checkoutfooter2 {
+        width: 100%;
+        height: 45px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 2%;
+    }
+    
+    .checkoutfooter2>button {
+        width: 80%;
+        height: 100%;
+        font-size: 1.1rem;
+        border-radius: 10px;
+        background-color: black;
+        color: white;
+        font-family: "poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        border: 0px;
+    }
+    
+    .checkoutbox4 {
+        width: 100%;
+        height: 100%;
+        border-radius: 6px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        display: none;
+        background-color: white;
+    }
+    .checkoutbox4>img{
+        width: 90%;
+        height: auto;
+    }
+    
+}

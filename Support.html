@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="aos/dist/aos.css">
+    <script src="aos/dist/aos.js"></script>
+
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.css">
+
+    <script src="Jquary/jquery.js"></script>
+    <style>
+        .Support-Main-Department {
+            width: 100%;
+            height: 550px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-top: 1%;
+        }
+
+        .Support-Main-First {
+            font-size: 2.5rem;
+            font-family: "poppins", sans-serif;
+            font-weight: 500;
+            font-style: normal;
+        }
+
+        .Support-Main-Second {
+            width: 100%;
+            height: 50px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .Support-Main-Second>input {
+            width: 40%;
+            border: 2px solid whitesmoke;
+            border-radius: 10px 0px 0px 10px;
+        }
+
+        .Support-Main-Second-mini {
+            width: 50px;
+            height: auto;
+            background-color: whitesmoke;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 0px 10px 10px 0px;
+        }
+
+        .Support-Main-Second-mini>img {
+            width: 30px;
+            height: auto;
+        }
+
+
+        @media only screen and (max-width:768px) {
+            .Support-Main-Department {
+                width: 100%;
+                height: 550px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+            }
+
+            .Support-Main-First {
+                font-size: 2rem;
+                font-family: "poppins", sans-serif;
+                font-weight: 500;
+                font-style: normal;
+            }
+
+            .Support-Main-Second {
+                width: 100%;
+                height: 50px;
+                display: flex;
+                justify-content: center;
+            }
+
+            .Support-Main-Second>input {
+                width: 60%;
+                border: 2px solid whitesmoke;
+                border-radius: 10px 0px 0px 10px;
+            }
+
+            .Support-Main-Second-mini {
+                width: 50px;
+                height: auto;
+                background-color: whitesmoke;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 0px 10px 10px 0px;
+            }
+
+            .Support-Main-Second-mini>img {
+                width: 30px;
+                height: auto;
+            }
+        }
+
+        @media only screen and (max-width:640px) {
+            .Support-Main-Department {
+                width: 100%;
+                height: 350px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+            }
+
+            .Support-Main-First {
+                font-size: 1.2rem;
+                font-family: "poppins", sans-serif;
+                font-weight: 500;
+                font-style: normal;
+            }
+
+            .Support-Main-Second {
+                width: 100%;
+                height: 40px;
+                display: flex;
+                justify-content: center;
+            }
+
+            .Support-Main-Second>input {
+                width: 70%;
+                border: 2px solid whitesmoke;
+                border-radius: 10px 0px 0px 10px;
+            }
+
+            .Support-Main-Second-mini {
+                width: 40px;
+                height: auto;
+                background-color: whitesmoke;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 0px 10px 10px 0px;
+            }
+
+            .Support-Main-Second-mini>img {
+                width: 25px;
+                height: auto;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="Navigation-bar">
+        <div class="Navigation">
+
+            <div class="ham" onclick="ham()">
+                <div class="hamburger"></div>
+                <div class="hamburger"></div>
+                <div class="hamburger"></div>
+            </div>
+            <div class="logo">
+                <a href="index.html"><img class="logo-img" src="logo.webp" alt="Error"></a>
+            </div>
+
+
+            <form action="" class="Search-bar" id="searchbar">
+                <input type="text" class="Search" id="Search" placeholder="Search for plants, seeds and planters...">
+                <button class="Search-icon">
+                    <img src="Icons/magnifying-glass-solid (2).svg" alt="" class="searchicon">
+                </button>
+            </form>
+
+
+            <div class="Login-icon">
+                <img src="Icons/Login.svg" alt="" onclick="xyz()" class="loginiconimg">
+
+            </div>
+
+            <div class="Add-to-Cart">
+                <img src="Icons/Cart.png" alt="" onclick="Cart()">
+            </div>
+
+        </div>
+    </nav>
+
+    <a href="#" class="to-top"><i class="fa-solid fa-arrow-up fa-lg" style="color: #ffffff;"></i></a>
+
+
+
+
+    <div class="Support-Main-Department" id="Plastic-Department">
+
+        <div class="Support-Main-First">Hi, How can we help you ?</div>
+        <div class="Support-Main-Second"><input type="text">
+            <div class="Support-Main-Second-mini"><img src="Icons/Search icon.svg" alt=""></div>
+        </div>
+
+    </div>
+
+
+    <footer class="Footer">
+        <div class="Footer-Res">
+
+            <div class="Footer-Box">
+                <div class="About-Us">
+                    <div class="About-Us-h">ABOUT US</div>
+                    <div class="About-Us-text">
+                        <a href="">About Treekart</a>
+                        <a href="">Treekart Blog</a>
+                        <a href="">Careers</a>
+                        <a href="">Shipping & Returns</a>
+                        <a href="">Terms & Conditions</a>
+                        <a href="">Privacy Policy</a>
+                        <a href="">Contact Us</a>
+                    </div>
+                </div>
+                <div class="Services">
+                    <div class="Services-h">SERVICES</div>
+                    <div class="Services-text">
+                        <a href="">Indoor Plantscaping</a>
+                        <a href="">Balcony & Garden Setup</a>
+                        <a href="">Corporate Gifting</a>
+                        <a href="">Shop by Location</a>
+                        <a href="">Plant Rental</a>
+                    </div>
+                </div>
+                <div class="How-Can-Help">
+                    <div class="How-Can-Help-h">HOW CAN WE HELP</div>
+                    <div class="How-Can-Help-text">
+                        <a href="">Need Help</a>
+                        <a href="">24*7 Customer Services</a>
+                        <a href="">Return & Exchange </a>
+                        <a href="">Bulk Order</a>
+                    </div>
+                </div>
+                <div class="Last-address">
+                    <div class="Footer-image"><img src="logo.webp" alt=""></div>
+
+                    <div class="Footer-address">#1145, Ground Floor, 22nd Cross, MG Road, Near Parangipalaya Bus Stop,
+                        HSR
+                        Layout, Sector 2,Delhi 110003
+                    </div>
+
+                    <div class="Email-Phone-Com">
+                        <div class="Email-Section">
+                            <i class="fa-solid fa-envelope fa-lg"></i>
+                            <div class="qaz">treekart@gmail.com</div>
+                        </div>
+                        <div class="Phone-Section">
+                            <i class="fa-solid fa-phone-volume fa-lg"></i>
+                            <div class="qaz">+91-8586890227</div>
+                        </div>
+                        <div class="Com-Section">
+                            <i class="fa-solid fa-globe fa-lg"></i>
+                            <div class="qaz">www.treekart.com</div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="Social-Media-Icons">
+                <a href="" class="icons"><i class="fa-brands fa-instagram fa-xl hate"></i></a>
+                <a href="" class="icons"><i class="fa-brands fa-facebook fa-xl hate"></i></a>
+                <a href="" class="icons"><i class="fa-brands fa-twitter fa-xl hate"></i></a>
+                <a href="" class="icons"><i class="fa-brands fa-youtube fa-xl hate"></i></a>
+                <a href="" class="icons"><i class="fa-brands fa-whatsapp fa-xl hate"></i></a>
+                <a href="" class="icons"><i class="fa-brands fa-google fa-xl hate"></i></a>
+            </div>
+
+            <hr style="width: 90%; height: 2px; background-color: black; margin-left: 5%;">
+
+            <div class="Footer-end">
+                <div class="Copyright">@ 2024 Treekart.com | All Rights Reserved</div>
+                <div class="Payment-icons">
+                    <img src="Icons/payment icons/Cards.png" alt="" class="Payment-icons-Cards">
+                    <img src="Icons/payment icons/Upi.png" alt="" class="Payment-icons-Upi">
+                    <img src="Icons/payment icons/GPay.png" alt="" class="Payment-icons-Gpay">
+                    <img src="Icons/payment icons/Paytm.png" alt="" class="Payment-icons-Paytm">
+                    <img src="Icons/payment icons/Phonepe.png" alt="" class="Payment-icons-Phonepe">
+                    <img src="Icons/payment icons/Wallet.png" alt="" class="Payment-icons-Wallet">
+                    <img src="Icons/payment icons/Cash.png" alt="" class="Payment-icons-Cash">
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="main.js"></script>
+    <script src="bootstrap-5.0.2-dist/js/bootstrap.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+</body>
+
+</html>

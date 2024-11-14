@@ -1,0 +1,1475 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Offers</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="aos/dist/aos.css">
+    <script src="aos/dist/aos.js"></script>
+
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.css">
+
+    <script src="Jquary/jquery.js"></script>
+    <style>
+        .Offers-Main-Department {
+            width: 100%;
+            height: auto;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            /* background-color: beige; */
+            padding: 0% 0% 0% 0%;
+            box-sizing: border-box;
+        }
+
+
+
+        .Offers-Main-Department-Heading {
+            width: 100%;
+            height: auto;
+            color: white;
+        }
+
+        .Offers-Main-Department-Heading>img {
+            width: 100%;
+            height: auto;
+        }
+
+        .Offers-Main-details {
+            width: 100%;
+            height: auto;
+            display: flex;
+            justify-content: center;
+            margin-top: 1%;
+        }
+
+        .Offers-Main-details-res {
+            width: 80%;
+            height: auto;
+            display: flex;
+            justify-content: flex-start;
+            flex-direction: column;
+        }
+
+        .Offers-Main-details-heading {
+            width: 100%;
+            height: auto;
+            font-family: "poppins", sans-serif;
+            font-weight: 500;
+            font-style: normal;
+            font-size: 2rem;
+        }
+
+        .Offers-Main-details-about {
+            width: 100%;
+            height: auto;
+            font-family: "poppins", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 1.2rem;
+        }
+
+        .Offers-Main-Department-Items {
+            width: 80%;
+            height: auto;
+            display: flex;
+            justify-content: flex-start;
+            flex-direction: column;
+            /* background-color: pink; */
+        }
+
+        .forphoneview-Offers-Main {
+            width: 100%;
+            height: auto;
+
+        }
+
+        .forphoneview-Offers-Main-1 {
+            width: 100%;
+            height: auto;
+            /* background-color: red;   */
+        }
+
+        .Offers-Main-Department-MainBox {
+            width: 100%;
+            height: auto;
+            margin-top: 4%;
+            /* background-color: yellow; */
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .Offers-Main-Department-Box {
+            width: 200px;
+            height: auto;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        .Offers-Main-Department-Box-Img {
+            width: 200px;
+            height: 200px;
+            /* background-color: pink; */
+            overflow: hidden;
+            cursor: pointer;
+        }
+
+        .Offers-Main-Department-Box-Image {
+            width: 100%;
+            height: auto;
+        }
+
+        .Offers-Main-Department-Box-Image:hover {
+            scale: 1.1;
+            transition: ease-in-out 0.4s;
+
+        }
+
+        .Offers-Main-Department-Box-Text {
+            width: 200px;
+            height: 96px;
+            display: flex;
+            flex-direction: column;
+            background-color: beige;
+        }
+
+        @media only screen and (max-width:1366px) {
+
+            .Offers-Main-Department {
+                width: 100%;
+                height: auto;
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                align-items: center;
+                /* background-color: beige; */
+                padding: 0% 2% 0% 2%;
+                box-sizing: border-box;
+            }
+
+            .Offers-Main-Department-Heading {
+                width: 100%;
+                height: auto;
+                color: white;
+            }
+
+            .Offers-Main-Department-Heading>img {
+                width: 100%;
+                height: auto;
+            }
+
+            .Offers-Main-details {
+                width: 100%;
+                height: auto;
+                display: flex;
+                justify-content: center;
+                margin-top: 2%;
+            }
+
+            .Offers-Main-details-res {
+                width: 100%;
+                height: auto;
+                display: flex;
+                justify-content: flex-start;
+                flex-direction: column;
+            }
+
+            .Offers-Main-details-heading {
+                width: 100%;
+                height: auto;
+                font-family: "poppins", sans-serif;
+                font-weight: 500;
+                font-style: normal;
+                font-size: 2rem;
+            }
+
+            .Offers-Main-details-about {
+                width: 100%;
+                height: auto;
+                font-family: "poppins", sans-serif;
+                font-weight: 400;
+                font-style: normal;
+                font-size: 1.1rem;
+            }
+
+            .Offers-Main-Department-Items {
+                width: 100%;
+                height: auto;
+                display: flex;
+                justify-content: flex-start;
+                flex-direction: column;
+                /* background-color: pink; */
+            }
+        }
+
+        @media only screen and (max-width:768px) {
+            .Offers-Main-Department {
+                width: 100%;
+                height: auto;
+                display: flex;
+                flex-direction: column;
+                /* background-color: beige; */
+                padding: 0% 2% 2% 2%;
+                box-sizing: border-box;
+            }
+
+            .Offers-Main-Department-Heading {
+                width: 100%;
+                height: auto;
+                color: white;
+            }
+
+            .Offers-Main-Department-Heading>img {
+                width: 100%;
+                height: auto;
+            }
+
+            .Offers-Main-details {
+                width: 100%;
+                height: auto;
+                display: flex;
+                justify-content: center;
+                margin-top: 2%;
+            }
+
+            .Offers-Main-details-res {
+                width: 100%;
+                height: auto;
+                display: flex;
+                justify-content: flex-start;
+                flex-direction: column;
+            }
+
+            .Offers-Main-details-heading {
+                width: 100%;
+                height: auto;
+                font-family: "poppins", sans-serif;
+                font-weight: 500;
+                font-style: normal;
+                font-size: 1.4rem;
+            }
+
+            .Offers-Main-details-about {
+                width: 100%;
+                height: auto;
+                font-family: "poppins", sans-serif;
+                font-weight: 400;
+                font-style: normal;
+                font-size: 0.8rem;
+            }
+
+            .Offers-Main-Department-Items {
+                width: 100%;
+                height: auto;
+                display: flex;
+                justify-content: space-evenly;
+                flex-direction: column;
+                /* background-color: pink; */
+            }
+
+            .Offers-Main-Department-MainBox {
+                width: 100%;
+                height: auto;
+                margin-top: 4%;
+                /* background-color: yellow; */
+                display: flex;
+                justify-content: space-evenly;
+            }
+
+            .Offers-Main-Department-Box {
+                width: 130px;
+                height: auto;
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+            }
+
+            .Offers-Main-Department-Box-Img {
+                width: 130px;
+                height: 130px;
+                /* background-color: pink; */
+                overflow: hidden;
+                cursor: pointer;
+            }
+
+            .Offers-Main-Department-Box-Image {
+                width: 100%;
+                height: 100%;
+            }
+
+            .Offers-Main-Department-Box-Image:hover {
+                scale: 1.1;
+                transition: ease-in-out 0.4s;
+
+            }
+
+            .Offers-Main-Department-Box-Text {
+                width: 130px;
+                height: 76px;
+                display: flex;
+                flex-direction: column;
+                background-color: beige;
+            }
+        }
+
+
+
+        @media only screen and (max-width:640px) {
+            .Offers-Main-Department {
+                width: 100%;
+                height: auto;
+                display: flex;
+                flex-direction: column;
+                /* background-color: beige; */
+                padding: 0% 2% 0% 2%;
+                box-sizing: border-box;
+            }
+
+            .Offers-Main-Department-Heading {
+                width: 100%;
+                height: auto;
+                color: white;
+            }
+
+            .Offers-Main-Department-Heading>img {
+                width: 100%;
+                height: auto;
+            }
+
+            .Offers-Main-details {
+                width: 100%;
+                height: auto;
+                display: flex;
+                justify-content: center;
+                margin-top: 2%;
+            }
+
+            .Offers-Main-details-res {
+                width: 100%;
+                height: auto;
+                display: flex;
+                justify-content: flex-start;
+                flex-direction: column;
+            }
+
+            .Offers-Main-details-heading {
+                width: 100%;
+                height: auto;
+                font-family: "poppins", sans-serif;
+                font-weight: 500;
+                font-style: normal;
+                font-size: 1rem;
+            }
+
+            .Offers-Main-details-about {
+                width: 100%;
+                height: auto;
+                font-family: "poppins", sans-serif;
+                font-weight: 400;
+                font-style: normal;
+                font-size: 0.7rem;
+            }
+
+            .Offers-Main-Department-Items {
+                width: 100%;
+                height: auto;
+                display: flex;
+                justify-content: center;
+                flex-direction: row;
+                /* background-color: pink; */
+            }
+
+            .forphoneview-Offers-Main {
+                width: 50%;
+                height: auto;
+
+            }
+
+            .forphoneview-Offers-Main-1 {
+                width: 50%;
+                height: auto;
+                /* background-color: red;   */
+            }
+
+
+            .Offers-Main-Department-MainBox {
+                width: 100%;
+                height: auto;
+                margin-top: 0%;
+                /* background-color: yellow; */
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+
+            }
+
+            .Offers-Main-Department-Box {
+                width: 80%;
+                height: auto;
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                margin-left: 10%;
+                margin-top: 10%;
+            }
+
+            .Offers-Main-Department-Box-Img {
+                width: 100%;
+                height: 300%;
+                /* background-color: pink; */
+                overflow: hidden;
+                cursor: pointer;
+            }
+
+            .Offers-Main-Department-Box-Image {
+                width: 100%;
+                height: 100%;
+            }
+
+            .Offers-Main-Department-Box-Image:hover {
+                scale: 1.1;
+                transition: ease-in-out 0.4s;
+
+            }
+
+            .Offers-Main-Department-Box-Text {
+                width: 100%;
+                height: 80px;
+                display: flex;
+                flex-direction: column;
+                background-color: beige;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="Navigation-bar">
+        <div class="Navigation">
+
+            <div class="ham" onclick="ham()">
+                <div class="hamburger"></div>
+                <div class="hamburger"></div>
+                <div class="hamburger"></div>
+            </div>
+            <div class="logo">
+                <img class="logo-img" src="logo.webp" alt="Error">
+            </div>
+
+
+            <form action="" class="Search-bar" id="searchbar">
+                <input type="text" class="Search" id="Search" placeholder="Search for plants, seeds and planters...">
+                <button class="Search-icon">
+                    <img src="Icons/magnifying-glass-solid (2).svg" alt="" class="searchicon">
+                </button>
+            </form>
+
+
+            <div class="Login-icon">
+                <img src="Icons/Login.svg" alt="" onclick="xyz()" class="loginiconimg">
+
+            </div>
+
+            <div class="Add-to-Cart">
+                <img src="Icons/Cart.png" alt="" onclick="Cart()">
+            </div>
+
+        </div>
+    </nav>
+
+
+
+    <marquee style="background-color: #f3f8ef;" behavior="" direction="" scrollamount="10">
+        <div class="Offers-details">
+            <div>Use coupon code GREEN10 to get 10% extra discount</div>
+            <div>Summer Sale Live | Shop Now</div>
+            <div class="offer-hide">Free Shipping above ₹999 | All India Delivery</div>
+        </div>
+    </marquee>
+
+    <div class="for-nav-hide" id="for-nav-hide" onclick="fornavhide()"></div>
+
+    <div class="Navigation-bar-mini" id="Navigation-bar-mini">
+        <div class="Navigation-bar-mini-res">
+
+            <div class="sideclosebutton" onclick="sideclose()"><img src="Icons/Close.svg" alt=""></div>
+
+
+            <div class="sidelogin"><img src="Icons/Login.svg" alt="" onclick="sidelogin()">
+                <div class="sidelogtext">Login User</div>
+            </div>
+
+            <div class="sidesearchbar">
+                <input type="text" placeholder="Search for plants..." class="sidesearchinput">
+                <div class="sidesearchbar-icon"><img src="Icons/magnifying-glass-solid (2).svg" alt=""></div>
+            </div>
+
+            <div class="Home">
+
+                <div class="Home-Anchore">
+                    Home <div class="Home-Underline"></div>
+                </div>
+
+            </div>
+
+            <div class="Plant" id="Plant">
+                <div class="Plant-item">
+                    <div class="Plant-Anchore">Plants
+                        <div class="Plant-Underline"></div>
+                    </div>
+                </div>
+                <div class="Plant-item-bar" id="Plant-item-bar">
+                    <li class="Plant-li"><a href="Best Seller.html" class="Anchore">Indoor Plants</a></li>
+                    <li class="Plant-li"><a href="Flowering Plants.html" class="Anchore">Flowering Plants</a></li>
+                    <li class="Plant-li"><a href="Vastu Plants.html" class="Anchore">Vastu Plants</a></li>
+                    <li class="Plant-li"><a href="Newly Launched.html" class="Anchore">Low Maintainence Plants</a></li>
+                    <li class="Plant-li"><a href="" class="Anchore">Medicinal & Aromatic Plants</a></li>
+                    <li class="Plant-li"><a href="" class="Anchore">Climbers & Creepers Plants</a></li>
+                    <li class="Plant-li"><a href="" class="Anchore">Hanging Plants</a></li>
+                </div>
+            </div>
+
+            <div class="Eco">
+                <a href="Eco Friendly Ganesha.html" style="text-decoration: none;">
+                    <div class="Eco-Anchore">
+                        Eco Friendly Ganesha <div class="Eco-Underline"></div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="Pots" id="Pots">
+                <div class="Pots-item">
+                    <div class="Pots-Anchore">Pots &
+                        Planters <div class="Pots-Underline"></div>
+                    </div>
+                </div>
+                <div class="Pots-item-bar" id="Pots-item-bar">
+                    <li class="Pots-li"><a href="Plastic Pots.html" class="Anchore">Plastic Pots</a></li>
+                    <li class="Pots-li"><a href="Ceramic Pots.html" class="Anchore">Ceramic Pots</a></li>
+                    <li class="Pots-li"><a href="" class="Anchore">Metal Planters</a></li>
+                    <li class="Pots-li"><a href="" class="Anchore">Woodern Planters</a></li>
+                    <li class="Pots-li"><a href="" class="Anchore">Hanging Planters</a></li>
+                    <li class="Pots-li"><a href="" class="Anchore">Plant Stands</a></li>
+                    <li class="Pots-li"><a href="" class="Anchore">Basket Planters</a></li>
+                </div>
+            </div>
+
+            <div class="Gifting" id="Gifting">
+                <div class="Gifting-item">
+                        <div class="Gifting-Anchore">Gifting
+                            <div class="Gifting-Underline"></div>
+                        </div>
+                </div>
+
+                <div class="Gifting-item-bar" id="Gifting-item-bar">
+                    <li class="Gifting-li"><a href="Environment Gifting.html" class="Anchore">Environment Day
+                            GIfting</a></li>
+                    <li class="Gifting-li"><a href="Environment Gifting.html" class="Anchore">Corporate/Bulk Gifting</a>
+                    </li>
+                    <li class="Gifting-li"><a href="" class="Anchore">Personalised Gifting</a></li>
+                    <li class="Gifting-li"><a href="" class="Anchore">Gift Cards</a></li>
+                </div>
+            </div>
+
+            <div class="Accessories" id="Accessories">
+                <div class="Accessories-item">
+                        <div class="Accessories-Anchore">Accessories
+                            <div class="Accessories-Underline"></div>
+                        </div>
+                </div>
+                <div class="Accessories-item-bar" id="Accessories-item-bar">
+                    <li class="Accessories-li"><a href="Tools.html" class="Anchore">Tools & Accessories</a></li>
+                    <li class="Accessories-li"><a href="Pebbles.html" class="Anchore">Pebbles</a></li>
+                    <li class="Accessories-li"><a href="" class="Anchore">Terrace Garding Supplies</a></li>
+                    <li class="Accessories-li"><a href="" class="Anchore">Miniature</a></li>
+                    <li class="Accessories-li"><a href="" class="Anchore">Moss Stick/Coire Pole</a></li>
+                    <li class="Accessories-li"><a href="" class="Anchore">Display Stand</a></li>
+                </div>
+            </div>
+
+            <div class="Offers">
+                <a href="Offers.html" style="text-decoration: none;">
+                    <div class="Offers-Anchore">Offers <div class="Offers-Underline"></div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="Track">
+                <a href="Track.html" style="text-decoration: none;">
+                    <div class="Track-Anchore">Track Your Order <div class="Track-Underline"></div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="Support">
+                <a href="Support.html" style="text-decoration: none;">
+                    <div class="Support-Anchore">24*7 & Support <div class="Support-Underline"></div>
+                    </div>
+                </a>
+            </div>
+
+        </div>
+
+    </div>
+
+    <a href="#" class="to-top"><i class="fa-solid fa-arrow-up fa-lg" style="color: #ffffff;"></i></a>
+
+
+
+    <div class="Offers-Main-Department" id="Offers-Main-Department">
+        <div class="Offers-Main-Department-Heading"><img src="Plant Images/Banner/Offers Banner.jpg" alt=""></div>
+
+        <div class="Offers-Main-Department-Items" style="overflow: hidden;">
+            <div class="forphoneview-Offers-Main">
+
+                <div class="Offers-Main-Department-MainBox" data-aos="fade-left">
+                    <div class="Offers-Main-Department-Box">
+                        <div class="Offers-Main-Department-Box-Img"><img src="plant images/Plant 13.jpeg" alt=""
+                                class="Offers-Main-Department-Box-Image"></div>
+                        <div class="Offers-Main-Department-Box-Text">
+                            <div class="Plant-Name">Holy Basil</div>
+                            <div class="Plant-Rating"><i class="fa-solid fa-star fa-sm" style="color: orange;"></i> 4.9
+                            </div>
+                            <div class="Plant-Rate">₹149/-</div>
+                            <div class="plant-Cart"><button class="viewproduct">View Product</button></div>
+                        </div>
+                    </div>
+
+                    <div class="Offers-Main-Department-Box">
+                        <div class="Offers-Main-Department-Box-Img"><img src="plant images/Plant 21.jpeg" alt=""
+                                class="Offers-Main-Department-Box-Image"></div>
+                        <div class="Offers-Main-Department-Box-Text">
+                            <div class="Plant-Name">Epipremnum aureum</div>
+                            <div class="Plant-Rating"><i class="fa-solid fa-star fa-sm" style="color: orange;"></i> 4.9
+                            </div>
+                            <div class="Plant-Rate">₹199/-</div>
+                            <div class="plant-Cart"><button class="viewproduct">View Product</button></div>
+                        </div>
+                    </div>
+
+                    <div class="Offers-Main-Department-Box">
+                        <div class="Offers-Main-Department-Box-Img"><img src="plant images/Plant 20.jpg" alt=""
+                                class="Offers-Main-Department-Box-Image"></div>
+                        <div class="Offers-Main-Department-Box-Text">
+                            <div class="Plant-Name">Dracaena trifasciata</div>
+                            <div class="Plant-Rating"><i class="fa-solid fa-star fa-sm" style="color: orange;"></i> 4.8
+                            </div>
+                            <div class="Plant-Rate">₹135/-</div>
+                            <div class="plant-Cart"><button class="viewproduct">View Product</button></div>
+                        </div>
+                    </div>
+
+                    <div class="Offers-Main-Department-Box">
+                        <div class="Offers-Main-Department-Box-Img"><img src="plant images/Plant 1.jpg" alt=""
+                                class="Offers-Main-Department-Box-Image"></div>
+                        <div class="Offers-Main-Department-Box-Text">
+                            <div class="Plant-Name">Rubber tree Foliage</div>
+                            <div class="Plant-Rating"><i class="fa-solid fa-star fa-sm" style="color: orange;"></i> 4.8
+                            </div>
+                            <div class="Plant-Rate">₹159/-</div>
+                            <div class="plant-Cart"><button class="viewproduct">View Product</button></div>
+                        </div>
+                    </div>
+
+                    <div class="Offers-Main-Department-Box">
+                        <div class="Offers-Main-Department-Box-Img"><img src="plant images/Plant 9.jpg" alt=""
+                                class="Offers-Main-Department-Box-Image"></div>
+                        <div class="Offers-Main-Department-Box-Text">
+                            <div class="Plant-Name">Dwarf umbrella tree</div>
+                            <div class="Plant-Rating"><i class="fa-solid fa-star fa-sm" style="color: orange;"></i> 4.9
+                            </div>
+                            <div class="Plant-Rate">₹179/-</div>
+                            <div class="plant-Cart"><button class="viewproduct">View Product</button></div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="Offers-Main-Department-MainBox" data-aos="fade-left">
+
+                    <div class="Offers-Main-Department-Box">
+                        <div class="Offers-Main-Department-Box-Img"><img src="plant images/Plant 10.jpg" alt=""
+                                class="Offers-Main-Department-Box-Image"></div>
+                        <div class="Offers-Main-Department-Box-Text">
+                            <div class="Plant-Name">Eucalyptus</div>
+                            <div class="Plant-Rating"><i class="fa-solid fa-star fa-sm" style="color: orange;"></i> 4.9
+                            </div>
+                            <div class="Plant-Rate">₹199/-</div>
+                            <div class="plant-Cart"><button class="viewproduct">View Product</button></div>
+                        </div>
+                    </div>
+
+                    <div class="Offers-Main-Department-Box">
+                        <div class="Offers-Main-Department-Box-Img"><img src="plant images/Plant 6.jpg" alt=""
+                                class="Offers-Main-Department-Box-Image"></div>
+                        <div class="Offers-Main-Department-Box-Text">
+                            <div class="Plant-Name">Conebushes</div>
+                            <div class="Plant-Rating"><i class="fa-solid fa-star fa-sm" style="color: orange;"></i> 4.8
+                            </div>
+                            <div class="Plant-Rate">₹129/-</div>
+                            <div class="plant-Cart"><button class="viewproduct">View Product</button></div>
+                        </div>
+                    </div>
+
+                    <div class="Offers-Main-Department-Box">
+                        <div class="Offers-Main-Department-Box-Img"><img src="plant images/Plant 5.jpg" alt=""
+                                class="Offers-Main-Department-Box-Image"></div>
+                        <div class="Offers-Main-Department-Box-Text">
+                            <div class="Plant-Name">Aglaonema Siam </div>
+                            <div class="Plant-Rating"><i class="fa-solid fa-star fa-sm" style="color: orange;"></i> 4.9
+                            </div>
+                            <div class="Plant-Rate">₹224/-</div>
+                            <div class="plant-Cart"><button class="viewproduct">View Product</button></div>
+                        </div>
+                    </div>
+
+                    <div class="Offers-Main-Department-Box">
+                        <div class="Offers-Main-Department-Box-Img"><img src="plant images/Plant 8.jpg" alt=""
+                                class="Offers-Main-Department-Box-Image"></div>
+                        <div class="Offers-Main-Department-Box-Text">
+                            <div class="Plant-Name">Soleirolia</div>
+                            <div class="Plant-Rating"><i class="fa-solid fa-star fa-sm" style="color: orange;"></i> 4.7
+                            </div>
+                            <div class="Plant-Rate">₹147/-</div>
+                            <div class="plant-Cart"><button class="viewproduct">View Product</button></div>
+                        </div>
+                    </div>
+
+                    <div class="Offers-Main-Department-Box">
+                        <div class="Offers-Main-Department-Box-Img"><img src="plant images/Plant 3.jpg" alt=""
+                                class="Offers-Main-Department-Box-Image"></div>
+                        <div class="Offers-Main-Department-Box-Text">
+                            <div class="Plant-Name">Monestera</div>
+                            <div class="Plant-Rating"><i class="fa-solid fa-star fa-sm" style="color: orange;"></i> 4.9
+                            </div>
+                            <div class="Plant-Rate">₹299/-</div>
+                            <div class="plant-Cart"><button class="viewproduct">View Product</button></div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+
+
+
+
+            <div class="forphoneview-Offers-Main-1">
+                <div class="Offers-Main-Department-MainBox" data-aos="fade-right">
+                    <div class="Offers-Main-Department-Box">
+                        <div class="Offers-Main-Department-Box-Img"><img src="plant images/Plant 16.jpeg" alt=""
+                                class="Offers-Main-Department-Box-Image"></div>
+                        <div class="Offers-Main-Department-Box-Text">
+                            <div class="Plant-Name">Anuthurium Pink</div>
+                            <div class="Plant-Rating"><i class="fa-solid fa-star fa-sm" style="color: orange;"></i> 4.9
+                            </div>
+                            <div class="Plant-Rate">₹499/-</div>
+                            <div class="plant-Cart"><button class="viewproduct">View Product</button></div>
+                        </div>
+                    </div>
+
+                    <div class="Offers-Main-Department-Box">
+                        <div class="Offers-Main-Department-Box-Img"><img src="plant images/Plant 11.jpg" alt=""
+                                class="Offers-Main-Department-Box-Image"></div>
+                        <div class="Offers-Main-Department-Box-Text">
+                            <div class="Plant-Name">Spathiphyllum wallisii</div>
+                            <div class="Plant-Rating"><i class="fa-solid fa-star fa-sm" style="color: orange;"></i> 4.9
+                            </div>
+                            <div class="Plant-Rate">₹379/-</div>
+                            <div class="plant-Cart"><button class="viewproduct">View Product</button></div>
+                        </div>
+                    </div>
+
+                    <div class="Offers-Main-Department-Box">
+                        <div class="Offers-Main-Department-Box-Img"><img src="plant images/Plant 17.jpg" alt=""
+                                class="Offers-Main-Department-Box-Image"></div>
+                        <div class="Offers-Main-Department-Box-Text">
+                            <div class="Plant-Name">Shoeblackplant</div>
+                            <div class="Plant-Rating"><i class="fa-solid fa-star fa-sm" style="color: orange;"></i> 4.9
+                            </div>
+                            <div class="Plant-Rate">₹249/-</div>
+                            <div class="plant-Cart"><button class="viewproduct">View Product</button></div>
+                        </div>
+                    </div>
+
+                    <div class="Offers-Main-Department-Box">
+                        <div class="Offers-Main-Department-Box-Img"><img src="plant images/Plant 19.jpg" alt=""
+                                class="Offers-Main-Department-Box-Image"></div>
+                        <div class="Offers-Main-Department-Box-Text">
+                            <div class="Plant-Name">Tihonia</div>
+                            <div class="Plant-Rating"><i class="fa-solid fa-star fa-sm" style="color: orange;"></i> 4.9
+                            </div>
+                            <div class="Plant-Rate">₹199/-</div>
+                            <div class="plant-Cart"><button class="viewproduct">View Product</button></div>
+                        </div>
+                    </div>
+
+                    <div class="Offers-Main-Department-Box">
+                        <div class="Offers-Main-Department-Box-Img"><img src="plant images/Plant 15.jpeg" alt=""
+                                class="Offers-Main-Department-Box-Image"></div>
+                        <div class="Offers-Main-Department-Box-Text">
+                            <div class="Plant-Name">Red Rose</div>
+                            <div class="Plant-Rating"><i class="fa-solid fa-star fa-sm" style="color: orange;"></i> 4.9
+                            </div>
+                            <div class="Plant-Rate">₹249/-</div>
+                            <div class="plant-Cart"><button class="viewproduct">View Product</button></div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="Offers-Main-Department-MainBox" data-aos="fade-left">
+
+                    <div class="Offers-Main-Department-Box">
+                        <div class="Offers-Main-Department-Box-Img"><img src="plant images/Plant 55.jpg" alt=""
+                                class="Offers-Main-Department-Box-Image"></div>
+                        <div class="Offers-Main-Department-Box-Text">
+                            <div class="Plant-Name">Rubber Ficus Elastica</div>
+                            <div class="Plant-Rating"><i class="fa-solid fa-star fa-sm" style="color: orange;"></i> 4.8
+                            </div>
+                            <div class="Plant-Rate">₹199/-</div>
+                            <div class="plant-Cart"><button class="viewproduct">View Product</button></div>
+                        </div>
+                    </div>
+
+                    <div class="Offers-Main-Department-Box">
+                        <div class="Offers-Main-Department-Box-Img"><img src="plant images/Plant 14.jpg" alt=""
+                                class="Offers-Main-Department-Box-Image"></div>
+                        <div class="Offers-Main-Department-Box-Text">
+                            <div class="Plant-Name">Aloe vera</div>
+                            <div class="Plant-Rating"><i class="fa-solid fa-star fa-sm" style="color: orange;"></i> 4.9
+                            </div>
+                            <div class="Plant-Rate">₹149/-</div>
+                            <div class="plant-Cart"><button class="viewproduct">View Product</button></div>
+                        </div>
+                    </div>
+
+                    <div class="Offers-Main-Department-Box">
+                        <div class="Offers-Main-Department-Box-Img"><img src="plant images/Plant 56.jpg" alt=""
+                                class="Offers-Main-Department-Box-Image"></div>
+                        <div class="Offers-Main-Department-Box-Text">
+                            <div class="Plant-Name">Portulacaria afra</div>
+                            <div class="Plant-Rating"><i class="fa-solid fa-star fa-sm" style="color: orange;"></i> 4.8
+                            </div>
+                            <div class="Plant-Rate">₹99/-</div>
+                            <div class="plant-Cart"><button class="viewproduct">View Product</button></div>
+                        </div>
+                    </div>
+
+                    <div class="Offers-Main-Department-Box">
+                        <div class="Offers-Main-Department-Box-Img"><img src="plant images/Plant 7.jpg" alt=""
+                                class="Offers-Main-Department-Box-Image"></div>
+                        <div class="Offers-Main-Department-Box-Text">
+                            <div class="Plant-Name">Epipremnum aureum</div>
+                            <div class="Plant-Rating"><i class="fa-solid fa-star fa-sm" style="color: orange;"></i> 4.9
+                            </div>
+                            <div class="Plant-Rate">₹199/-</div>
+                            <div class="plant-Cart"><button class="viewproduct">View Product</button></div>
+                        </div>
+                    </div>
+
+                    <div class="Offers-Main-Department-Box">
+                        <div class="Offers-Main-Department-Box-Img"><img src="plant images/Plant 4.jpg" alt=""
+                                class="Offers-Main-Department-Box-Image"></div>
+                        <div class="Offers-Main-Department-Box-Text">
+                            <div class="Plant-Name">Weeping fig</div>
+                            <div class="Plant-Rating"><i class="fa-solid fa-star fa-sm" style="color: orange;"></i> 4.8
+                            </div>
+                            <div class="Plant-Rate">₹99/-</div>
+                            <div class="plant-Cart"><button class="viewproduct">View Product</button></div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+        </div>
+
+    </div>
+
+
+
+    <div class="video-row">
+        <div class="video-reo-res">
+            <div class="plant-video-text">
+                <div class="plant-care-heading">Plant Care</div>
+                <div class="plant-care-details">Nourish your plants with the same care you'd give a treasured friend -
+                    water
+                    them with love and patience.</div>
+                <div class="plant-care-details">Roots are the silent sentinels of a plant's well-being ensure they have
+                    the
+                    space to thrive and grow deep.</div>
+                <div class="plant-care-details">Let your plants bask in the sunlight as if it were a warm embrace,giving
+                    them the strength to reach for the sky.</div>
+                <div class="plant-care-details">Pruning isn't just about cutting away it's about guiding your plant to
+                    its
+                    best potential and fostering new growth.</div>
+            </div>
+            <div class="plant-video">
+                <video src="Plant Images/A Cozy Plant Vlog _ Calming City Gardening.mp4" class="video-link" controls
+                    autoplay muted></video>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="Service-Box">
+        <div class="Service-Box-Res">
+            <div class="Home-Service">
+                <div class="Home-Service-Image"><img src="Icons/Man Planting.png" alt=""></div>
+                <div class="Home-Service-Image-Text">
+                    <div class="Home-Service-Image-Text-1">Home Planting Services</div>
+                    <div class="Home-Service-Image-Text-2">We provide planting service at your home</div>
+                </div>
+            </div>
+            <div class="All-India-Delivery">
+                <div class="All-India-Delivery-Image"><img src="Icons/Delivery truck.png" alt=""></div>
+                <div class="All-India-Delivery-Image-Text">
+                    <div class="All-India-Delivery-Image-Text-1">All India Delivery</div>
+                    <div class="All-India-Delivery-Image-Text-2">Free Replacement if Damaged</div>
+                </div>
+            </div>
+            <div class="Customer-Support">
+                <div class="Customer-Support-Image"><img src="Icons/Customer icon.png" alt=""></div>
+                <div class="Customer-Support-Image-Text">
+                    <div class="Customer-Support-Image-Text-1">Customer Support</div>
+                    <div class="Customer-Support-Image-Text-2">We help you grow your garden for lifetime</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="Why-Shopping">Why Online Plant Shopping From Treekart Is A Smart Choice?</div>
+
+    <div class="accordion" id="accordionExample">
+        <div class="accordion-res">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        <b class="Variety"> Comfort </b>
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong></strong> By making your plant purchases online, you can avoid the hassle of going to
+                        actual
+                        nurseries, negotiating crowded aisles, and wasting time looking for particular plants. When you
+                        choose the online option, you can access the plant with just a few clicks and taps, which is
+                        much
+                        more convenient than doing your plant shopping offline.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        <b class="Variety">Variety</b>
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong></strong> Don't we all love to have a ton of options when purchasing anything? Due to a
+                        number of factors, the selection of plants offered at the physical/local plant nursery is
+                        constrained and out-of-date. By expanding your options and improving your plant collection, you
+                        can
+                        find rare and unusual species that might not be accessible locally.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        <b class="Variety">Quality</b>
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong></strong> The majority of people are hesitant to purchase or order plants online because
+                        it
+                        is impossible to physically inspect the plants for quality. But the Treekart Is dedicated to
+                        giving
+                        their customers healthy, high-quality plants. To ensure that the plants arrive in top condition,
+                        we
+                        take the utmost care during packaging and shipping.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingFour">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                        <b class="Variety">Home Delivery</b>
+                    </button>
+                </h2>
+                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong></strong> The fact that the product will be delivered right to your door is another
+                        fantastic advantage of ordering plants online. You can avoid the monotony of carefully bringing
+                        the
+                        plant home by ordering it from Treekart. Not only that, but Treekart also guarantee on-time
+                        online
+                        plant delivery in an effort to win customers over. Additionally, It lets you buy plants whenever
+                        you
+                        want, day or night, so that you can easily fit them into your busy schedule.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingFive">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                        <b class="Variety">Pocket Friendly Price</b>
+                    </button>
+                </h2>
+                <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong></strong> Online plant ordering from Treekart is more affordable, just like shopping
+                        from
+                        many e-commerce websites. We occasionally provide a discount through coupons and promo codes.
+                        Anyone
+                        who is passionate about plants will find that purchasing plants online offers unmatched
+                        convenience,
+                        a wide selection, and access to professional advice.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="Footer">
+        <div class="Footer-Res">
+
+            <div class="Footer-Box">
+                <div class="About-Us">
+                    <div class="About-Us-h">ABOUT US</div>
+                    <div class="About-Us-text">
+                        <a href="">About Treekart</a>
+                        <a href="">Treekart Blog</a>
+                        <a href="">Careers</a>
+                        <a href="">Shipping & Returns</a>
+                        <a href="">Terms & Conditions</a>
+                        <a href="">Privacy Policy</a>
+                        <a href="">Contact Us</a>
+                    </div>
+                </div>
+                <div class="Services">
+                    <div class="Services-h">SERVICES</div>
+                    <div class="Services-text">
+                        <a href="">Indoor Plantscaping</a>
+                        <a href="">Balcony & Garden Setup</a>
+                        <a href="">Corporate Gifting</a>
+                        <a href="">Shop by Location</a>
+                        <a href="">Plant Rental</a>
+                    </div>
+                </div>
+                <div class="How-Can-Help">
+                    <div class="How-Can-Help-h">HOW CAN WE HELP</div>
+                    <div class="How-Can-Help-text">
+                        <a href="">Need Help</a>
+                        <a href="">24*7 Customer Services</a>
+                        <a href="">Return & Exchange </a>
+                        <a href="">Bulk Order</a>
+                    </div>
+                </div>
+                <div class="Last-address">
+                    <div class="Footer-image"><img src="logo.webp" alt=""></div>
+
+                    <div class="Footer-address">#1145, Ground Floor, 22nd Cross, MG Road, Near Parangipalaya Bus Stop,
+                        HSR
+                        Layout, Sector 2,Delhi 110003
+                    </div>
+
+                    <div class="Email-Phone-Com">
+                        <div class="Email-Section">
+                            <i class="fa-solid fa-envelope fa-lg"></i>
+                            <div class="qaz">treekart@gmail.com</div>
+                        </div>
+                        <div class="Phone-Section">
+                            <i class="fa-solid fa-phone-volume fa-lg"></i>
+                            <div class="qaz">+91-8586890227</div>
+                        </div>
+                        <div class="Com-Section">
+                            <i class="fa-solid fa-globe fa-lg"></i>
+                            <div class="qaz">www.treekart.com</div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="Social-Media-Icons">
+                <a href="" class="icons"><i class="fa-brands fa-instagram fa-xl hate"></i></a>
+                <a href="" class="icons"><i class="fa-brands fa-facebook fa-xl hate"></i></a>
+                <a href="" class="icons"><i class="fa-brands fa-twitter fa-xl hate"></i></a>
+                <a href="" class="icons"><i class="fa-brands fa-youtube fa-xl hate"></i></a>
+                <a href="" class="icons"><i class="fa-brands fa-whatsapp fa-xl hate"></i></a>
+                <a href="" class="icons"><i class="fa-brands fa-google fa-xl hate"></i></a>
+            </div>
+
+            <hr style="width: 90%; height: 2px; background-color: black; margin-left: 5%;">
+
+            <div class="Footer-end">
+                <div class="Copyright">@ 2024 Treekart.com | All Rights Reserved</div>
+                <div class="Payment-icons">
+                    <img src="Icons/payment icons/Cards.png" alt="" class="Payment-icons-Cards">
+                    <img src="Icons/payment icons/Upi.png" alt="" class="Payment-icons-Upi">
+                    <img src="Icons/payment icons/GPay.png" alt="" class="Payment-icons-Gpay">
+                    <img src="Icons/payment icons/Paytm.png" alt="" class="Payment-icons-Paytm">
+                    <img src="Icons/payment icons/Phonepe.png" alt="" class="Payment-icons-Phonepe">
+                    <img src="Icons/payment icons/Wallet.png" alt="" class="Payment-icons-Wallet">
+                    <img src="Icons/payment icons/Cash.png" alt="" class="Payment-icons-Cash">
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <!-- FORM -->
+
+    <div class="Laddu" id="container">
+        <div class="CONTAINER">
+            <div class="FORM-CONTAINER">
+
+                <div class="sudhir">Create Account</div>
+                <div class="SOCIAL-CONTAINER">
+
+                    <a href="facebook.com" class="SOCIAL-IMG-ICON"><img src="Icons/facebook-brands-solid.svg" alt=""
+                            class="love er"></a>
+                    <a href="twitter.com" class="SOCIAL-IMG-ICON"><img src="Icons/twitter-brands-solid.svg" alt=""
+                            class="love er"></a>
+                    <a href="instagram.com" class="SOCIAL-IMG-ICON"><img src="Icons/instagram-brands-solid.svg" alt=""
+                            class="love er"></a>
+                    <a href="instagram.com" class="SOCIAL-IMG-ICON"><img src="Icons/google-brands-solid.svg" alt=""
+                            class="love er"></a>
+
+                </div>
+                <span class="spam">or use your email for registration</span><br>
+
+                <div class="INPUT-AREA">
+                    <form action="#">
+                        <input type="text" class="name vr" placeholder="Name"><br>
+                        <input type="email" class="email vr" placeholder="Email"><br>
+                        <input type="password" class="password vr" placeholder="Password" minlength="6"><br>
+                        <button class="signup vr">Sign up</button>
+                    </form>
+                </div>
+            </div>
+            <div class="FORM-CONTAINER1">
+
+                <div class="sudhir1">Sign in</div>
+                <div class="SOCIAL-CONTAINER1">
+                    <a href="facebook.com" class="SOCIAL-IMG-ICON-1"><img src="Icons/facebook-brands-solid.svg" alt=""
+                            class="love"></a>
+                    <a href="twitter.com" class="SOCIAL-IMG-ICON-1"><img src="Icons/twitter-brands-solid.svg" alt=""
+                            class="love"></a>
+                    <a href="instagram.com" class="SOCIAL-IMG-ICON-1"><img src="Icons/instagram-brands-solid.svg" alt=""
+                            class="love"></a>
+                    <a href="instagram.com" class="SOCIAL-IMG-ICON-1"><img src="Icons/google-brands-solid.svg" alt=""
+                            class="love"></a>
+                </div>
+
+                <span class="spam1">or use your account</span><br>
+
+                <div class="INPUT-AREA-1">
+                    <form action="#">
+                        <input type="email" class="email br" placeholder="Email"><br>
+                        <input type="password" class="password br" placeholder="Password" minlength="6"><br>
+                        <div class="forget"><a href="">Forgot your password?</a></div><br>
+                        <button class="signin br">Sign in</button>
+                    </form>
+                </div>
+            </div>
+            <div class="FORM-CONTAINER2" id="plm">
+                <form action="#">
+                    <div class="def">Hello,Friend!</div>
+                    <div class="spam4">Enter your personal details and start journey with us</div><br>
+                    <button class="sign1" id="btn2">Sign up</button>
+                </form>
+            </div>
+
+            <div class="FORM-CONTAINER3" id="qaz">
+                <form action="#">
+                    <div class="abc">Welcome Back!</div>
+                    <div class="spam3">To keep connected with us please login with your personal info</div><br>
+                    <button class="sign" id="btn1">Sign in</button>
+                </form>
+            </div>
+
+            <button class="close" id="btn3" onclick="dop()"><img class="clos" src="Icons/Close.svg" alt=""></button>
+        </div>
+
+    </div>
+
+
+
+    <div class="formforphone" id="formforphone">
+        <button class="phoneclose" id="phonebtn3" onclick="phonedop()"><img class="phoneclos" src="Icons/Close.svg"
+                alt=""></button>
+        <div class="FOR-FORM-CONTAINER">
+
+            <div class="Phone-sudhir">Create Account</div>
+            <div class="Phone-SOCIAL-CONTAINER">
+                <div class="phoneicons">
+                    <a href="facebook.com" class="Phone-SOCIAL-IMG-ICON"><img src="Icons/facebook-brands-solid.svg"
+                            alt="" class="love"></a>
+                    <a href="twitter.com" class="Phone-SOCIAL-IMG-ICON"><img src="Icons/twitter-brands-solid.svg" alt=""
+                            class="love"></a>
+                    <a href="instagram.com" class="Phone-SOCIAL-IMG-ICON"><img src="Icons/instagram-brands-solid.svg"
+                            alt="" class="love"></a>
+                    <a href="instagram.com" class="Phone-SOCIAL-IMG-ICON"><img src="Icons/google-brands-solid.svg"
+                            alt="" class="love"></a>
+                </div>
+            </div>
+            <div class="Phone-spam">or use your email for registration</div><br>
+
+            <div class="Phone-INPUT-AREA">
+                <form action="#">
+                    <input type="text" class="Phone-name vr" placeholder="Name"><br>
+                    <input type="email" class="Phone-email vr" placeholder="Email"><br>
+                    <input type="password" class="Phone-password vr" placeholder="Password" minlength="6"><br>
+                    <button class="Phone-signup vr ">Sign up</button><br>
+                    or <br>
+                    <div class="phone-rotate">Already have a account? <button class="phone-rotate-btn" id="Signin"> Sign
+                            in</button><br></div>
+
+                </form>
+            </div>
+        </div>
+
+        <div class="FOR-FORM-CONTAINER1">
+
+            <div class="Phone-sudhir1">Sign in</div>
+            <div class="Phone-SOCIAL-CONTAINER1">
+                <div class="phoneicons">
+                    <a href="facebook.com" class="Phone-SOCIAL-IMG-ICON-1"><img src="Icons/facebook-brands-solid.svg"
+                            alt="" class="love"></a>
+                    <a href="twitter.com" class="Phone-SOCIAL-IMG-ICON-1"><img src="Icons/twitter-brands-solid.svg"
+                            alt="" class="love"></a>
+                    <a href="instagram.com" class="Phone-SOCIAL-IMG-ICON-1"><img src="Icons/instagram-brands-solid.svg"
+                            alt="" class="love"></a>
+                    <a href="instagram.com" class="Phone-SOCIAL-IMG-ICON-1"><img src="Icons/google-brands-solid.svg"
+                            alt="" class="love"></a>
+                </div>
+            </div>
+
+            <div class="Phone-spam1">or use your account</div><br>
+
+            <div class="Phone-INPUT-AREA-1">
+                <form action="#">
+                    <input type="email" class="Phone-email br" placeholder="Email"><br>
+                    <input type="password" class="Phone-password br" placeholder="Password" minlength="6"><br>
+                    <div class="Phone-forget"><a href="" style="color: black;">Forgot your password?</a></div><br>
+                    <button class="Phone-signin">Sign in</button><br>
+                    or <br>
+                    <div class="phone-rotate">Create account? <button class="phone-rotate-btn" id="Signup"> Sign
+                            up</button><br></div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Cart -->
+
+    <div class="cartcontainer" id="cartcontainer">
+
+        <div class="Cart" id="Cart">
+            <div class="Cart-Close">
+                <img src="Icons/Close.svg" alt="" onclick="CartClose()">
+            </div>
+
+            <div class="emptycart" id="emptycart">
+                <div class="Cart-Main">
+                    <div class="Cart-Main-First">Your cart is empty</div>
+                    <a href="Best Seller.html" style="text-decoration: none; color: black;">
+                        <div class="Cart-Main-Second"><img src="Icons/Cart.png" alt="" class="Cart-Icon"> Continue
+                            Shopping
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="cartfill" id="cartfill">
+                <div class="cartfillcart">Cart</div>
+                <div class="cartfill-main">
+                    <div class="cartfill-image"><img id="cartfillimage" src="" alt=""></div>
+                    <div class="cartfill-text">
+                        <div class="cartfill-name" id="cartfillname"></div>
+                        <div class="cartfill-price" id="cartfillprice"></div>
+                        <div class="cartfill-quantity" id="cartfillquantity">
+                            <div>Quantity</div><input type="number" min="1" value="1" style="font-size: 0.7rem;">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cartfill-checkout"><button id="checkout-button" onclick="checkout()">CHECKOUT</button></div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <div class="Plant-Final-View" id="plantFinalView">
+        <div class="Plant-Final-Res">
+            <div class="Plant-Final-Box-1"><img src="" alt="" id="finalImage"></div>
+            <div class="Plant-Final-Box-2">
+                <div class="View-Close"><img src="Icons/Close.svg" alt="" onclick="ViewClose()"></div>
+                <div class="Plant-Final-Box-Name" id="plantName"></div>
+                <div class="Plant-Final-Box-Rating" id="plantRating"></div>
+                <div class="Plant-Final-Box-Rate" id="plantRate">₹149</div>
+                <div class="Plant-Final-Box-Quantity">
+                    <div>Quantity</div><input type="number" min="1" value="1" style="font-size: 0.9rem;">
+                </div>
+                <div class="Plant-Final-Box-Soil">
+                    <div class="Plant-With-Soil"><input type="radio" name="gender" id="With" value="With"> With Soil &
+                        Pot
+                    </div>
+                    <div class="Plant-WithOut-Soil"><input type="radio" name="gender" id="WithOut" value="WithOut">
+                        Without
+                        Soil & Pot</div>
+                </div>
+                <div class="Plant-Final-Box-Buy"><button class="Buy-Button" onclick="buybutton()">Buy Now</button></div>
+                <div class="Plant-Final-Box-Cart"><button class="Cart-Button cartbutton" id="cartbutton">Add to
+                        Bucket</button></div>
+                <div class="Plant-Final-Box-Pincode">
+                    <input type="text" class="Final-Box-Input" placeholder="Enter Pincode" maxlength="6"> <button
+                        style="border: 0px; background-color: rgba(255, 0,0,0);">Check</button>
+                </div>
+                <div class="Availbility">Delivery Availability</div>
+
+
+            </div>
+        </div>
+    </div>
+
+
+    <div class="checkoutfinalcontainer" id="checkoutfinalcontainer" onclick="checkoutfinalcontainer()">
+        <div class="checkoutmain">
+
+            <div class="checkouthead" id="checkouthead">
+                <div class="headmain" id="headmain">
+                    <div class="headsub1" onclick="head1()">Mobile</div>
+                    <div class="headsub2" onclick="head2()">Address</div>
+                    <div class="headsub3" onclick="head3()">Payment</div>
+                </div>
+                <div class="headclose" id="headclose" onclick="headclose()" style="cursor: pointer;"><img
+                        src="Icons/Close.svg" alt=""></div>
+            </div>
+
+            <div class="checkoutbox1" id="checkoutbox1">
+                <div class="checkoutbody">
+                    <div class="mobilenumber">Enter Mobile Number</div>
+                    <div class="mobileinput">+91 | <input type="tel" placeholder="Enter Number" maxlength="10" required>
+                    </div>
+                </div>
+
+                <div class="conditioncheck">
+                    <div class="conditioncheckbox">
+                        <label for=""> <input type="checkbox" style="cursor: pointer;"> Notify me for order, updates &
+                            offers</label>
+                        <label for=""><input type="checkbox" style="cursor: pointer;"> Email me with news and
+                            offers</label>
+                    </div>
+
+                </div>
+
+                <div class="checkoutfooter">
+                    <button id="mobile-continue" onclick="mobilecontinue()">Continue</button>
+                </div>
+
+            </div>
+
+
+            <div class="checkoutbox2" id="checkoutbox2">
+                <div class="checkoutaddress">
+                    <div class="deliveryhead">Delivery Address</div>
+                    <div class="deliveryname"><input type="text" placeholder="Full Name"></div>
+                    <div class="deliveryemail"><input type="text" placeholder="Email"></div>
+                    <div class="deliveryaddress"><input type="text" placeholder="Address"></div>
+                    <div class="deliverybox">
+                        <input type="text" placeholder="City" class="deliverybox1">
+                        <input type="text" placeholder="State" class="deliverybox2">
+                        <input type="text" placeholder="Pin code" class="deliverybox3" maxlength="6">
+                    </div>
+                    <label for="" class="deliverycheck"><input type="checkbox" style="cursor: pointer;"> Save this
+                        information for next time</label>
+
+                </div>
+
+                <div class="checkoutfooter1">
+                    <button id="address-continue" onclick="addresscontinue()">Continue</button>
+                </div>
+
+
+            </div>
+
+            <div class="checkoutbox3" id="checkoutbox3">
+                <div class="paymentbox">
+                    <div class="paymenthead">Payment mode</div>
+                    <label for="" class="paymenttype"><input type="radio" name="payment" value=""
+                            style="cursor: pointer;"> Credit/Debit Card</label>
+                    <label for="" class="paymenttype"><input type="radio" name="payment" value=""
+                            style="cursor: pointer;"> Upi</label>
+                    <label for="" class="paymenttype"><input type="radio" name="payment" value=""
+                            style="cursor: pointer;"> Cash on delivery</label>
+
+                    <div class="paymentname"><input type="text" placeholder="Name On Card"></div>
+                    <div class="paymentcard"><input type="text" placeholder="Card Number"></div>
+                    <div class="paymentexpirycvv">
+                        <input type="text" placeholder="Expiry" maxlength="5" class="paymentexpiry">
+                        <input type="text" placeholder="Cvv" maxlength="3" class="paymentcvv">
+                    </div>
+                </div>
+
+                <div class="checkoutfooter2">
+                    <button id="payment-button" onclick="paymentbutton()">Payment</button>
+                </div>
+            </div>
+
+            <div class="checkoutbox4" id="checkoutbox4"><img src="Icons/payment icons/Success.png" alt=""></div>
+
+        </div>
+
+
+    </div>
+
+
+
+
+    <script src="main.js"></script>
+    <script src="bootstrap-5.0.2-dist/js/bootstrap.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+</body>
+
+</html>
